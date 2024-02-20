@@ -1,0 +1,13 @@
+{
+	"Name": "Mouse-Ear Cress",
+	"Author": "6480",
+	"Version": "2.0.0",
+	"MinimumApiVersion": "3.12.2",
+	"Description": "This mod adds the flowering crop mouse-ear cress to the game.",
+	"UniqueID": "6480.crops.arabidopsis",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.29.0"
+	},
+	"UpdateKeys": [ "Nexus: 4401" ]
+}

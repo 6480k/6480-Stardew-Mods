@@ -1,0 +1,375 @@
+{
+	"Format": "1.29",
+	"ConfigSchema": {
+		"Radish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Sweet Gem Berry": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Cranberries": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Beet": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Strawberry": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Hot Pepper": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Parsnip": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Tomato": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Cactus Fruit": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Cheese": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Rabbit's Foot": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Void Egg": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Void Mayonnaise": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Monster Musk": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Galaxy Soul": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Grass Starter": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+	},
+	"Changes": [
+		{
+			"LogName": "Radish",
+			"Action": "EditImage",
+			"When": { "Radish": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 0,
+				"Y": 176,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Sweet Gem Berry",
+			"Action": "EditImage",
+			"When": { "Sweet Gem Berry": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 144,
+				"Y": 272,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Cranberries",
+			"Action": "EditImage",
+			"When": { "Cranberries": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 48,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 288,
+				"Y": 176,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Beet",
+			"Action": "EditImage",
+			"When": { "Beet": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 80,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 320,
+				"Y": 176,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Strawberry",
+			"Action": "EditImage",
+			"When": { "Strawberry": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 96,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 256,
+				"Y": 256,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Hot Pepper",
+			"Action": "EditImage",
+			"When": { "Hot Pepper": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 16,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 320,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Parsnip",
+			"Action": "EditImage",
+			"When": { "Parsnip": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 16,
+				"Y": 16,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 0,
+				"Y": 16,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Tomato",
+			"Action": "EditImage",
+			"When": { "Tomato": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 32,
+				"Y": 16,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 256,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Cactus Fruit",
+			"Action": "EditImage",
+			"When": { "Cactus Fruit": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 32,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 288,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Cheese",
+			"Action": "EditImage",
+			"When": { "Cheese": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 16,
+				"Y": 32,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 256,
+				"Y": 272,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Rabbit's Foot",
+			"Action": "EditImage",
+			"When": { "Rabbit's Foot": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 32,
+				"Y": 32,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 224,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Void Egg",
+			"Action": "EditImage",
+			"When": { "Void Egg": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 48,
+				"Y": 32,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 272,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Void Mayonnaise",
+			"Action": "EditImage",
+			"When": { "Void Mayonnaise": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 64,
+				"Y": 32,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 320,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Monster Musk",
+			"Action": "EditImage",
+			"When": { "Monster Musk": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 64,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 240,
+				"Y": 576,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Galaxy Soul",
+			"Action": "EditImage",
+			"When": { "Galaxy Soul": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 16,
+				"Y": 64,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 128,
+				"Y": 592,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+		{
+			"LogName": "Grass Starter",
+			"Action": "EditImage",
+			"When": { "Grass Starter": true },
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"FromArea": {
+				"X": 48,
+				"Y": 64,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea":{
+				"X": 144,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+			},
+		},
+	]
+}

@@ -1,0 +1,51 @@
+{
+ 	"Format": "1.29.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/6480.crops.arabidopsis/object, Mods/6480.crops.arabidopsis/seeds, Mods/6480.crops.arabidopsis/crop",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"6480.crops.arabidopsis_MouseEarCress": {
+				"Name": "6480.crops.arabidopsis_MouseEarCress",
+				"Displayname": "{{i18n:MouseEarCress_name}}",
+				"Description": "{{i18n:MouseEarCress_description}}",
+				"Type": "Flower",
+				"Category": -80,
+				"Price": 100,
+				"Edibility": 5,
+				"EdibleIsDrink": false,
+				"Texture": "Mods/6480.crops.arabidopsis/object",
+				},
+				"6480.crops.arabidopsis_MouseEarCressSeeds": {
+				"Name": "6480.crops.arabidopsis_MouseEarCressSeeds",
+				"Displayname": "{{i18n:MouseEarCressSeeds_name}}",
+				"Description": "{{i18n:MouseEarCressSeeds_description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": 40,
+				"Texture": "Mods/6480.crops.arabidopsis/seeds",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+			"6480.crops.arabidopsis_MouseEarCressSeeds": {
+				"Seasons": [ "spring", "summer", "fall"],
+				"DaysInPhase": [ 1, 2, 1, 1, 1 ],
+				"RegrowDays": -1,
+				"ExtraHarvestChance": 0.2,
+				"HarvestMaxIncreasePerFarmingLevel": 0.3,
+				"HarvestItemId": "6480.crops.arabidopsis_MouseEarCress",
+				"Texture": "Mods/6480.crops.arabidopsis/crop",
+				},
+			}
+		}
+	]
+}

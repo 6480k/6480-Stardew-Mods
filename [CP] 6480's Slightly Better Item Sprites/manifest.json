@@ -1,0 +1,10 @@
+{
+	"Name": "[CP] 6480's Slightly Better Item Sprites",
+	"Author": "6480",
+	"Description": "A vanilla-style retexture for some items that makes them look a bit nicer.",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "3.1.0",
+	"UniqueID": "6480.springobjectsretexture",
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+	"UpdateKeys": [ "???" ]
+}
