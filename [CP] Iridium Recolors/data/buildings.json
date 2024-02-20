@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+         "Action": "EditImage",
+         "Target": "Buildings/Slime Hutch",
+         "FromFile": "assets/{{saturationslimehutch}}/{{color}}.png",
+         "FromArea": { "X": 336, "Y": 96, "Width": 176, "Height": 144 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 176, "Height": 144 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/{{saturationslimehutch}}/{{color}}.png",
+         "FromArea": { "X": 336, "Y": 240, "Width": 114, "Height": 32 },
+         "ToArea": { "X": 240, "Y": 1056, "Width": 114, "Height": 32 },
+		 "PatchMode": "Overlay",
+		},
+	]
+}
