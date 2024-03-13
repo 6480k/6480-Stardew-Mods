@@ -1,0 +1,66 @@
+{
+	"Format": "2.0.0",
+	"CustomLocations": [
+		{
+			"Name": "6480.minibuildings_MiniShed",
+			"FromMapFile": "assets/6480MiniShed.tmx"
+		},
+		{
+			"Name": "6480.minibuildings_MiniCellar",
+			"FromMapFile": "assets/6480MiniCellar.tmx"
+		}
+	],
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.minibuildings/ministorageshed, 6480.minibuildings/wroughtironcellar",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"Entries": {
+				"6480.minibuildings_MiniShed": {
+					"Name": "Mini Shed",
+					"Description": "Mini Shed",
+					"Texture": "6480.minibuildings/ministorageshed",
+					"DrawShadow": false,
+					"SourceRect": {
+						"Width": 32,
+						"Height": 64
+					},
+					"Size": {
+						"X": 2,
+						"Y": 2
+					},
+					"HumanDoor": {
+						"X": 1,
+						"Y": 1
+					},
+					"IndoorMap": "6480.minibuildings_MiniShed",
+					"IndoorMapType": "StardewValley.Shed"
+				},
+				"6480.minibuildings_MiniCellar": {
+					"Name": "Mini Cellar",
+					"Description": "Mini Cellar",
+					"Texture": "6480.minibuildings/wroughtironcellar",
+					"DrawShadow": false,
+					"SourceRect": {
+						"Width": 32,
+						"Height": 64
+					},
+					"Size": {
+						"X": 2,
+						"Y": 2
+					},
+					"HumanDoor": {
+						"X": 1,
+						"Y": 1
+					},
+					"IndoorMap": "6480.minibuildings_MiniCellar",
+					"IndoorMapType": "StardewValley.Cellar"
+				}
+			}
+		}
+	]
+}
