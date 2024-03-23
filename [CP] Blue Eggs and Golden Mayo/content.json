@@ -22,6 +22,11 @@
 						{
 							"ItemId": "6480.blueegg_BlueEgg"
 						}
+					],
+					"DeluxeProduceItemIds": [
+						{
+							"ItemId": "6480.blueegg_BlueEgg"
+						}
 					]
 				}
 			}
@@ -55,9 +60,11 @@
 					"Description": "{{i18n:BlueMayo_description}}",
 					"Texture": "6480.blueegg/Objects",
 					"Price": 285,
-					"Edibility": -300,
+					"Edibility": 20,
+					"IsDrink": true,
 					"ContextTags": [
-						"color_blue"
+						"color_blue",
+						"mayo_item"
 					]
 				},
 				"6480.blueegg_GoldenMayo": {
@@ -69,9 +76,11 @@
 					"Description": "{{i18n:GoldenMayo_description}}",
 					"Texture": "6480.blueegg/Objects",
 					"Price": 855,
-					"Edibility": -300,
+					"Edibility": 40,
+					"IsDrink": true,
 					"ContextTags": [
-						"color_yellow"
+						"color_yellow",
+						"mayo_item"
 					]
 				}
 			}
