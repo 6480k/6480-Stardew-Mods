@@ -1,5 +1,5 @@
 {
-	"Format": "1.29.0",
+	"Format": "2.0.0",
 	"DynamicTokens": [
 	  {
 		 "Name": "NormalCropChance",
@@ -695,6 +695,29 @@
 				"TexturePosition": {
 					"X": 48,
 					"Y": 256
+				},
+				"TileSize":{
+					"X": 3,
+					"Y": 3
+				}
+			},
+						"6480.giantcrops_Broccoli": {
+				"When": {
+					"Broccoli": true,
+				},
+				"FromItemId": "(O)Broccoli",
+				"Chance": "{{RegrowableCropChance}}",
+				"HarvestItems": [
+					{
+						"ItemId": "(O)Broccoli",
+						"MinStack": 30,
+						"MaxStack": 42,
+					},
+				],
+				"Texture": "Mods/6480.giantcrops/GiantCrops",
+				"TexturePosition": {
+					"X": 192,
+					"Y": 192
 				},
 				"TileSize":{
 					"X": 3,
