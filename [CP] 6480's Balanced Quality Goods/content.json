@@ -1,25 +1,10 @@
 {
-	"Format": "1.29.0",
+	"Format": "2.0.0",
 	"ConfigSchema": {
-		"NoNoseGuy": {
+		"Profit Reduction": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Removes the nose from the male farmer."
-		},
-		"NoNoseGirl": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Removes the nose from the female farmer."
-		},
-		"CuteEyesGuy": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Rounds out the male farmer's eyes to be more like the female farmer."
-		},
-		"ChinGuy": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Make the male farmer's face a bit more oval."
+			"Description": "Adjust ."
 		},
 	},
 	"Changes": [
