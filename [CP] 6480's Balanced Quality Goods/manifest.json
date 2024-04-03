@@ -1,0 +1,12 @@
+{
+	"Name": "[CP] 6480's Balanced Quality Goods",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "Makes artisan goods keep the quality of the input item, with optional configuration for profit balance.",
+	"UniqueID": "6480.qualitygoods",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0.0"
+	},
+}
