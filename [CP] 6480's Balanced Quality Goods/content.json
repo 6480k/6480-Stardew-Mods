@@ -1,127 +1,122 @@
 {
-	"Format": "2.0.0",
+	"Format": "2.0",
 	"ConfigSchema": {
-		"Profit Reduction": {
+		"Profit Scaling": {
+			"AllowValues": "1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.25",
+			"Default": "0.7",
+			"Description": "Set the balance for your artisan machines. 0.7x makes it equal to the average profit you would make in vanilla, while 1x strictly copies quality without any price changes (giving you much higher profit)."
+		},
+		"Large Animal Items": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adjust ."
-		},
+			"Description": "Choose whether large milks and large eggs should make large versions of their artisan product. If set to false, these will produce 2x the amount of normal cheese and mayo."
+		}
 	},
 	"Changes": [
-	{
-		"LogName": "No Nose Guy Farmer",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_base",
-		"FromFile": "assets/noseguy.png",
-		"When": { "NoNoseGuy": true },
-		"FromArea":
-		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
+		/*{
+			"LogName": "Load textures",
+			"Action": "Load",
+			"Target": "6480.qualitygoods/Objects",
+			"FromFile": "assets/objects.png"
 		},
-		"ToArea":
 		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
-		},
-	},
-	{
-		"LogName": "No Nose Guy Farmer Bald",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_base_bald",
-		"FromFile": "assets/noseguybald.png",
-		"When": { "NoNoseGuy": true },
-		"FromArea":
+			"LogName": "Add new items",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Large Animal Items": true
+			},
+			"Entries": {
+				"6480.bettergoods_LargeCheese": {
+					"Name": "6480.bettergoods_LargeCheese",
+					"Type": "Basic",
+					"Category": -5,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:LargeCheese_Name}}",
+					"Description": "{{i18n:LargeCheese_description}}",
+					"Texture": "6480.blueegg/Objects",
+					"Price": 100,
+					"Edibility": 10,
+					"ContextTags": [
+						"egg_item",
+						"color_blue"
+					]
+				},
+				"6480.bettergoods_LargeGoatCheese": {
+					"Name": "6480.bettergoods_LargeGoatCheese",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 1,
+					"DisplayName": "{{i18n:LargeGoatCheese_Name}}",
+					"Description": "{{i18n:LargeGoatCheese_description}}",
+					"Texture": "6480.blueegg/Objects",
+					"Price": 285,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_blue",
+						"mayo_item"
+					]
+				},
+				"6480.bettergoods_LargeMayo": {
+					"Name": "6480.bettergoods_LargeMayo",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LargeMayo_Name}}",
+					"Description": "{{i18n:LargeMayo_description}}",
+					"Texture": "6480.blueegg/Objects",
+					"Price": 855,
+					"Edibility": 40,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_yellow",
+						"mayo_item"
+					]
+				}
+			}
+		},*/
 		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_DuckEgg",
+				"OutputItem",
+				"(O)307"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
 		},
-		"ToArea":
 		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
-		},
-	},
-	{
-		"LogName": "No Nose Girl Farmer",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_girl_base",
-		"FromFile": "assets/nosegirl.png",
-		"When": { "NoNoseGirl": true },
-		"FromArea":
-		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
-		},
-		"ToArea":
-		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
-		},
-	},
-	{
-		"LogName": "No Nose Girl Farmer Bald",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_girl_base_bald",
-		"FromFile": "assets/nosegirlbald.png",
-		"When": { "NoNoseGirl": true },
-		"FromArea":
-		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
-		},
-		"ToArea":
-		{
-			"X": 0,
-			"Y": 0,
-			"Width": 96,
-			"Height": 672
-		},
-	},
-	{
-		"LogName": "Cute Eyes Guy Farmer",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_base",
-		"FromFile": "assets/eyesguy.png",
-		"When": { "CuteEyesGuy": true },
-		"PatchMode": "Overlay",
-	},
-	{
-		"LogName": "Cute Eyes Guy Farmer Bald",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_base_bald",
-		"FromFile": "assets/eyesguy.png",
-		"When": { "CuteEyesGuy": true },
-		"PatchMode": "Overlay",
-	},
-	{
-		"LogName": "Chin Guy Farmer",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_base",
-		"FromFile": "assets/chinguy.png",
-		"When": { "ChinGuy": true },
-		"PatchMode": "Overlay",
-	},
-	{
-		"LogName": "Chin Guy Farmer Bald",
-		"Action": "EditImage",
-		"Target": "Characters/Farmer/farmer_base_bald",
-		"FromFile": "assets/chinguy.png",
-		"When": { "ChinGuy": true },
-		"PatchMode": "Overlay",
-	},]
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_VoidEgg",
+				"OutputItem",
+				"(O)308"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		}
+	]
 }
