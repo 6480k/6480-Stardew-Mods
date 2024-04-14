@@ -1,85 +1,85 @@
 {
 	"Format": "2.0.0",
 	"DynamicTokens": [
-	  {
-		 "Name": "NormalCropChance",
-		 "Value": 0.05
-	  },
-	  {
-		 "Name": "NormalCropChance",
-		 "Value": 0.0,
-		 "When": {
-			"Normal Crop Chance": "off"
-		 }
-	  },
-	  {
-		 "Name": "NormalCropChance",
-		 "Value": 0.001,
-		 "When": {
-			"Normal Crop Chance": "low"
-		 }
-	  },
-	  {
-		 "Name": "NormalCropChance",
-		 "Value": 0.005,
-		 "When": {
-			"Normal Crop Chance": "medium"
-		 }
-	  },
-	  {
-		 "Name": "NormalCropChance",
-		 "Value": 0.01,
-		 "When": {
-			"Normal Crop Chance": "high"
-		 }
-	},
-	  {
-		 "Name": "NormalCropChance",
-		 "Value": 0.05,
-		 "When": {
-			"Normal Crop Chance": "very high"
-		 }
-	  },
-	  {
-		 "Name": "RegrowableCropChance",
-		 "Value": 0.0
-	  },
-	  {
-		 "Name": "RegrowableCropChance",
-		 "Value": 0.0,
-		 "When": {
-			"Regrowable Crop Chance": "off"
-		 }
-	  },
-	  {
-		 "Name": "RegrowableCropChance",
-		 "Value": 0.001,
-		 "When": {
-			"Regrowable Crop Chance": "low"
-		 }
-	  },
-	  {
-		 "Name": "RegrowableCropChance",
-		 "Value": 0.005,
-		 "When": {
-			"Regrowable Crop Chance": "medium"
-		 }
-	  },
-	  {
-		 "Name": "RegrowableCropChance",
-		 "Value": 0.01,
-		 "When": {
-			"Regrowable Crop Chance": "high"
-		 }
-	},
-	  {
-		 "Name": "RegrowableCropChance",
-		 "Value": 0.05,
-		 "When": {
-			"Regrowable Crop Chance": "very high"
-		 }
-	  },
-   ],
+		{
+			"Name": "NormalCropChance",
+			"Value": 0.005
+		},
+		{
+			"Name": "NormalCropChance",
+			"Value": 0.0,
+			"When": {
+				"Normal Crop Chance": "off"
+			}
+		},
+		{
+			"Name": "NormalCropChance",
+			"Value": 0.001,
+			"When": {
+				"Normal Crop Chance": "low"
+			}
+		},
+		{
+			"Name": "NormalCropChance",
+			"Value": 0.005,
+			"When": {
+				"Normal Crop Chance": "medium"
+			}
+		},
+		{
+			"Name": "NormalCropChance",
+			"Value": 0.01,
+			"When": {
+				"Normal Crop Chance": "high"
+			}
+		},
+		{
+			"Name": "NormalCropChance",
+			"Value": 0.05,
+			"When": {
+				"Normal Crop Chance": "very high"
+			}
+		},
+		{
+			"Name": "RegrowableCropChance",
+			"Value": 0.0
+		},
+		{
+			"Name": "RegrowableCropChance",
+			"Value": 0.0,
+			"When": {
+				"Regrowable Crop Chance": "off"
+			}
+		},
+		{
+			"Name": "RegrowableCropChance",
+			"Value": 0.001,
+			"When": {
+				"Regrowable Crop Chance": "low"
+			}
+		},
+		{
+			"Name": "RegrowableCropChance",
+			"Value": 0.005,
+			"When": {
+				"Regrowable Crop Chance": "medium"
+			}
+		},
+		{
+			"Name": "RegrowableCropChance",
+			"Value": 0.01,
+			"When": {
+				"Regrowable Crop Chance": "high"
+			}
+		},
+		{
+			"Name": "RegrowableCropChance",
+			"Value": 0.05,
+			"When": {
+				"Regrowable Crop Chance": "very high"
+			}
+		}
+	],
 	"ConfigSchema": {
 		"Cauliflower Retexture": {
 			"AllowValues": "true, false",
@@ -122,634 +122,635 @@
 			"Section": "Toggle individual crops"
 		},
 		"Starfruit": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Beet": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Corn": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Radish": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Artichoke": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Garlic": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Ancient Fruit": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Strawberry": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Eggplant": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Tomato": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Coffee": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Taro": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Pineapple": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Cranberries": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Blueberries": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Yam": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		},
 		"Sweet Gem Berry": {
-		"AllowValues": "true, false",
-		"Default": "true",
-		"Section": "Toggle individual crops"
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle individual crops"
 		}
 	},
 	"Changes": [
 		{
-		"Action": "Load",
-		"Target": "Mods/6480.giantcrops/GiantCrops",
-		"FromFile": "assets/{{TargetWithoutPath}}.png"
+			"Action": "Load",
+			"Target": "Mods/6480.giantcrops/GiantCrops",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
-		"LogName": "Giant Crops - Non-regrowable",
-		"Action": "EditData",
-		"Target": "Data/GiantCrops",
-		"Entries": {
-			"6480.giantcrops_Potato": {
-				"When": {
-					"Potato": true,
-				},
-				"FromItemId": "(O)192",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)192",
-						"MinStack": 20,
-						"MaxStack": 30,
+			"LogName": "Giant Crops - Non-regrowable",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"6480.giantcrops_Potato": {
+					"When": {
+						"Potato": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 144,
-					"Y": 0
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Parsnip": {
-				"When": {
-					"Parsnip": true,
-				},
-				"FromItemId": "(O)24",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)24",
-						"MinStack": 15,
-						"MaxStack": 21,
+					"FromItemId": "(O)192",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)192",
+							"MinStack": 20,
+							"MaxStack": 30
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 144,
+						"Y": 0
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 192,
-					"Y": 0
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_RedCabbage": {
-				"When": {
-					"Red Cabbage": true,
-				},
-				"FromItemId": "(O)266",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)266",
-						"MinStack": 15,
-						"MaxStack": 21,
+				"6480.giantcrops_Parsnip": {
+					"When": {
+						"Parsnip": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 0,
-					"Y": 64
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Starfruit": {
-				"When": {
-					"Parsnip": true,
-				},
-				"FromItemId": "(O)268",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)268",
-						"MinStack": 15,
-						"MaxStack": 21,
+					"FromItemId": "(O)24",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)24",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 192,
+						"Y": 0
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 48,
-					"Y": 64 
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Beet": {
-				"When": {
-					"Beet": true,
-				},
-				"FromItemId": "(O)284",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)284",
-						"MinStack": 15,
-						"MaxStack": 21,
+				"6480.giantcrops_RedCabbage": {
+					"When": {
+						"Red Cabbage": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 96,
-					"Y": 64 
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Radish": {
-				"When": {
-					"Radish": true,
-				},
-				"FromItemId": "(O)264",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)264",
-						"MinStack": 15,
-						"MaxStack": 21,
+					"FromItemId": "(O)266",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)266",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 0,
+						"Y": 64
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 192,
-					"Y": 64
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Artichoke": {
-				"When": {
-					"Artichoke": true,
-				},
-				"FromItemId": "(O)274",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)274",
-						"MinStack": 15,
-						"MaxStack": 21,
+				"6480.giantcrops_Starfruit": {
+					"When": {
+						"Parsnip": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 240,
-					"Y": 64
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Garlic": {
-				"When": {
-					"Garlic": true,
-				},
-				"FromItemId": "(O)248",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)248",
-						"MinStack": 15,
-						"MaxStack": 21,
+					"FromItemId": "(O)268",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)268",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 48,
+						"Y": 64
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 0,
-					"Y": 128
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Taro": {
-				"When": {
-					"Taro": true,
-				},
-				"FromItemId": "(O)830",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)830",
-						"MinStack": 15,
-						"MaxStack": 21,
+				"6480.giantcrops_Beet": {
+					"When": {
+						"Beet": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 96,
-					"Y": 192
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Yam": {
-				"When": {
-					"Yam": true,
-				},
-				"FromItemId": "(O)280",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)280",
-						"MinStack": 15,
-						"MaxStack": 21,
+					"FromItemId": "(O)284",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)284",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 96,
+						"Y": 64
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 96,
-					"Y": 256
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_SweetGemBerry": {
-				"When": {
-					"Sweet Gem Berry": true,
-				},
-				"FromItemId": "(O)417",
-				"Chance": "{{NormalCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)417",
-						"MinStack": 15,
-						"MaxStack": 21,
+				"6480.giantcrops_Radish": {
+					"When": {
+						"Radish": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 144,
-					"Y": 256
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_HotPepper": {
-				"When": {
-					"Hot Pepper": true,
-				},
-				"FromItemId": "(O)260",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)260",
-						"MinStack": 30,
-						"MaxStack": 42,
+					"FromItemId": "(O)264",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)264",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 192,
+						"Y": 64
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 240,
-					"Y": 0
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Corn": {
-				"When": {
-					"Corn": true,
-				},
-				"FromItemId": "(O)270",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)270",
-						"MinStack": 30,
-						"MaxStack": 42,
+				"6480.giantcrops_Artichoke": {
+					"When": {
+						"Artichoke": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 144,
-					"Y": 64
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_AncientFruit": {
-				"When": {
-					"Ancient Fruit": true,
-				},
-				"FromItemId": "(O)454",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)454",
-						"MinStack": 30,
-						"MaxStack": 42,
+					"FromItemId": "(O)274",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)274",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 240,
+						"Y": 64
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 48,
-					"Y": 128
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Strawberry": {
-				"When": {
-					"Strawberry": true,
-				},
-				"FromItemId": "(O)400",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)400",
-						"MinStack": 30,
-						"MaxStack": 42,
+				"6480.giantcrops_Garlic": {
+					"When": {
+						"Garlic": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 96,
-					"Y": 128
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Eggplant": {
-				"When": {
-					"Eggplant": true,
-				},
-				"FromItemId": "(O)272",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)272",
-						"MinStack": 30,
-						"MaxStack": 42,
+					"FromItemId": "(O)248",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)248",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 0,
+						"Y": 128
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 144,
-					"Y": 128
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Tomato": {
-				"When": {
-					"Tomato": true,
-				},
-				"FromItemId": "(O)256",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)256",
-						"MinStack": 30,
-						"MaxStack": 42,
+				"6480.giantcrops_Taro": {
+					"When": {
+						"Taro": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 192,
-					"Y": 128
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Coffee": {
-				"When": {
-					"Coffee": true,
-				},
-				"FromItemId": "(O)433",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)433",
-						"MinStack": 45,
-						"MaxStack": 60,
+					"FromItemId": "(O)830",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)830",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 96,
+						"Y": 192
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 240,
-					"Y": 128
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Pineapple": {
-				"When": {
-					"Pineapple": true,
-				},
-				"FromItemId": "(O)832",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)832",
-						"MinStack": 30,
-						"MaxStack": 42,
+				"6480.giantcrops_Yam": {
+					"When": {
+						"Yam": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 144,
-					"Y": 192
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Cranberries": {
-				"When": {
-					"Cranberries": true,
-				},
-				"FromItemId": "(O)282",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)282",
-						"MinStack": 30,
-						"MaxStack": 42,
+					"FromItemId": "(O)280",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)280",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 96,
+						"Y": 256
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 0,
-					"Y": 256
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-			"6480.giantcrops_Blueberries": {
-				"When": {
-					"Blueberries": true,
-				},
-				"FromItemId": "(O)258",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)258",
-						"MinStack": 30,
-						"MaxStack": 42,
+				"6480.giantcrops_SweetGemBerry": {
+					"When": {
+						"Sweet Gem Berry": true
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 48,
-					"Y": 256
-				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
-				}
-			},
-						"6480.giantcrops_Broccoli": {
-				"When": {
-					"Broccoli": true,
-				},
-				"FromItemId": "(O)Broccoli",
-				"Chance": "{{RegrowableCropChance}}",
-				"HarvestItems": [
-					{
-						"ItemId": "(O)Broccoli",
-						"MinStack": 30,
-						"MaxStack": 42,
+					"FromItemId": "(O)417",
+					"Chance": "{{NormalCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)417",
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 144,
+						"Y": 256
 					},
-				],
-				"Texture": "Mods/6480.giantcrops/GiantCrops",
-				"TexturePosition": {
-					"X": 192,
-					"Y": 192
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				},
-				"TileSize":{
-					"X": 3,
-					"Y": 3
+				"6480.giantcrops_HotPepper": {
+					"When": {
+						"Hot Pepper": true
+					},
+					"FromItemId": "(O)260",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)260",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 240,
+						"Y": 0
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Corn": {
+					"When": {
+						"Corn": true
+					},
+					"FromItemId": "(O)270",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)270",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 144,
+						"Y": 64
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_AncientFruit": {
+					"When": {
+						"Ancient Fruit": true
+					},
+					"FromItemId": "(O)454",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)454",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 48,
+						"Y": 128
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Strawberry": {
+					"When": {
+						"Strawberry": true
+					},
+					"FromItemId": "(O)400",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)400",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 96,
+						"Y": 128
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Eggplant": {
+					"When": {
+						"Eggplant": true
+					},
+					"FromItemId": "(O)272",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)272",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 144,
+						"Y": 128
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Tomato": {
+					"When": {
+						"Tomato": true
+					},
+					"FromItemId": "(O)256",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)256",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 192,
+						"Y": 128
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Coffee": {
+					"When": {
+						"Coffee": true
+					},
+					"FromItemId": "(O)433",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)433",
+							"MinStack": 45,
+							"MaxStack": 60
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 240,
+						"Y": 128
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Pineapple": {
+					"When": {
+						"Pineapple": true
+					},
+					"FromItemId": "(O)832",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)832",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 144,
+						"Y": 192
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Cranberries": {
+					"When": {
+						"Cranberries": true
+					},
+					"FromItemId": "(O)282",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)282",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 0,
+						"Y": 256
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Blueberries": {
+					"When": {
+						"Blueberries": true
+					},
+					"FromItemId": "(O)258",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)258",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 48,
+						"Y": 256
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
+				},
+				"6480.giantcrops_Broccoli": {
+					"When": {
+						"Broccoli": true
+					},
+					"FromItemId": "(O)Broccoli",
+					"Chance": "{{RegrowableCropChance}}",
+					"HarvestItems": [
+						{
+							"ItemId": "(O)Broccoli",
+							"MinStack": 30,
+							"MaxStack": 42
+						}
+					],
+					"Texture": "Mods/6480.giantcrops/GiantCrops",
+					"TexturePosition": {
+						"X": 192,
+						"Y": 192
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					}
 				}
-			},
+			}
 		},
-	},
-	{
-		"LogName": "Cauliflower",
-		"Action": "EditImage",
-		"Target": "TileSheets/Crops",
-		"FromFile": "assets/cauliflower.png",
-		"ToArea":
 		{
-			"X": 112,
-			"Y": 512,
-			"Width": 48,
-			"Height": 64
+			"LogName": "Cauliflower",
+			"Action": "EditImage",
+			"Target": "TileSheets/Crops",
+			"FromFile": "assets/cauliflower.png",
+			"When": {"Cauliflower Retexture": true},
+			"ToArea": {
+				"X": 112,
+				"Y": 512,
+				"Width": 48,
+				"Height": 64
+			}
 		},
-	},
-	{
-		"LogName": "Melon",
-		"Action": "EditImage",
-		"Target": "TileSheets/Crops",
-		"FromFile": "assets/melon.png",
-		"ToArea":
 		{
-			"X": 160,
-			"Y": 512,
-			"Width": 48,
-			"Height": 64
-		},
-	}]
+			"LogName": "Melon",
+			"Action": "EditImage",
+			"Target": "TileSheets/Crops",
+			"FromFile": "assets/melon.png",
+			"When": {"Melon Retexture": true},
+			"ToArea": {
+				"X": 160,
+				"Y": 512,
+				"Width": 48,
+				"Height": 64
+			}
+		}
+	]
 }
