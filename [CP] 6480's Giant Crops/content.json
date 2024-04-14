@@ -267,7 +267,7 @@
             "FromFile":"assets/melon.png",
             "When": {
 				"Melon Retexture": true
-			}
+			},
             "ToArea":{
                 "X":160,
                 "Y":512,
