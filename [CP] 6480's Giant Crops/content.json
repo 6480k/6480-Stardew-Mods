@@ -3,6 +3,13 @@
     "DynamicTokens":[
         {
             "Name":"NormalCropChance",
+            "Value":0.05,
+            "When":{
+                "Normal Crop Chance |contains=very high, high, medium, low, off": "false"
+            }
+        },
+        {
+            "Name":"NormalCropChance",
             "Value":0.0,
             "When":{
                 "Normal Crop Chance":"off"
@@ -34,6 +41,13 @@
             "Value":0.05,
             "When":{
                 "Normal Crop Chance":"very high"
+            }
+        },
+        {
+            "Name":"RegrowableCropChance",
+            "Value":0.05,
+            "When":{
+                "Regrowable Crop Chance |contains=very high, high, medium, low, off": "false"
             }
         },
         {
@@ -244,9 +258,8 @@
             },
             "When": {
 				"Cauliflower Retexture": true
-			},
-			"Update": "OnTimeChange, OnLocationChange"         
-        },
+			}
+		},
         {
             "LogName":"Melon",
             "Action":"EditImage",
@@ -260,8 +273,7 @@
             },
             "When": {
 				"Melon Retexture": true
-			},
-			"Update": "OnTimeChange, OnLocationChange"
-        }
+			}
+		}
     ]
 }
