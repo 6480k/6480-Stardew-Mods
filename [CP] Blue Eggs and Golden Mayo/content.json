@@ -1,5 +1,19 @@
 {
 	"Format": "2.0",
+	"ConfigSchema": {
+		"Exclude Blue Mayo from Collection": {
+			"AllowValues": "true, false",
+			"Default": "false",
+            		"Description":"Optional setting to exclude blue mayo from the shipping collection.",
+			"Section": "Shipping Collection"
+		},
+		"Exclude Golden Mayo from Collection": {
+			"AllowValues": "true, false",
+			"Default": "false",
+            		"Description":"Optional setting to exclude golden mayo from the shipping collection.",
+			"Section": "Shipping Collection"
+		}
+	},
 	"Changes": [
 		{
 			"LogName": "Load textures",
@@ -65,7 +79,8 @@
 					"ContextTags": [
 						"color_blue",
 						"mayo_item"
-					]
+					],
+					"ExcludeFromShippingCollection": {{"Exclude Blue Mayo from Collection"}}
 				},
 				"6480.blueegg_GoldenMayo": {
 					"Name": "6480.blueegg_GoldenMayo",
@@ -81,7 +96,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"mayo_item"
-					]
+					],
+					"ExcludeFromShippingCollection": {{"Exclude Golden Mayo from Collection"}}
 				}
 			}
 		},
