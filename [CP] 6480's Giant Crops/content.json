@@ -31,7 +31,7 @@
         },
         {
             "Name":"NormalCropChance",
-            "Value":.05,
+            "Value":0.05,
             "When":{
                 "Normal Crop Chance":"very high"
             }
@@ -66,7 +66,7 @@
         },
         {
             "Name":"RegrowableCropChance",
-            "Value":.05,
+            "Value":0.05,
             "When":{
                 "Regrowable Crop Chance":"very high"
             }
