@@ -80,7 +80,7 @@
 						"color_blue",
 						"mayo_item"
 					],
-					"ExcludeFromShippingCollection": {{"Exclude Blue Mayo from Collection"}}
+					"ExcludeFromShippingCollection": {{Exclude Blue Mayo from Collection}}
 				},
 				"6480.blueegg_GoldenMayo": {
 					"Name": "6480.blueegg_GoldenMayo",
@@ -97,7 +97,7 @@
 						"color_yellow",
 						"mayo_item"
 					],
-					"ExcludeFromShippingCollection": {{"Exclude Golden Mayo from Collection"}}
+					"ExcludeFromShippingCollection": {{Exclude Golden Mayo from Collection}}
 				}
 			}
 		},
