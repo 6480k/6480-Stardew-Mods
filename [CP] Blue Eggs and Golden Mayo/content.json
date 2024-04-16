@@ -2,6 +2,31 @@
 	"Format": "2.0",
 	"Changes": [
 		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Entries": {
+				"Salad": {
+					"ProductQualifiedId": "(O)196",
+					"ProductAmount": 1,
+					"Ingredients": [
+					{
+						"Type": "ContextTag",
+						"Value": "egg_item, mayo_item",
+						"Amount": 1,
+						"OverrideText": "Any mayonnaise or egg",
+						"OverrideTexturePath": "6480.blueegg/Objects",
+						"OverrideTextureRect": {
+							"X": 16,
+							"Y": 0,
+							"Width": 16,
+							"Height": 16
+						},
+					}
+					]
+				}
+			}
+		},
+		{
 			"LogName": "Load textures",
 			"Action": "Load",
 			"Target": "6480.blueegg/Objects",
