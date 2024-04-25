@@ -1,0 +1,13 @@
+{
+"Name": "[CP] I Hate Flower Colors (Vibrant Flowers Mod)",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "Make your flowers brighter.",
+	"UniqueID": "6480.flowercolors.CP",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0.0"
+	},
+	"UpdateKeys": [ "Nexus: 22908" ],
+}

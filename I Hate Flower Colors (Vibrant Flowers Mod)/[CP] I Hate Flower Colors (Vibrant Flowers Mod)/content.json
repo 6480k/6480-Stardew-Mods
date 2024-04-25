@@ -1,0 +1,66 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"427": {
+					"TintColors": null
+				},
+				"453": {
+					"TintColors": null
+				},
+				"429": {
+					"TintColors": null
+				},
+				"455": {
+					"TintColors": null
+				},
+				"425": {
+					"TintColors": null
+				}
+			}
+		},
+		//tulip
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "base.png",
+			"ToArea": {"X": 32, "Y": 416, "Width": 80, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 80, "Height": 32},
+		},
+		//poppy
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "base.png",
+			"ToArea": {"X": 32, "Y": 448, "Width": 80, "Height": 32},
+			"FromArea": {"X": 0, "Y": 32, "Width": 80, "Height": 32},
+		},
+		//blue jazz
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "base.png",
+			"ToArea": {"X": 160, "Y": 416, "Width": 80, "Height": 32},
+			"FromArea": {"X": 0, "Y": 64, "Width": 80, "Height": 32},
+		},
+		//spangle
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "base.png",
+			"ToArea": {"X": 160, "Y": 448, "Width": 80, "Height": 32},
+			"FromArea": {"X": 0, "Y": 96, "Width": 80, "Height": 32},
+		},
+		//fairy rose
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "base.png",
+			"ToArea": {"X": 160, "Y": 480, "Width": 80, "Height": 32},
+			"FromArea": {"X": 0, "Y": 128, "Width": 80, "Height": 32},
+		}
+	]
+}
