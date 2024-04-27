@@ -2,18 +2,54 @@
 	"Changes": [
 		{
 			"Action": "EditData",
-			"Target": "Data/Machines",
+			"Target": "Data/Buildings",
 			"TargetField": [
-				"(BC)19",
-				"OutputRules",
-				"Default_Corn",
-				"OutputItem",
-				"(O)247"
+				"Mill",
+				"ItemConversions",
+				"Default_UnmilledRice",
+				"ProducedItems",
+				"(O)423"
 			],
 			"Entries": {
-				"CopyQuality": false,
-				"Quality": null,
-				"MinStack": 1,
+				"Condition": null,
+				"Id": "(O)423",
+				"ItemId": "(O)423",
+				"RandomItemId": null,
+				"MaxItems": null,
+				"MinStack": -1,
+				"MaxStack": -1,
+				"Quality": -1,
+				"ObjectInternalName": null,
+				"ObjectDisplayName": null,
+				"ToolUpgradeLevel": -1,
+				"IsRecipe": false,
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": 0,
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				],
+				"StackModifierMode": 0,
+				"QualityModifiers": null,
+				"QualityModifierMode": 0,
+				"ModData": null,
+				"PerItemCondition": null
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Default_Wheat",
+				"ProducedItems",
+				"(O)246"
+			],
+			"Entries": {
 				"StackModifiers": [
 					{
 						"Id": "6480.qualitygoods_DoubleQuality",
@@ -27,43 +63,15 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/Machines",
+			"Target": "Data/Buildings",
 			"TargetField": [
-				"(BC)19",
-				"OutputRules",
-				"Default_Sunflower",
-				"OutputItem",
-				"(O)247"
+				"Mill",
+				"ItemConversions",
+				"Default_Beet",
+				"ProducedItems",
+				"(O)245"
 			],
 			"Entries": {
-				"CopyQuality": false,
-				"Quality": null,
-				"MinStack": 1,
-				"StackModifiers": [
-					{
-						"Id": "6480.qualitygoods_DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
-						"Modification": "Multiply",
-						"Amount": 2.0,
-						"RandomAmount": null
-					}
-				]
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)19",
-				"OutputRules",
-				"Default_SunflowerSeeds",
-				"OutputItem",
-				"(O)247"
-			],
-			"Entries": {
-				"CopyQuality": false,
-				"Quality": null,
-				"MinStack": 1,
 				"StackModifiers": [
 					{
 						"Id": "6480.qualitygoods_DoubleQuality",

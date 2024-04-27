@@ -9,4 +9,14 @@
 		"UniqueID": "Pathoschild.ContentPatcher",
 		"MinimumVersion": "2.0.0"
 	},
+	"Dependencies": [
+		{
+			"UniqueID": "6480.blueegg",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.MoreCrops",
+			"IsRequired": false
+		},
+	]
 }
