@@ -4,11 +4,11 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)12",
+				"(BC)24",
 				"OutputRules",
-				"Default_Wheat",
+				"Default_DuckEgg",
 				"OutputItem",
-				"(O)346"
+				"(O)307"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -25,11 +25,11 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)12",
+				"(BC)24",
 				"OutputRules",
-				"Default_Hops",
+				"Default_VoidEgg",
 				"OutputItem",
-				"(O)303"
+				"(O)308"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -46,11 +46,34 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)12",
+				"(BC)24",
 				"OutputRules",
-				"Default_TeaLeaves",
+				"Default_GoldenEgg",
 				"OutputItem",
-				"(O)614"
+				"(O)306"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"Quality": null,
+				"MinStack": 5,
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_DinosaurEgg",
+				"OutputItem",
+				"(O)807"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -67,11 +90,11 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)12",
+				"(BC)24",
 				"OutputRules",
-				"Default_Honey",
+				"Default_LargeEgg",
 				"OutputItem",
-				"(O)459"
+				"(O)306"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -79,62 +102,39 @@
 					{
 						"Id": "6480.qualitygoods",
 						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
+						"Amount": "{{Profit Scaling}}",
 					}
-				]
+				],
+				"MinStack": 2
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"When": {"Large Animal Items": true},
 			"TargetField": [
-				"(BC)12",
+				"(BC)24",
 				"OutputRules",
-				"Default_Rice",
+				"Default_LargeEgg",
 				"OutputItem",
-				"(O)419"
+				"(O)306"
 			],
 			"Entries": {
 				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				]
+				"PriceModifiers": null,
+				"MinStack": 1,
+				"ItemId": "(O)6480.qualitygoods_LargeMayo",
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)12",
+				"(BC)24",
 				"OutputRules",
-				"Default_Juice",
+				"Default_Egg",
 				"OutputItem",
-				"Default"
-			],
-			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				]
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)12",
-				"OutputRules",
-				"Default_Wine",
-				"OutputItem",
-				"Default"
+				"(O)306"
 			],
 			"Entries": {
 				"CopyQuality": true,

@@ -4,11 +4,11 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)15",
+				"(BC)16",
 				"OutputRules",
-				"Default_SturgeonRoe",
+				"Default_GoatMilk",
 				"OutputItem",
-				"(O)445"
+				"(O)426"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -18,18 +18,18 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					}
-				]
+				],
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)15",
+				"(BC)16",
 				"OutputRules",
-				"Default_Roe",
+				"Default_LargeGoatMilk",
 				"OutputItem",
-				"Default"
+				"(O)426"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -39,18 +39,19 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					}
-				]
+				],
+				"MinStack": 2,
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)15",
+				"(BC)16",
 				"OutputRules",
-				"Default_Pickled",
+				"Default_Milk",
 				"OutputItem",
-				"Default"
+				"(O)424"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -60,18 +61,18 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					}
-				]
+				],
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)15",
+				"(BC)16",
 				"OutputRules",
-				"Default_Jelly",
+				"Default_LargeMilk",
 				"OutputItem",
-				"Default"
+				"(O)424"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -81,8 +82,45 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					}
-				]
+				],
+				"MinStack": 2,
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {"Large Animal Items": true},
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeGoatMilk",
+				"OutputItem",
+				"(O)426"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": null,
+				"MinStack": 1,
+				"ItemId": "(O)6480.qualitygoods_LargeGoatCheese",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {"Large Animal Items": true},
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeMilk",
+				"OutputItem",
+				"(O)424"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": null,
+				"MinStack": 1,
+				"ItemId": "(O)6480.qualitygoods_LargeCheese",
+			}
+		},
 	]
 }

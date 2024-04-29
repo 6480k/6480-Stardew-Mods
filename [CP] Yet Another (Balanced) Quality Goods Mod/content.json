@@ -10,11 +10,6 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Choose whether large milks and large eggs should make large versions of their artisan product. If set to false, these will produce 2x the amount of normal cheese and mayo."
-		},
-		"Aged Wine": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Add another tier to wine aging, which removes the 70% profit cap on iridium wine when put back into a cask, and making iridium wine worth the same as vanilla even when playing with profit scaling. The output item is called 'Aged (flavor) Wine', but is still a vanilla wine item."
 		}
 	},
 	"Changes": [
@@ -32,63 +27,84 @@
 				"Large Animal Items": true
 			},
 			"Entries": {
-				"6480.bettergoods_LargeCheese": {
-					"Name": "6480.bettergoods_LargeCheese",
+				"6480.qualitygoods_LargeCheese": {
+					"Name": "6480.qualitygoods_LargeCheese",
 					"Type": "Basic",
-					"Category": -5,
+					"Category": -26,
 					"SpriteIndex": 0,
 					"DisplayName": "{{i18n:LargeCheese_name}}",
 					"Description": "{{i18n:LargeCheese_description}}",
 					"Texture": "6480.qualitygoods/Objects",
-					"Price": 100,
-					"Edibility": 10,
+					"Price": 345,
+					"Edibility": 100,
 					"ContextTags": [
 						"color_yellow",
 						"cheese_item"
 					]
 				},
-				"6480.bettergoods_LargeGoatCheese": {
-					"Name": "6480.bettergoods_LargeGoatCheese",
+				"6480.qualitygoods_LargeGoatCheese": {
+					"Name": "6480.qualitygoods_LargeGoatCheese",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 1,
 					"DisplayName": "{{i18n:LargeGoatCheese_name}}",
 					"Description": "{{i18n:LargeGoatCheese_description}}",
 					"Texture": "6480.qualitygoods/Objects",
-					"Price": 285,
-					"Edibility": 20,
-					"IsDrink": true,
+					"Price": 600,
+					"Edibility": 100,
 					"ContextTags": [
 						"color_yellow",
 						"cheese_item"
 					]
 				},
-				"6480.bettergoods_LargeMayo": {
-					"Name": "6480.bettergoods_LargeMayo",
+				"6480.qualitygoods_LargeMayo": {
+					"Name": "6480.qualitygoods_LargeMayo",
 					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 2,
 					"DisplayName": "{{i18n:LargeMayo_name}}",
 					"Description": "{{i18n:LargeMayo_description}}",
 					"Texture": "6480.qualitygoods/Objects",
-					"Price": 855,
+					"Price": 285,
 					"Edibility": 40,
 					"IsDrink": true,
 					"ContextTags": [
-						"color_yellow",
+						"color_white",
 						"mayo_item"
 					]
 				}
 			}
 		},
 		{
+			"LogName": "Add new items",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {
+				"Large Animal Items": true
+			},
+			"Entries": {
+				"Cheese": "6480.qualitygoods_LargeCheese 1/1 10/424 2/Farming 3",
+				"Goat Cheese": "6480.qualitygoods_LargeGoatCheese 1/1 10/426 2/Farming 3",
+				"Mayonnaise": "6480.qualitygoods_LargeMayo 1/1 10/306 2/Farming 3"
+			}
+		},
+		{
 			"Action": "Include",
-			"FromFile": "data/cheesepress.json, data/keg.json, data/mayomachine.json, data/preservesjar.json, data/oilmaker.json, data/dehydrator.json, data/mill.json"
+			"FromFile": "data/cheesepress.json, data/keg.json, data/mayomachine.json, data/preservesjar.json, data/oilmaker.json, data/dehydrator.json"
 		},
 		{
 			"Action": "Include",
 			"FromFile": "compat/blueeggs.json",
-			"When": {"HasMod|contains = 6480.blueegg": true}
+			"When": {
+				"HasMod|contains = 6480.blueegg": true
+			}
 		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/cornucopiamorecrops.json",
+			"When": {
+				"HasMod|contains = Cornucopia.MoreCrops": true
+			}
+		}
 	]
 }

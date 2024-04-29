@@ -4,101 +4,13 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)16",
+				"(BC)12",
 				"OutputRules",
-				"Default_GoatMilk",
+				"Default_Wheat",
 				"OutputItem",
-				"(O)426"
+				"(O)346"
 			],
 			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				],
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"Default_LargeGoatMilk",
-				"OutputItem",
-				"(O)426"
-			],
-			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				],
-				"MinStack": 2,
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"Default_Milk",
-				"OutputItem",
-				"(O)424"
-			],
-			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				],
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"Default_LargeMilk",
-				"OutputItem",
-				"(O)424"
-			],
-			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				],
-				"MinStack": 2,
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"When": {"Large Animal Items": true},
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"Default_LargeGoatMilk",
-				"OutputItem",
-				"(O)426"
-			],
-			"Entries": {
-				"ItemId": "6480.qualitygoods_LargeGoatCheese",
 				"CopyQuality": true,
 				"PriceModifiers": [
 					{
@@ -112,16 +24,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"When": {"Large Animal Items": true},
 			"TargetField": [
-				"(BC)16",
+				"(BC)12",
 				"OutputRules",
-				"Default_LargeMilk",
+				"Default_Hops",
 				"OutputItem",
-				"(O)424"
+				"(O)303"
 			],
 			"Entries": {
-				"ItemId": "6480.qualitygoods_LargeCheese",
 				"CopyQuality": true,
 				"PriceModifiers": [
 					{
@@ -132,5 +42,147 @@
 				]
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_TeaLeaves",
+				"OutputItem",
+				"(O)614"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_CoffeeBeans",
+				"OutputItem",
+				"(O)395"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": 2,
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				],
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Honey",
+				"OutputItem",
+				"(O)459"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Rice",
+				"OutputItem",
+				"(O)419"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": 2,
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				],
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Juice",
+				"OutputItem",
+				"Default"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wine",
+				"OutputItem",
+				"Default"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		}
 	]
 }
