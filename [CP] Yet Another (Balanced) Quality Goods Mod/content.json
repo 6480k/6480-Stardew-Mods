@@ -90,7 +90,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/cheesepress.json, data/keg.json, data/mayomachine.json, data/preservesjar.json, data/oilmaker.json, data/dehydrator.json"
+			"FromFile": "data/cheesepress.json, data/keg.json, data/mayomachine.json, data/preservesjar.json, data/oilmaker.json, data/dehydrator.json, data/cask.json"
 		},
 		{
 			"Action": "Include",
