@@ -77,7 +77,7 @@
 				}
 			]
 		},
-		{
+		{//IGNORE THIS SECTION UNLESS YOU NEED SPECIAL MULTI-YIELD  FUNCTION FOR YOUR CROP (such as sunflower crops producing flowers and seeds)
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/CropExtensionData",
 			"Entries": {
