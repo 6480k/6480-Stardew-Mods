@@ -1,32 +1,33 @@
 {
 	"Format": "2.0.0",
 	"Changes": [
-		{
+		{//this block "loads" your .png images as "textures" so the game can use them
 			"Action": "Load",
-			"Target": "Mods/6480.crops.arabidopsis/object, Mods/6480.crops.arabidopsis/seeds, Mods/6480.crops.arabidopsis/crop",
-			"FromFile": "assets/{{TargetWithoutPath}}.png"
+			"Target": "Mods/6480.crops.arabidopsis/object, Mods/6480.crops.arabidopsis/seeds, Mods/6480.crops.arabidopsis/crop",//the custom texture name to use. This needs to be unique between mods, so it is highly recommended to include your *unique mod Id* as part of the path. Texture name can be anything
+			"FromFile": "assets/{{TargetWithoutPath}}.png"//automatically pulls from the .png image with the same name as the texture--for example "assets/object.png". Make sure they're in a folder matching the path here
 		},
-		{
+		//I listed multiple textures at once for convenience. If you want, you can list one at a time with one "load" action block for each.
+		{//Add your new items ("objects") to the game data
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
-				"6480.crops.arabidopsis_MouseEarCress": {
+				"6480.crops.arabidopsis_MouseEarCress": {//this value is the Item ID. Also needs to be unique, so put your full mod id at the beginning.
 					"Name": "6480.crops.arabidopsis_MouseEarCress",
-					"Displayname": "{{i18n:MouseEarCress_name}}",
-					"Description": "{{i18n:MouseEarCress_description}}",
+					"Displayname": "{{i18n:MouseEarCress_name}}",//These i18n keys are automatically linked to the data in the i18n folder for translation purposes. If you dont intend to ever translate your mod, you can just put a normal string here instead, like "Mouse-Ear Cress"
+					"Description": "{{i18n:MouseEarCress_description}}",//i18n keys only need to be unique inside your modl
 					"Type": "Flower",
-					"Category": -80,
-					"Price": 100,
+					"Category": -80,//category number for flowers. More important than the Type field
+					"Price": 100,//money earned when player sells it
 					"Edibility": 5,
 					"EdibleIsDrink": false,
-					"Texture": "Mods/6480.crops.arabidopsis/object"
+					"Texture": "Mods/6480.crops.arabidopsis/object"//must exactly match the name of one of your loaded textures, NOT your .png
 				},
 				"6480.crops.arabidopsis_MouseEarCressSeeds": {
 					"Name": "6480.crops.arabidopsis_MouseEarCressSeeds",
 					"Displayname": "{{i18n:MouseEarCressSeeds_name}}",
 					"Description": "{{i18n:MouseEarCressSeeds_description}}",
 					"Type": "Seeds",
-					"Category": -74,
+					"Category": -74,//crop seeds must be category -74 to plant crops
 					"Price": 40,
 					"Texture": "Mods/6480.crops.arabidopsis/seeds"
 				}
@@ -36,13 +37,13 @@
 			"Action": "EditData",
 			"Target": "Data/Crops",
 			"Entries": {
-				"6480.crops.arabidopsis_MouseEarCressSeeds": {
+				"6480.crops.arabidopsis_MouseEarCressSeeds": {//this must EXACTLY match the item id of your seeds item
 					"Seasons": [
 						"spring",
 						"summer",
 						"fall"
 					],
-					"DaysInPhase": [
+					"DaysInPhase": [//first two seed sprites on the crop image are not counted as a phase
 						1,
 						2,
 						1,
@@ -57,7 +58,7 @@
 				}
 			}
 		},
-		{
+		{//adds the seed item to robin's shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -70,7 +71,7 @@
 					"ItemId": "6480.crops.arabidopsis_MouseEarCressSeeds"
 				}
 			},
-			"MoveEntries": [
+			"MoveEntries": [//move the new seed entry in Robin's shop higher up. Optional
 				{
 					"Id": "6480.crops.arabidopsis_MouseEarCressSeeds",
 					"AfterID": "(BC)200"
