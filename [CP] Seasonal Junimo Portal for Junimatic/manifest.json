@@ -1,0 +1,21 @@
+{
+	"Name": "Seasonal Junimo Portal for Junimatic",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "Retextures the junimo portal from the mod Junimatic to be seasonal.",
+	"UniqueID": "6480.junimaticseasonalportal",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0.0"
+	},
+	"UpdateKeys": [
+		"Nexus: ???"
+	],
+	"Dependencies": [
+		{
+			"UniqueID": "NermNermNerm.Junimatic",
+			"IsRequired": true
+		}
+	]
+}

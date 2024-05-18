@@ -1,0 +1,119 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Mods/NermNermNerm/Junimatic/Sprites",
+			"FromFile": "assets/texture.png",
+			"When": {
+				"Season": "Spring",
+				"IsOutdoors": true,
+				"LocationContext|contains=Island": false
+			},
+			"Update": "OnLocationChange",
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/NermNermNerm/Junimatic/Sprites",
+			"FromFile": "assets/texture.png",
+			"When": {
+				"Season": "Summer",
+				"IsOutdoors": true,
+				"LocationContext|contains=Island": false
+			},
+			"Update": "OnLocationChange",
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"FromArea": {
+				"X": 16,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/NermNermNerm/Junimatic/Sprites",
+			"FromFile": "assets/texture.png",
+			"When": {
+				"Season": "Fall",
+				"IsOutdoors": true,
+				"LocationContext|contains=Island": false
+			},
+			"Update": "OnLocationChange",
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"FromArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/NermNermNerm/Junimatic/Sprites",
+			"FromFile": "assets/texture.png",
+			"When": {
+				"Season": "Winter",
+				"IsOutdoors": true,
+				"LocationContext|contains=Island": false
+			},
+			"Update": "OnLocationChange",
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"FromArea": {
+				"X": 48,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/NermNermNerm/Junimatic/Sprites",
+			"FromFile": "assets/texture.png",
+			"When": {
+				"IsOutdoors": true,
+				"LocationContext|contains=Island": true
+			},
+			"Update": "OnLocationChange",
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"FromArea": {
+				"X": 16,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}
+		}
+	]
+}
