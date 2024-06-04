@@ -27,27 +27,6 @@
 			"TargetField": [
 				"(BC)15",
 				"OutputRules",
-				"Default_Roe",
-				"OutputItem",
-				"Default"
-			],
-			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				]
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)15",
-				"OutputRules",
 				"Default_Pickled",
 				"OutputItem",
 				"Default"
