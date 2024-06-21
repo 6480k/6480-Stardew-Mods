@@ -1,0 +1,14 @@
+{
+	"Name": "[CP] Iridium Cat and Dog",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Adds unused iridium cat and dog into the game as pets.",
+	"UniqueID": "6480.iridiumpets",
+	"MinimumGameVersion": "1.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [
+		"Nexus:25361"
+	],
+}

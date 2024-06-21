@@ -1,0 +1,70 @@
+{
+	"Format": "2.0",
+	"ConfigSchema": {
+		"Price": {
+			"AllowValues": "4000000, 2000000, 1000000, 80000, 50000, 30000",
+			"Default": "1000000",
+			"Description": "Set the price of the pets in Marnie's shop."
+		}
+	},
+	"Changes": [
+		{
+			"LogName": "Load Textures",
+			"Action": "Load",
+			"Target": "6480.iridiumpets/icons",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Pets",
+			"TargetField": [
+				"Cat",
+				"Breeds"
+			],
+			"Entries": {
+				"6480.iridiumpets_cat": {
+					"Id": "6480.iridiumpets_cat",
+					"Texture": "Animals\\cat5",
+					"IconTexture": "6480.iridiumpets/icons",
+					"IconSourceRect": {
+						"X": 0,
+						"Y": 0,
+						"Width": 16,
+						"Height": 16
+					},
+					"CanBeChosenAtStart": false,
+					"CanBeAdoptedFromMarnie": true,
+					"AdoptionPrice": "{{Price}}",
+					"BarkOverride": null,
+					"VoicePitch": 1.0
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Pets",
+			"TargetField": [
+				"Dog",
+				"Breeds"
+			],
+			"Entries": {
+				"6480.iridiumpets_cat": {
+					"Id": "6480.iridiumpets_dog",
+					"Texture": "Animals\\dog5",
+					"IconTexture": "6480.iridiumpets/icons",
+					"IconSourceRect": {
+						"X": 16,
+						"Y": 0,
+						"Width": 16,
+						"Height": 16
+					},
+					"CanBeChosenAtStart": false,
+					"CanBeAdoptedFromMarnie": true,
+					"AdoptionPrice": "{{Price}}",
+					"BarkOverride": null,
+					"VoicePitch": 1.0
+				}
+			}
+		}
+	]
+}
