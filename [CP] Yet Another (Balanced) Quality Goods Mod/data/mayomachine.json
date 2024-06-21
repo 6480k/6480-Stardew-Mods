@@ -56,7 +56,7 @@
 				"CopyQuality": true,
 				"Quality": null,
 				"MinStack": 5,
-				"StackModifiers": [
+				"PriceModifiers": [
 					{
 						"Id": "6480.qualitygoods",
 						"Modification": "Multiply",

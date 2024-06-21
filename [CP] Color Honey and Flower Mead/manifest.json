@@ -1,0 +1,20 @@
+{
+	"Name": "[CP] Color Honey and Flower Mead",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Auto-colors honey from nearby flower type. Adds flower-flavored meads, also with different colors.",
+	"UniqueID": "6480.colorhoney",
+	"MinimumGameVersion": "1.6.0",
+	"UpdateKeys": [
+		"Nexus: ???"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "NCarigon.BetterHoneyMeadCP",
+			"IsRequired": true
+		}
+	]
+}

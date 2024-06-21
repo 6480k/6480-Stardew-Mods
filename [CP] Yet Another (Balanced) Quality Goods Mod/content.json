@@ -105,6 +105,13 @@
 			"When": {
 				"HasMod|contains = Cornucopia.MoreCrops": true
 			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/cornucopiaartisanmachines.json",
+			"When": {
+				"HasMod|contains = Cornucopia.ArtisanMachines": true
+			}
 		}
 	]
 }

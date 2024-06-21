@@ -1,5 +1,11 @@
 {
 	"Changes": [
+		{
+		"LogName": "Load Animation Textures",
+		"Action": "Load",
+		"Target": "6480.iridiumrecolor/Texture",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		},
 		//springobjects
 		{
 		"LogName": "Iridium Ore",
@@ -10,12 +16,36 @@
 		"ToArea": { "X": 32, "Y": 256, "Width": 16, "Height": 16 }
 		},
 		{
+		"LogName": "Iridium Ore Animation",
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"Entries": {
+			"Iridium Ore Animation": {
+				"TargetTexture": "Maps/springobjects",
+				"TargetRect": { "X": 32, "Y": 256, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:32..51@8"
+				}
+			}
+		},
+		{
 		"LogName": "Iridium Ore 2",
 		"Action": "EditImage",
 		"Target": "Maps/springobjects",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 96, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 48, "Y": 256, "Width": 16, "Height": 16 }
+		},
+		{
+		"LogName": "Iridium Ore Animation",
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"Entries": {
+			"Iridium Ore Animation 2": {
+				"TargetTexture": "Maps/springobjects",
+				"TargetRect": { "X": 48, "Y": 256, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:32..51@8"
+				}
+			}
 		},
 		{
 		"LogName": "Iridium Bar",
@@ -25,6 +55,19 @@
 		"FromArea": { "X": 16, "Y": 96, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 16 },
 		"When": {"Coordinated Crafting Bars": false}
+		},
+		{
+		"LogName": "Iridium Bar Animation",
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"When": {"Coordinated Crafting Bars": false}
+		"Entries": {
+			"Iridium Bar Animation": {
+				"TargetTexture": "Maps/springobjects",
+				"TargetRect": { "X": 16, "Y": 224, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:0..19@8"
+				}
+			}
 		},
 		{
 		"LogName": "Iridium Bar Coordinated",

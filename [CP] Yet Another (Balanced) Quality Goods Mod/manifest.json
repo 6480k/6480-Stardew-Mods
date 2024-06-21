@@ -19,5 +19,9 @@
 			"UniqueID": "Cornucopia.MoreCrops",
 			"IsRequired": false
 		},
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": false
+		},
 	]
 }

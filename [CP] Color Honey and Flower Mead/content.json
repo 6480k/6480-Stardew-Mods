@@ -1,0 +1,98 @@
+{
+	"Format": "2.0",
+	"ConfigSchema": {
+		"Flower Mead": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allows processing flower flavored honey into flower flavored mead."
+		}
+	},
+	"Changes": [
+		{
+			"LogName": "Load textures",
+			"Action": "Load",
+			"Target": "6480.colorhoney/Objects",
+			"FromFile": "assets/objects.png"
+		},
+		{
+			"LogName": "Modify item sprites",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"340": {
+					"Texture": "6480.colorhoney/Objects",
+					"SpriteIndex": 0
+				}
+			}
+		},
+		{
+			"LogName": "Modify item sprites",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Flower Mead": true
+			},
+			"Fields": {
+				"459": {
+					"Texture": "6480.colorhoney/Objects",
+					"SpriteIndex": 2
+				}
+			}
+		},
+		/*{
+			"LogName": "Modify bee house machine rules",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"Default"
+			],
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.CopyColor": "true"
+				},
+				"CopyColor": true
+			}
+		},
+		{
+			"LogName": "Modify keg machine rules",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"Golden Mayo": true
+			},
+			"TargetField": [
+				"(BC)24",
+				"OutputRules"
+			],
+			"Entries": {
+				"6480.blueegg_GoldenEgg": {
+					"Id": "6480.blueegg_GoldenEgg",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)928",
+							"RequiredCount": 1
+						}
+					],
+					"OutputItem": [
+						{
+							"Id": "(O)6480.blueegg_GoldenMayo",
+							"ItemId": "(O)6480.blueegg_GoldenMayo"
+						}
+					],
+					"MinutesUntilReady": 180
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "6480.blueegg_GoldenEgg",
+					"ToPosition": "Top"
+				}
+			]
+		}*/
+	]
+}

@@ -41,6 +41,11 @@
 			"Default": "true",
 			"Description": "Whether stardrops should change to match the iridium color."
 		},
+		"Enable Animations": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Animates some items like iridium ore, iridium bar, iridium ore nodes, and meteors."
+		},
 		"Coordinated Crafting Bars": {
 			"AllowValues": "true, false",
 			"Default": "false",
@@ -50,11 +55,6 @@
 			"AllowValues": "true, false",
 			"Default": "false",
 			"Description": "Retexture the milk pail and shears to match your iridium tools."
-		},
-		"Change Golden Scythe": {
-			"AllowValues": "true, false",
-			"Default": "false",
-			"Description": "Make the golden scythe match your iridium tools (only recommended for 1.5)."
 		},
 	},
 	"DynamicTokens": [
