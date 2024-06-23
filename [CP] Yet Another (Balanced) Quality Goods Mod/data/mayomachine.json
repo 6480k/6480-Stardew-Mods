@@ -54,7 +54,7 @@
 			],
 			"Entries": {
 				"CopyQuality": true,
-				"Quality": null,
+				"Quality": -1,
 				"MinStack": 5,
 				"PriceModifiers": [
 					{

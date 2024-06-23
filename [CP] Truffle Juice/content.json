@@ -1,0 +1,94 @@
+{
+	"Format": "2.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.trufflejuice/objects",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"6480.trufflejuice_TruffleJuice": {
+					"Name": "6480.trufflejuice_TruffleJuice",
+					"Category": -26,
+					"DisplayName": "{{i18n:TruffleJuice_name}}",
+					"Description": "{{i18n:TruffleJuice_description}}",
+					"Texture": "6480.trufflejuice/objects",
+					"Price": 2400,
+					"Edibility": 100,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_poppyseed"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pig",
+				"DeluxeProduceItemIds"
+			],
+			"Entries": {
+				"6480.trufflejuice_TruffleJuice": {
+					"Id": "6480.trufflejuice_TruffleJuice",
+					"Condition": "DAY_OF_WEEK 0",
+					"MinimumFriendship": 0,
+					"ItemId": "6480.trufflejuice_TruffleJuice"
+				}
+			}
+		},
+		{
+			"LogName": "Make Sheep Milk Harvested by Milk Pail instead of Shears",
+			"Action": "EditData",
+			"Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+			"Entries": {
+				"Pig": {
+					"AnimalProduceExtensionData": {
+						"(O)6480.trufflejuice_TruffleJuice": {
+							"HarvestTool": "Milk Pail"
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Hate"
+					],
+					"Value": "6480.trufflejuice_TruffleJuice",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leah",
+						1
+					],
+					"Value": "6480.trufflejuice_TruffleJuice",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Gus",
+						1
+					],
+					"Value": "6480.trufflejuice_TruffleJuice",
+					"Delimiter": " "
+				}
+			]
+		}
+	]
+}

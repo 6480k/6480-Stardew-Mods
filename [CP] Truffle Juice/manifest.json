@@ -1,0 +1,20 @@
+{
+	"Name": "[CP] Truffle Juice",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Milk your pigs.",
+	"UniqueID": "6480.trufflejuice",
+	"MinimumGameVersion": "1.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [
+		"Nexus:25414"
+	],
+	"Dependencies": [
+		{
+			"UniqueID": "selph.ExtraAnimalConfig",
+			"IsRequired": true
+		}
+	]
+}
