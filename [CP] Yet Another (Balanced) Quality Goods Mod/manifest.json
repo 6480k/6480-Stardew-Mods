@@ -23,5 +23,78 @@
 			"UniqueID": "Cornucopia.ArtisanMachines",
 			"IsRequired": false
 		},
+		{
+			"UniqueID": "Kitsutsune.Chocobovalley",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "UncleArya.ResourceChickens",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "ilucie.EmuBarnAnimal",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Alazdriel.Quails",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Meara.Roosters",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "jabbic.CPArtisanPackaging",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Dora.EverlastingFlowers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.gourmetpantry",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.atelierjuicebar",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.atelierbarista",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.alesxmeads",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.atelierfrozen",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.ateliercandy",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "wildflour.atelierfloral",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "HXW.FreshlyBaked",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Aimon111.AmanitaLover",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "radm.milkdasheep",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "DaLion.Professions",
+			"IsRequired": false
+		},
+
 	]
 }

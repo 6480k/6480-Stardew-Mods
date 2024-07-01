@@ -90,7 +90,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/cheesepress.json, data/keg.json, data/mayomachine.json, data/preservesjar.json, data/oilmaker.json, data/dehydrator.json, data/cask.json"
+			"FromFile": "data/cheesepress.json, data/keg.json, data/mayomachine.json, data/preservesjar.json, data/oilmaker.json, data/dehydrator.json"
 		},
 		{
 			"Action": "Include",
@@ -108,10 +108,123 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "compat/cornucopiaartisanmachines.json",
+			"FromFile": "compat/CornucopiaartisanMachines.json",
 			"When": {
 				"HasMod|contains = Cornucopia.ArtisanMachines": true
 			}
-		}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/chocobovalley.json",
+			"When": {
+				"HasMod|contains = Kitsutsune.Chocobovalley": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/resourcechickens.json",
+			"When": {
+				"HasMod|contains = UncleArya.ResourceChickens": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/ilucieEmu.json",
+			"When": {
+				"HasMod|contains = ilucie.EmuBarnAnimal": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/AlazdrielQuails.json",
+			"When": {
+				"HasMod|contains = Alazdriel.Quails": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/Meara.Roosters.json",
+			"When": {
+				"HasMod|contains = Meara.Roosters": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/artisanpackaging.json",
+			"When": {
+				"HasMod|contains = jabbic.CPArtisanPackaging": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/everlastingflowers.json",
+			"When": {
+				"HasMod|contains = Dora.EverlastingFlowers": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGgourmand.json",
+			"When": {
+				"HasMod|contains = wildflour.gourmetpantry": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGbarista(cold).json",
+			"When": {
+				"HasMod|contains = wildflour.atelierjuicebar": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGbarista(hot).json",
+			"When": {
+				"HasMod|contains = wildflour.atelierbarista": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGbrewer.json",
+			"When": {
+				"HasMod|contains = wildflour.alesxmeads": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGfrozengoods.json",
+			"When": {
+				"HasMod|contains = wildflour.atelierfrozen": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGsweets.json",
+			"When": {
+				"HasMod|contains = wildflour.ateliercandy": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/WAGflorist.json",
+			"When": {
+				"HasMod|contains = wildflour.atelierfloral": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/HXWfreshlybaked.json",
+			"When": {
+				"HasMod|contains = HXW.FreshlyBaked": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "compat/radm.milkdasheep.json",
+			"When": {
+				"HasMod|contains = radm.milkdasheep": true
+			}
+		},
+		
 	]
 }
