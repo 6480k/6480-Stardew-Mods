@@ -1,0 +1,12 @@
+{
+    "Changes": [
+
+        // PORTRAIT & SPRITE DEFAULT LOAD
+        {
+            "LogName": "Default Portraits & Sprites - REPLACE",
+            "Action": "Load",
+            "Target": "Characters/REPLACE, Portraits/REPLACE",
+            "FromFile": "Assets/{{Target}}/Seasonal/REPLACE_Seasonal_1.png"
+        }
+    ]
+}

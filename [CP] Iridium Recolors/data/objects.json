@@ -1,11 +1,5 @@
 {
 	"Changes": [
-		{
-		"LogName": "Load Animation Textures",
-		"Action": "Load",
-		"Target": "6480.iridiumrecolor/Texture",
-		"FromFile": "assets/{{saturationall}}/{{color}}.png",
-		},
 		//springobjects
 		{
 		"LogName": "Iridium Ore",
@@ -19,8 +13,9 @@
 		"LogName": "Iridium Ore Animation",
 		"Action": "EditData",
 		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"When": {"Enable Animations": true},
 		"Entries": {
-			"Iridium Ore Animation": {
+			"6480.iridiumrecolors/iridiumore1": {
 				"TargetTexture": "Maps/springobjects",
 				"TargetRect": { "X": 32, "Y": 256, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:32..51@8"
@@ -39,8 +34,9 @@
 		"LogName": "Iridium Ore Animation",
 		"Action": "EditData",
 		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"When": {"Enable Animations": true},
 		"Entries": {
-			"Iridium Ore Animation 2": {
+			"6480.iridiumrecolors/iridiumore2": {
 				"TargetTexture": "Maps/springobjects",
 				"TargetRect": { "X": 48, "Y": 256, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:32..51@8"
@@ -60,9 +56,12 @@
 		"LogName": "Iridium Bar Animation",
 		"Action": "EditData",
 		"Target": "spacechase0.SpaceCore/TextureOverrides",
-		"When": {"Coordinated Crafting Bars": false}
+		"When": {
+			"Coordinated Crafting Bars": false,
+			"Enable Animations": true
+		}
 		"Entries": {
-			"Iridium Bar Animation": {
+			"6480.iridiumrecolors/iridiumbar": {
 				"TargetTexture": "Maps/springobjects",
 				"TargetRect": { "X": 16, "Y": 224, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:0..19@8"
@@ -87,6 +86,19 @@
 		"ToArea": { "X": 336, "Y": 496, "Width": 16, "Height": 16 }
 		},
 		{
+		"LogName": "Iridium Ore Vein Animation",
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"When": {"Enable Animations": true},
+		"Entries": {
+			"6480.iridiumrecolors/iridiumorevein": {
+				"TargetTexture": "Maps/springobjects",
+				"TargetRect": { "X": 336, "Y": 496, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:64..83@8"
+				}
+			}
+		},
+		{
 		"LogName": "Meteor",
 		"Action": "EditImage",
 		"Target": "Maps/springobjects",
@@ -95,12 +107,26 @@
 		"ToArea": { "X": 352, "Y": 400, "Width": 32, "Height": 32 }
 		},
 		{
+		"LogName": "Meteor Animation",
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"When": {"Enable Animations": true},
+		"Entries": {
+			"6480.iridiumrecolors/meteor": {
+				"TargetTexture": "Maps/springobjects",
+				"TargetRect": { "X": 352, "Y": 400, "Width": 32, "Height": 32 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:32..47@8"
+				}
+			}
+		},
+		{
 		"LogName": "Iridium Sprinkler",
 		"Action": "EditImage",
 		"Target": "Maps/springobjects",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 80, "Y": 112, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 },
+		"When": {"Recolor Sprinkler": true}
 		},
 		{
 		"LogName": "Iridium Boots",
@@ -108,7 +134,8 @@
 		"Target": "Maps/springobjects",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 80, "Y": 128, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 160, "Y": 336, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 160, "Y": 336, "Width": 16, "Height": 16 },
+		"When": {"Recolor Shoes": true}
 		},
 		{
 		"LogName": "Stardrop New",
@@ -142,7 +169,8 @@
 		"Target": "Maps/springobjects",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 96, "Y": 96, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 240, "Y": 560, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 240, "Y": 560, "Width": 16, "Height": 16 },
+		"When": {"Recolor Shoes": true}
 		},
 		{
 		"LogName": "Iridium Milk",
@@ -175,7 +203,8 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 32, "Y": 96, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Iridium Fishing Rod",
@@ -183,7 +212,17 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 64, "Y": 96, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 },
+		"When": {"Recolor Tools": true}
+		},
+		{
+		"LogName": "Advanced Iridium Fishing Rod",
+		"Action": "EditImage",
+		"Target": "TileSheets/tools",
+		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+		"FromArea": { "X": 144, "Y": 96, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 272, "Y": 0, "Width": 16, "Height": 16 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Iridium Trash Can Icon",
@@ -191,7 +230,8 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 96, "Y": 160, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 256, "Y": 0, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 256, "Y": 0, "Width": 16, "Height": 16 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Iridium Hoe",
@@ -199,7 +239,8 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 160, "Width": 96, "Height": 32 },
-		"ToArea": { "X": 112, "Y": 48, "Width": 96, "Height": 32 }
+		"ToArea": { "X": 112, "Y": 48, "Width": 96, "Height": 32 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Iridium Pickaxe",
@@ -207,7 +248,8 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 192, "Width": 96, "Height": 32 },
-		"ToArea": { "X": 112, "Y": 112, "Width": 96, "Height": 32 }
+		"ToArea": { "X": 112, "Y": 112, "Width": 96, "Height": 32 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Iridium Axe",
@@ -215,7 +257,8 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 224, "Width": 96, "Height": 32 },
-		"ToArea": { "X": 112, "Y": 176, "Width": 96, "Height": 32 }
+		"ToArea": { "X": 112, "Y": 176, "Width": 96, "Height": 32 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Iridium Watering Can",
@@ -223,7 +266,8 @@
 		"Target": "TileSheets/tools",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 256, "Width": 80, "Height": 32 },
-		"ToArea": { "X": 112, "Y": 240, "Width": 80, "Height": 32 }
+		"ToArea": { "X": 112, "Y": 240, "Width": 80, "Height": 32 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Pail and Shears",
@@ -232,7 +276,34 @@
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 80, "Y": 256, "Width": 32, "Height": 16 },
 		"ToArea": { "X": 96, "Y": 0, "Width": 32, "Height": 16 },
-		"When": {"Iridium Pail and Shears": true}
+		"When": {"Iridium Pail and Shears": true,"Recolor Tools": true}
+		},
+		{
+		"LogName": "Iridium Pan",
+		"Action": "EditImage",
+		"Target": "TileSheets/tools",
+		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+		"FromArea": { "X": 160, "Y": 96, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 320, "Y": 0, "Width": 16, "Height": 16 },
+		"When": {"Recolor Tools": true}
+		},
+		{
+		"LogName": "Iridium Pan Farmer",
+		"Action": "EditImage",
+		"Target": "Characters/Farmer/hats",
+		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+		"FromArea": { "X": 208, "Y": 160, "Width": 16, "Height": 80 },
+		"ToArea": { "X": 22, "Y":719, "Width": 16, "Height": 80 },
+		"When": {"Recolor Tools": true}
+		},
+		{
+		"LogName": "Iridium Pan Pet",
+		"Action": "EditImage",
+		"Target": "Characters/Farmer/hats_animals",
+		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+		"FromArea": { "X": 208, "Y": 160, "Width": 16, "Height": 80 },
+		"ToArea": { "X": 22, "Y": 719, "Width": 16, "Height": 80 },
+		"When": {"Recolor Tools": true}
 		},
 		//weapons
 		{
@@ -241,7 +312,8 @@
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 112, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+		"When": {"Recolor Weapons": true}
 		},
 		{
 		"LogName": "Galaxy Dagger",
@@ -249,7 +321,8 @@
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 32, "Y": 112, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 },
+		"When": {"Recolor Weapons": true}
 		},
 		{
 		"LogName": "Galaxy Hammer",
@@ -257,7 +330,8 @@
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 16, "Y": 112, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 },
+		"When": {"Recolor Weapons": true}
 		},
 		{
 		"LogName": "Dragon Tooth Weapons",
@@ -265,7 +339,8 @@
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 128, "Width": 48, "Height": 16 },
-		"ToArea": { "X": 16, "Y": 112, "Width": 48, "Height": 16 }
+		"ToArea": { "X": 16, "Y": 112, "Width": 48, "Height": 16 },
+		"When": {"Recolor Weapons": true}
 		},
 		{
 		"LogName": "Infinity Weapons",
@@ -273,7 +348,8 @@
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 144, "Width": 48, "Height": 16 },
-		"ToArea": { "X": 80, "Y": 112, "Width": 48, "Height": 16 }
+		"ToArea": { "X": 80, "Y": 112, "Width": 48, "Height": 16 },
+		"When": {"Recolor Weapons": true}
 		},
 		{
 		"LogName": "Infinity Dagger",
@@ -281,16 +357,17 @@
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 48, "Y": 144, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 }
+		"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 },
+		"When": {"Recolor Weapons": true}
 		},
 		{
-		"LogName": "Golden Scythe",
+		"LogName": "Iridium Scythe",
 		"Action": "EditImage",
 		"Target": "TileSheets/weapons",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
-		"FromArea": { "X": 48, "Y": 96, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16 },
-		"When": {"Change Golden Scythe": true}
+		"FromArea": { "X": 128, "Y": 96, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 32, "Y": 128, "Width": 16, "Height": 16 },
+		"When": {"Recolor Tools": true}
 		},
 		//miscellaneous
 		{
@@ -315,7 +392,8 @@
 		"Target": "TileSheets/Craftables",
 		"FromFile": "assets/{{saturationmachines}}/{{color}}.png",
 		"FromArea": { "X": 112, "Y": 160, "Width": 48, "Height": 32 },
-		"ToArea": { "X": 64, "Y": 608, "Width": 48, "Height": 32 }
+		"ToArea": { "X": 64, "Y": 608, "Width": 48, "Height": 32 },
+		"When": {"Reskin Slime Machines": true}
 		},
 		{
 		"LogName": "Iridium Cat Statue",
@@ -366,16 +444,8 @@
 		"Target": "LooseSprites/Cursors",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
 		"FromArea": { "X": 96, "Y": 176, "Width": 18, "Height": 37 },
-		"ToArea": { "X": 236, "Y": 102, "Width": 18, "Height": 37 }
+		"ToArea": { "X": 636, "Y": 102, "Width": 18, "Height": 37 }
 		},
-		//{
-		//"LogName": "Qi Coin",
-		//"Action": "EditImage",
-		//"Target": "LooseSprites/Cursors",
-		//"FromFile": "assets/{{saturationall}}/{{color}}.png",
-		//"FromArea": { "X": 101, "Y": 278, "Width": 9, "Height": 10 },
-		//"ToArea": { "X": 211, "Y": 373, "Width": 9, "Height": 10 }
-		//},
 		{
 		"LogName": "Rare Item Purple",
 		"Action": "EditImage",
@@ -455,7 +525,7 @@
 		"Action": "EditImage",
 		"Target": "LooseSprites/Movies",
 		"FromFile": "assets/saturated/{{color}}.png",
-		"FromArea": { "X": 128, "Y": 296, "Width": 65, "Height": 56 },
+		"FromArea": { "X": 0, "Y": 440, "Width": 65, "Height": 56 },
 		"ToArea": { "X": 309, "Y": 709, "Width": 65, "Height": 56 },
 		"When": {"Change Stardrop Color": true}
 		},
@@ -464,7 +534,7 @@
 		"Action": "EditImage",
 		"Target": "LooseSprites/Movies",
 		"FromFile": "assets/saturated/{{color}}.png",
-		"FromArea": { "X": 128, "Y": 352, "Width": 38, "Height": 22 },
+		"FromArea": { "X": 0, "Y": 496, "Width": 38, "Height": 22 },
 		"ToArea": { "X": 429, "Y": 719, "Width": 38, "Height": 22 },
 		"When": {"Stardrop Shape": "new", "Change Stardrop Color": true}
 		},
@@ -473,7 +543,7 @@
 		"Action": "EditImage",
 		"Target": "LooseSprites/Movies",
 		"FromFile": "assets/saturated/{{color}}.png",
-		"FromArea": { "X": 128, "Y": 374, "Width": 38, "Height": 22 },
+		"FromArea": { "X": 0, "Y": 518, "Width": 38, "Height": 22 },
 		"ToArea": { "X": 429, "Y": 719, "Width": 38, "Height": 22 },
 		"When": {"Stardrop Shape": "classic", "Change Stardrop Color": true}
 		},
@@ -505,6 +575,7 @@
 		"FromArea": { "X": 112, "Y": 104, "Width": 4, "Height": 8 },
 		"ToArea": { "X": 0, "Y": 10, "Width": 4, "Height": 8 },
 		"PatchMode": "Overlay",
+		"When": {"Recolor Shoes": true}
 		},
 		{
 		"LogName": "Iridium Breastplate",
@@ -531,6 +602,109 @@
 		"ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 96 }
 		},
 		{
+		"LogName": "Iridium Ore Vein Animation",
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/TextureOverrides",
+		"When": {"Enable Animations": true},
+		"Entries": {
+			"6480.iridiumrecolors/iridiumcrab2": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 0, "Y": 5, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab3": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 16, "Y": 1, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab4": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 32, "Y": 1, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab5": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 48, "Y": 1, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab6": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 0, "Y": 29, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab7": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 16, "Y": 25, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab8": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 32, "Y": 25, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab9": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 48, "Y": 25, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab10": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 0, "Y": 52, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab11": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 16, "Y": 49, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab12": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 32, "Y": 49, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab13": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 48, "Y": 49, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab14": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 0, "Y": 77, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab15": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 16, "Y": 73, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab16": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 32, "Y": 73, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			},
+			"6480.iridiumrecolors/iridiumcrab16": {
+				"TargetTexture": "Characters/Monsters/Iridium Crab",
+				"TargetRect": { "X": 48, "Y": 73, "Width": 16, "Height": 16 },
+				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
+				}
+			}
+		},
+		{
 		"LogName": "Iridium Bat",
 		"Action": "EditImage",
 		"Target": "Characters/Monsters/Iridium Bat",
@@ -538,5 +712,93 @@
 		"FromArea": { "X": 64, "Y": 288, "Width": 64, "Height": 112 },
 		"ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 112 }
 		},
+		//1.6 misc
+		{
+		"LogName": "Stardrop Tea",
+		"Action": "EditImage",
+		"Target": "TileSheets/Objects_2",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 160, "Y": 144, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 64, "Y": 128, "Width": 16, "Height": 16 },
+		"When": {"Change Stardrop Color": true}
+		},
+		{
+		"LogName": "Skill Book 1",
+		"Action": "EditImage",
+		"Target": "TileSheets/Objects_2",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 176, "Y": 144, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 16, "Y": 176, "Width": 16, "Height": 16 },
+		},
+		{
+		"LogName": "Skill Book 2",
+		"Action": "EditImage",
+		"Target": "TileSheets/Objects_2",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 192, "Y": 144, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 16 },
+		},
+		{
+		"LogName": "Iridium Ore Bobber",
+		"Action": "EditImage",
+		"Target": "TileSheets/Objects_2",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 0, "Y": 96, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 48, "Y": 128, "Width": 16, "Height": 16 },
+		},
+		{
+		"LogName": "Iridium Ore Bobber Sunken",
+		"Action": "EditImage",
+		"Target": "TileSheets/Objects_2",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 176, "Y": 96 , "Width": 16, "Height": 16 },
+		"ToArea": { "X": 48, "Y": 144, "Width": 16, "Height": 16 },
+		},
+		{
+		"LogName": "Stardrop Bobber",
+		"Action": "EditImage",
+		"Target": "TileSheets/Objects_2",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 208, "Y": 128, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32 },
+		"When": {"Change Stardrop Color": true}
+		},
+		{
+		"LogName": "Stardrop Thingie",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors_1_6",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"PatchMode": "Overlay",
+		"FromArea": { "X": 192, "Y": 128, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 397, "Y": 313, "Width": 16, "Height": 16 },
+		"When": {"Change Stardrop Color": true}
+		},
+		{
+		"LogName": "Skill Tab",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors_1_6",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"PatchMode": "Overlay",
+		"FromArea": { "X": 157, "Y": 128, "Width": 8, "Height": 8 },
+		"ToArea": { "X": 220, "Y": 499, "Width": 8, "Height": 8 }
+		},
+		{
+		"LogName": "Turtle Icon",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors_1_6",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 192, "Y": 160, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 288, "Y": 381, "Width": 16, "Height": 16 },
+		"When": {"Recolor Pets": true}
+		},
+		{
+		"LogName": "Turtle",
+		"Action": "EditImage",
+		"Target": "Animals/turtle1",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 384, "Y": 272, "Width": 128, "Height": 288 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 288 },
+		"When": {"Recolor Pets": true}
+		},
 	]
-}
+} 

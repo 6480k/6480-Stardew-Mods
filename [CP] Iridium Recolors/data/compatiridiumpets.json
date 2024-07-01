@@ -1,0 +1,28 @@
+{
+	"Changes": [
+		{
+		"LogName": "Icons",
+		"Action": "EditImage",
+		"Target": "6480.iridiumpets/icons",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 160, "Y": 160, "Width": 32, "Height": 16 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 }
+		},
+		{
+		"LogName": "Iridium Dog",
+		"Action": "EditImage",
+		"Target": "Animals\\dog5",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 256, "Y": 272, "Width": 128, "Height": 288 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 288 }
+		},
+		{
+		"LogName": "Iridium Cat",
+		"Action": "EditImage",
+		"Target": "Animals\\cat5",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 128, "Y": 304, "Width": 128, "Height": 256 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 256 }
+		}
+	]
+} 

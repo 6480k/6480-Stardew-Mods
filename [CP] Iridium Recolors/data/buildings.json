@@ -4,8 +4,8 @@
          "Action": "EditImage",
          "Target": "Buildings/Slime Hutch",
          "FromFile": "assets/{{saturationslimehutch}}/{{color}}.png",
-         "FromArea": { "X": 336, "Y": 96, "Width": 176, "Height": 144 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 176, "Height": 144 }
+         "FromArea": { "X": 224, "Y": 128, "Width": 112, "Height": 112 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 112, "Height": 112 }
 		},
 		{
          "Action": "EditImage",

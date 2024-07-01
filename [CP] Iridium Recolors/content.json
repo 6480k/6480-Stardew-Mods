@@ -31,6 +31,11 @@
 			"Default": "true",
 			"Description": "Turns on and off the option to use the slime hutch reskin. Set this to 'false' if you want to use another slime hutch retexture mod."
 		},
+		"Reskin Slime Machines": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allows recoloring the Slime Incubator and Slime Egg Press."
+		},
 		"Stardrop Shape": {
 			"AllowValues": "new, classic",
 			"Default": "new",
@@ -45,6 +50,31 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Animates some items like iridium ore, iridium bar, iridium ore nodes, and meteors."
+		},
+		"Recolor Pets": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable recoloring the purple turtle and (with Iridium Cat and Dog installed) the purple cat and dog."
+		},
+		"Recolor Tools": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allow recoloring tools."
+		},
+		"Recolor Weapons": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allow recoloring weapons."
+		},
+		"Recolor Shoes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allow recoloring Iridium and Dragonscale Boots."
+		},
+		"Recolor Sprinkler": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allow recoloring Iridium Sprinkler."
 		},
 		"Coordinated Crafting Bars": {
 			"AllowValues": "true, false",
@@ -155,7 +185,7 @@
 		"LogName": "Vanilla Stardrop New Shape",
 		"Action": "EditImage",
 		"Target": "Maps/springobjects",
-		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromFile": "assets/stardropvanilla.png",
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 32, "Y": 288, "Width": 16, "Height": 16 },
 		"When": {"Color": "off", "Stardrop Shape": "new"}
@@ -164,13 +194,23 @@
 		"LogName": "Objects",
 		"Action": "Include",
 		"FromFile": "data/objects.json",
-		"When": {"Color |contains=off": "false"}
+		"When": {"Color |contains=off": false}
 		},
 		{
 		"LogName": "Buildings",
 		"Action": "Include",
 		"FromFile": "data/buildings.json",
-		"When": {"Reskin Slime Hutch": true, "Color |contains=off": "false"}
+		"When": {"Reskin Slime Hutch": true, "Color |contains=off": false}
+		},
+		{
+		"LogName": "Iridium Cat and Dog Compat",
+		"Action": "Include",
+		"FromFile": "data/compatiridiumpets.json",
+		"When": {
+			"Color |contains=off": false,
+			"HasMod|contains=6480.iridiumpets":true,
+			"Recolor Pets": true
+			}
 		},
 	]
 }

@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+		"LogName": "Iridium Ore",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 0, "Y": 96, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 32, "Y": 256, "Width": 16, "Height": 16 }
+		},
+	]
+} 

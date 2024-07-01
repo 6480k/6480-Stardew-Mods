@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        // LETTERS
+        {
+            "LogName": "ExampleLetter",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "REPLACEEXAMPLE":"{{i18n:Mail.REPLACE.Letter1}}",
+            }
+        },
+
+        // TRIGGER ACTIONS
+        {
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModID}}_REPLACE": {
+					"Id": "{{ModID}}_REPLACE",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current EVENTID",
+					"Actions": [
+						"AddMail Current REPLACE tomorrow",
+					]
+				}
+			}
+		},
+
+        
+    ]
+}

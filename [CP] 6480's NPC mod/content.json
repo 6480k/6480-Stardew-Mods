@@ -1,0 +1,69 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Dynamic Seasonal Outfits": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When enabled, characters will dynamically change outfits based on season, weather, time of day, and random chance. Without this setting, characters will only have one standard, one beach, and one winter outfit, like vanilla NPCs."
+		}
+	},
+	"Changes": [
+		{
+			"LogName": "NPC Blank Loads",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/6480.Jirawat, Characters/Schedules/6480.Jirawat, Characters/Dialogue/6480.Clove, Characters/Schedules/6480.Clove, Characters/Dialogue/6480.Pravuil, Characters/Schedules/6480.Pravuil",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Jirawat Portraits",
+			"Action": "Load",
+			"Target": "Portraits/6480.Jirawat_default",
+			"FromFile": "assets/Jirawat/portraits/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Jirawat Sprites",
+			"Action": "Load",
+			"Target": "Characters/6480.Jirawat_default",
+			"FromFile": "assets/Jirawat/sprites/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Clove Portraits",
+			"Action": "Load",
+			"Target": "Portraits/6480.Clove_default",
+			"FromFile": "assets/Clove/portraits/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "CLove Sprites",
+			"Action": "Load",
+			"Target": "Characters/6480.Clove_default",
+			"FromFile": "assets/Clove/sprites/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Pravuil Portraits",
+			"Action": "Load",
+			"Target": "Portraits/6480.Pravuil_default",
+			"FromFile": "assets/Pravuil/portraits/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Pravuil Sprites",
+			"Action": "Load",
+			"Target": "Characters/6480.Pravuil_default",
+			"FromFile": "assets/Pravuil/sprites/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "NPC Includes",
+			"Action": "Include",
+			"FromFile": "data/dispositions.json, data/dialogue_Jirawat.json, data/schedule_Jirawat.json, data/gifttastes.json"
+		},
+		{
+			"LogName": "NPC Includes Template",
+			"Action": "Include",
+			"FromFile": "Data/Appearances/AppearanceData_NPCNameHere.json, Data/Dialogue/NPCNameHere/Dialogue_NPCNameHere.json, Data/Dialogue/NPCNameHere/ConcessionTastes_NPCNameHere.json, Data/Dialogue/NPCNameHere/ConversationTopics_NPCNameHere.json, Data/Dialogue/NPCNameHere/ConversationTopics_Vanilla.json, Data/Dialogue/NPCNameHere/CustomFixed_NPCNameHere.json,Data/Dialogue/NPCNameHere/CustomGiftDialogue_NPCNameHere.json, Data/Dialogue/NPCNameHere/MarriageDialogue_NPCNameHere.json, Data/Festival Data/FestivalData_NPCNameHere.json, Data/Schedules/Schedule_NPCNameHere.json, Data/Strings/Strings_NPCNameHere.json, Data/Spouse Extras/SpouseExtras_NPCNameHere.json"
+		},
+		{
+			"LogName": "Data Includes",
+			"Action": "Include",
+			"FromFile": "Data/BlankLoads.json, Data/MapPatches.json, Data/TemporaryActors.json, Data/ScheduleAnimations.json, Data/NPCGiftTastes.json, Data/Music.json, Data/Festival Data/FestivalData_Dialogue.json, Data/Events/EventsData_Replace.json,"
+		}
+	]
+}

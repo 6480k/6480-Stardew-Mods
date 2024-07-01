@@ -1,0 +1,73 @@
+{
+	"Changes": [
+		{
+			"LogName": "Jirawat Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/6480.Jirawat",
+			"Entries": {
+				"Mon": "{{i18n:Jirawat.Dialogue_Mon}}",
+				"Tue": "{{i18n:Jirawat.Dialogue_Tue}}",
+				"Wed": "{{i18n:Jirawat.Dialogue_Wed}}",
+				"Thu": "{{i18n:Jirawat.Dialogue_Thu}}",
+				"Fri": "{{i18n:Jirawat.Dialogue_Fri}}",
+				"Sat": "{{i18n:Jirawat.Dialogue_Sat}}",
+				"Sun": "{{i18n:Jirawat.Dialogue_Sun}}",
+				"winter_14": "{{i18n:Jirawat.Dialogue_winter_14}}",
+				"6480.JirawatRestaurant": "{{i18n:Jirawat.Dialogue_restaurant{{Random: 1,2,3}}}}",
+				"Introduction": "{{i18n:Core.REPLACE.Introduction}}",
+				"joja_Begin": "{{i18n:Core.REPLACE.JojaBegin}}",
+				"cc_Begin": "{{i18n:Core.REPLACE.CCBegin}}",
+				"cc_Bus": "{{i18n:Core.REPLACE.CCBus}}",
+				"cc_Minecart": "{{i18n:Core.REPLACE.CCMinecart}}",
+				"cc_Complete": "{{i18n:Core.REPLACE.CCComplete}}",
+				"movieTheater": "{{i18n:Core.REPLACE.MovieTheater}}",
+				"winter_12": "{{i18n:Core.REPLACE.Winter12}}",
+				"winter_19": "{{i18n:Core.REPLACE.Winter19}}",
+				"spring_28": "{{i18n:Core.REPLACE.SpringEnd}}",
+				"summer_28": "{{i18n:Core.REPLACE.SummerEnd}}",
+				"fall_28": "{{i18n:Core.REPLACE.FallEnd}}",
+				"winter_28": "{{i18n:Core.REPLACE.WinterEnd}}",
+				"CommunityCenter4": "{{i18n:Core.REPLACE.CommunityCenter4}}",
+				"CommunityCenter6": "{{i18n:Core.REPLACE.CommunityCenter6}}",
+				"CommunityCenter8": "{{i18n:Core.REPLACE.CommunityCenter8}}",
+				"CommunityCenter10": "{{i18n:Core.REPLACE.CommunityCenter10}}",
+				"spring_12": "{{i18n:Core.REPLACE.EggFestival}}",
+				"spring_23": "{{i18n:Core.REPLACE.FlowerDance}}",
+				"summer_10": "{{i18n:Core.REPLACE.Luau}}",
+				"summer_27": "{{i18n:Core.REPLACE.MoonlightJelly}}",
+				"fall_15": "{{i18n:Core.REPLACE.SDVFair}}",
+				"fall_26": "{{i18n:Core.REPLACE.SpiritsEve}}",
+				"winter_7": "{{i18n:Core.REPLACE.IceFestival}}",
+				"winter_16": "{{i18n:Core.REPLACE.NightMarket}}",
+				"winter_24": "{{i18n:Core.REPLACE.WinterStar}}",
+				"Resort_Entering": "{{i18n:Core.REPLACE.ResortEntering}}",
+				"Resort_Leaving": "{{i18n:Core.REPLACE.ResortLeaving}}",
+				"Resort_Shore": "{{i18n:Core.REPLACE.ResortShore}}",
+				"Resort_Umbrella": "{{i18n:Core.REPLACE.ResortUmbrella}}",
+				"Resort_Wander": "{{i18n:Core.REPLACE.ResortWander}}",
+				"Resort_Wander_2": "{{i18n:Core.REPLACE.ResortWander.2}}",
+				"Resort_Chair": "{{i18n:Core.REPLACE.ResortChair}}",
+				"Resort_Bar": "{{i18n:Core.REPLACE.ResortBar}}",
+				"Resort_Towel": "{{i18n:Core.REPLACEResortTowel}}",
+				"Resort_Towel_2": "{{i18n:Core.REPLACE.ResortTowel.2}}",
+				"Resort_Towel_3": "{{i18n:Core.REPLACE.Resort_Towel.3}}",
+				"Resort": "{{i18n:Core.REPLACE.Resort}}",
+				"Saloon4": "{{i18n:Core.REPLACE.Saloon.4h}}",
+				"Saloon6": "{{i18n:Core.REPLACE.Saloon.6h}}",
+				"Saloon8": "{{i18n:Core.REPLACE.Saloon.8h}}",
+				"Saloon10": "{{i18n:Core.REPLACE.Saloon.10h.{{REPLACERomance}}}}",
+				"GreenRain": "{{i18n:Core.REPLACE.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Core.REPLACE.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Core.REPLACE.GreenRain2}}"
+			}
+		},
+		{
+			"LogName": "Jirawat Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/6480.Jirawat",
+			"Entries": {
+				"Schedule1": "{{i18n: Jirawat.Dialogue.Schedule_Schedule1}}"
+			}
+		}
+	]
+}
