@@ -794,9 +794,9 @@
 			"TargetField": [
 				"(BC)wildflour.atelierfloral_FragranceStation",
 				"OutputRules",
-				"wildflour.atelierfloral_fairy_rose_perfume",
+				"wildflour.atelierfloral_fairy_perfume",
 				"OutputItem",
-				"wildflour.atelierfloral_fairy_rose_perfume"
+				"wildflour.atelierfloral_fairy_perfume"
 			],
 			"Entries": {
 				"CopyQuality": true,
