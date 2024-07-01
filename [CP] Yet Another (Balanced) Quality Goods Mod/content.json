@@ -216,7 +216,6 @@
 			"FromFile": "compat/HXWfreshlybaked.json",
 			"When": {
 				"HasMod|contains = HXW.FreshlyBaked": true,
-				"HasMod|contains = Atelier.Cauldron": true
 			}
 		},
 		{
