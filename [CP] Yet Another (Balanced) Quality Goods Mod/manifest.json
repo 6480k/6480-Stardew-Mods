@@ -12,11 +12,6 @@
 	},
 	"Dependencies": [
 		{
-			"UniqueID": "Atelier.Cauldron",
-			"IsRequired": false
-			
-		},
-		{
 			"UniqueID": "6480.blueegg",
 			"IsRequired": false
 		},
