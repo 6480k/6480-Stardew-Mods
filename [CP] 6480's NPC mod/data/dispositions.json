@@ -5,8 +5,8 @@
 			"Action": "EditData",
 			"Target": "Data/Characters",
 			"Entries": {
-				"6480.Jirawat": {
-					"DisplayName": "{{i18n:Jirawat_name}}",
+				"6480.Piyawat": {
+					"DisplayName": "{{i18n:Piyawat_name}}",
 					"Gender": "Male",
 					"Age": "Adult",
 					"Manner": "Polite",
@@ -35,7 +35,7 @@
 							"Direction": "Down"
 						}
 					],
-					"TextureName": "6480.Jirawat_default",
+					"TextureName": "6480.Piyawat_default",
 					"Appearance": [
 						{
 							"ID": "Winter default",
@@ -43,14 +43,14 @@
 							"Season": "Winter",
 							"Precedence": -100,
 							"Weight": 4,
-							"Portrait": "Portraits/6480.Jirawat_winterdefault",
-							"Sprite": "Portraits/6480.Jirawat_winterdefault"
+							"Portrait": "Portraits/6480.Piyawat_winterdefault",
+							"Sprite": "Portraits/6480.Piyawat_winterdefault"
 						},
 						{
 							"ID": "Resort",
 							"IsIslandAttire": true,
-							"Portrait": "Portraits/6480.Jirawat_beach",
-							"Sprite": "Characters/6480.Jirawat_beach",
+							"Portrait": "Portraits/6480.Piyawat_beach",
+							"Sprite": "Characters/6480.Piyawat_beach",
 							"Precedence": -100
 						}
 					]
@@ -66,7 +66,7 @@
 					"BirthDay": 14,
 					"HomeRegion": "Town",
 					"FriendsAndFamily": {
-						"6480.Jirawat": "{{i18n:Jirawat_nickname}}",
+						"6480.Piyawat": "{{i18n:Piyawat_nickname}}",
 						"6480.Pravuil": "{{i18n:Pravuil_name}}"
 					},
 					"WinterStarGifts": [
@@ -116,7 +116,7 @@
 					"IsDarkSkinned": true,
 					"FriendsAndFamily": {
 						"6480.Clove": "{{i18n:Clove_name}}",
-						"6480.Jirawat": "{{i18n:Jirawat_nickname}}"
+						"6480.Piyawat": "{{i18n:Piyawat_nickname}}"
 					},
 					"WinterStarGifts": [
 						100

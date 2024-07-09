@@ -16,6 +16,11 @@
 			"Default":  "true",
 			"Description": "Whether or not tools are desaturated. Set to true by default to match vanilla iridium color schemes."
 		},
+		"Desaturate Weapons": {
+			"AllowValues": "true, false",
+			"Default":  "false",
+			"Description": "Whether or not weapons are desaturated. Set to true by default to match vanilla iridium color schemes."
+		},
 		"Desaturate Machines": {
 			"AllowValues": "true, false",
 			"Default": "true",
@@ -143,6 +148,20 @@
 			"Value": "desaturated",
 			"When": {"Desaturate All": true}
 		},
+		{
+			"Name": "saturationweapons",
+			"Value": "saturated"
+		},
+		{
+			"Name": "saturationweapons",
+			"Value": "desaturated",
+			"When": {"Desaturate Weapons": true}
+		},
+		{
+			"Name": "saturationweapons",
+			"Value": "desaturated",
+			"When": {"Desaturate All": true}
+		},
 	],
 	"Changes": [
 		{
@@ -210,6 +229,15 @@
 			"Color |contains=off": false,
 			"HasMod|contains=6480.iridiumpets":true,
 			"Recolor Pets": true
+			}
+		},
+		{
+		"LogName": "SVE Compat",
+		"Action": "Include",
+		"FromFile": "data/compatsve.json",
+		"When": {
+			"Color |contains=off": false,
+			"HasMod|contains=FlashShifter.StardewValleyExpandedCP":true
 			}
 		},
 	]

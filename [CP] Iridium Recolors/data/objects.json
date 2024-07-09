@@ -59,7 +59,7 @@
 		"When": {
 			"Coordinated Crafting Bars": false,
 			"Enable Animations": true
-		}
+		},
 		"Entries": {
 			"6480.iridiumrecolors/iridiumbar": {
 				"TargetTexture": "Maps/springobjects",
@@ -611,25 +611,25 @@
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 0, "Y": 5, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab3": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 16, "Y": 1, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab4": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 32, "Y": 1, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab5": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 48, "Y": 1, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab6": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
@@ -641,67 +641,67 @@
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 16, "Y": 25, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab8": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 32, "Y": 25, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab9": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 48, "Y": 25, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab10": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 0, "Y": 52, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab11": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 16, "Y": 49, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab12": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 32, "Y": 49, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab13": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 48, "Y": 49, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab14": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 0, "Y": 77, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab15": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 16, "Y": 73, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab16": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 32, "Y": 73, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			},
 			"6480.iridiumrecolors/iridiumcrab16": {
 				"TargetTexture": "Characters/Monsters/Iridium Crab",
 				"TargetRect": { "X": 48, "Y": 73, "Width": 16, "Height": 16 },
 				"SourceTexture": "{{InternalAssetKey:assets/{{saturationall}}/{{color}}.png}}:96..115@8"
-				}
+				
 			}
 		},
 		{

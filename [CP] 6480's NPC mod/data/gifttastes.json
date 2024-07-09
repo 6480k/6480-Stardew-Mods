@@ -1,11 +1,11 @@
 {
 	"Changes": [
 		{
-			"LogName": "Jirawat Gift Tastes",
+			"LogName": "Piyawat Gift Tastes",
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
 			"Entries": {
-				"6480.Jirawat": "{{i18n:Jirawat.Dialogue.GiftReaction_Love}}/394/{{i18n:Jirawat.Dialogue.GiftReaction_Like}}/608/{{i18n:Jirawat.Dialogue.GiftReaction_Dislike}}/-4/{{i18n:Jirawat.Dialogue.GiftReaction_Hate}}/96/{{i18n:Jirawat.Dialogue.GiftReaction_Neutral}}/-2/"
+				"6480.Piyawat": "{{i18n:Piyawat.Dialogue.GiftReaction_Love}}/394/{{i18n:Piyawat.Dialogue.GiftReaction_Like}}/608/{{i18n:Piyawat.Dialogue.GiftReaction_Dislike}}/-4/{{i18n:Piyawat.Dialogue.GiftReaction_Hate}}/96/{{i18n:Piyawat.Dialogue.GiftReaction_Neutral}}/-2/"
 			}
 		}
 	]

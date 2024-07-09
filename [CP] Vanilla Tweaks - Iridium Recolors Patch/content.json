@@ -1,0 +1,353 @@
+{
+	"Format": "2.0",
+	"ConfigSchema": {
+		"Color": {
+			"AllowValues": "classic light, classic dark, cotton candy, forest, ghost, ocean, oil, orange, pearl, rose, sky, strawberry, sweet pea, teal, volcano, off",
+			"Default": "classic light",
+			"Description": "Set your iridium color palette. Check examples.png in the mod folder for options and examples! Set to 'off' to keep vanilla sprites."
+		},
+		"Desaturate All": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Global Toggle to desaturate colors of all iridium things at once."
+		},
+		"Desaturate Tools": {
+			"AllowValues": "true, false",
+			"Default":  "true",
+			"Description": "Whether or not tools are desaturated. Set to true by default to match vanilla iridium color schemes."
+		},
+		"Change Stardrop Color": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Whether stardrops should change to match the iridium color."
+		},
+		"MatchingRockCrabs": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+
+// CATEGORY ON/OFF CONFIGS
+
+		"WeaponSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ToolSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ItemSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"NodesSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ResourcesSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"RockNodesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Nodes"
+		},
+		"Nodes": {
+			"AllowValues": "Iridium",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium",
+			"Section": "Nodes"
+		},
+		"OresEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Ores"
+		},
+		"Ores": {
+			"AllowValues": "Iridium Ore",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Ore",
+			"Section": "Ores"
+		},
+		"MetalBarsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Metal Bars"
+		},
+		"MetalBars": {
+			"AllowValues": "Iridium Bar",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Bar",
+			"Section": "Metal Bars"
+		},
+		
+// INDIVIDUAL TOGGLES
+
+// Weapons
+
+		"SwordsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Swords"
+		},
+		"Swords": {
+			"AllowValues": "Galaxy Sword, Infinity Blade",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Galaxy Sword, Infinity Blade",
+			"Section": "Swords"
+		},
+		"DaggersEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Daggers"
+		},
+		"Daggers": {
+			"AllowValues": "Galaxy Dagger, Infinity Dagger, Iridium Needle",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Galaxy Dagger, Infinity Dagger, Iridium Needle",
+			"Section": "Daggers"
+		},
+		"ClubsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Clubs"
+		},
+		"Clubs": {
+			"AllowValues": "Galaxy Hammer, Infinity Gavel",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Galaxy Hammer, Infinity Gavel",
+			"Section": "Clubs"
+		},
+
+// Tools
+
+		"AxesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Axes"
+		},
+		"Axes": {
+			"AllowValues": "Iridium Axe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Axe",
+			"Section": "Axes"
+		},
+		"HoesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Hoes"
+		},
+		"Hoes": {
+			"AllowValues": "Iridium Hoe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Hoe",
+			"Section": "Hoes"
+		},
+		"PickaxesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Pickaxes"
+		},
+		"Pickaxes": {
+			"AllowValues": "Iridium Pickaxe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Pickaxe",
+			"Section": "Pickaxes"
+		},
+		"WateringCansEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Watering Cans"
+		},
+		"WateringCans": {
+			"AllowValues": "Iridium Watering Can",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Watering Can",
+			"Section": "Watering Cans"
+		},
+		"FishingRodsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Fishing Rods"
+		},
+		"FishingRods": {
+			"AllowValues": "Iridium Rod, Advanced Iridium Rod",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Rod, Advanced Iridium Rod",
+			"Section": "Fishing Rods"
+		},
+		"ScythesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Scythes"
+		},
+		"Scythes": {
+			"AllowValues": "Iridium Scythe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Scythe",
+			"Section": "Scythes"
+		},
+		"PansEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Pans"
+		},
+		"Pans": {
+			"AllowValues": "Iridium Pan",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Iridium Pan",
+			"Section": "Pans"
+		},
+		"OtherToolsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Other Tools"
+		},
+		"OtherTools": {
+			"AllowValues": "Milk Pail, Shears, Return Scepter",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Milk Pail, Shears, Return Scepter",
+			"Section": "Other Tools"
+		},
+		"ShearsStyle": 
+		{
+			"AllowValues": "Clippers, Scissors",
+			"Default": "Clippers",
+			"Section": "Other Tools"
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "saturationall",
+			"Value": "saturated",
+			"When": {"Desaturate All": false}
+		},
+		{
+			"Name": "saturationall",
+			"Value": "desaturated",
+			"When": {"Desaturate All": true}
+		},
+		{
+			"Name": "saturationtools",
+			"Value": "saturated",
+			"When": {"Desaturate Tools": false, "Desaturate All": false}
+		},
+		{
+			"Name": "saturationtools",
+			"Value": "desaturated",
+			"When": {"Desaturate Tools": true}
+		},
+		{
+			"Name": "saturationtools",
+			"Value": "desaturated",
+			"When": {"Desaturate All": true}
+		},
+		{
+			"Name": "saturationweapons",
+			"Value": "saturated"
+		},
+		{
+			"Name": "saturationweapons",
+			"Value": "desaturated",
+			"When": {"Desaturate Weapons": true}
+		},
+		{
+			"Name": "saturationweapons",
+			"Value": "desaturated",
+			"When": {"Desaturate All": true}
+		},
+	],
+	"Changes": [		
+		{
+			"LogName": "Weapons Code",
+			"Action": "Include",
+			"FromFile": "data/Weapons.json",
+			"When": 
+			{
+				"WeaponSpritesEnabled": true
+			}
+		},		
+		{
+			"LogName": "Tools Code",
+			"Action": "Include",
+			"FromFile": "data/Tools.json",
+			"When": 
+			{
+				"ToolSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Items Code",
+			"Action": "Include",
+			"FromFile": "data/Items.json",
+			"When": 
+			{
+				"ItemSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Stardrop Fruit",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{saturationall}}/{{color}}.png",
+			"FromArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Change Stardrop Color": "True"
+			}
+		},
+        {
+			"LogName": "Stardrop Animation",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/{{saturationall}}/{{color}}.png",
+			"ToArea": { "X": 80, "Y": 16, "Width": 128, "Height": 16 }, 
+			"ToArea": { "X": 368, "Y": 16, "Width": 128, "Height": 16 },
+			"When": 
+			{
+				"Change Stardrop Color": "True"
+			}
+		},
+	]
+}

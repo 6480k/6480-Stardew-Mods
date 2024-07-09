@@ -1,0 +1,32 @@
+{
+	"Name": "[CP] Vanilla Tweaks - Iridium Recolors Patch",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Compatibility patch that combines both Vanilla Tweaks by mrtaiyou and Iridium Recolors by 6480.",
+	"UniqueID": "6480.VTiridiumrecolorpatch",
+	"MinimumGameVersion": "1.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [
+		"Nexus: 25938"
+	],
+	"Dependencies": [
+		{
+			"UniqueID": "6480.iridiumrecolor",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Taiyo.VanillaTweaks.Warrior",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Taiyo.VanillaTweaks.Caves",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Taiyo.VanillaTweaks.UI",
+			"IsRequired": false
+		}
+	]
+}

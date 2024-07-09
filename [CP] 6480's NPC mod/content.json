@@ -11,49 +11,49 @@
 		{
 			"LogName": "NPC Blank Loads",
 			"Action": "Load",
-			"Target": "Characters/Dialogue/6480.Jirawat, Characters/Schedules/6480.Jirawat, Characters/Dialogue/6480.Clove, Characters/Schedules/6480.Clove, Characters/Dialogue/6480.Pravuil, Characters/Schedules/6480.Pravuil",
+			"Target": "Characters/Dialogue/6480.Piyawat, Characters/Schedules/6480.Piyawat, Characters/Dialogue/6480.David, Characters/Schedules/6480.David, Characters/Dialogue/6480.Panuel, Characters/Schedules/6480.Panuel",
 			"FromFile": "assets/blank.json"
 		},
 		{
-			"LogName": "Jirawat Portraits",
+			"LogName": "Piyawat Portraits",
 			"Action": "Load",
-			"Target": "Portraits/6480.Jirawat_default",
-			"FromFile": "assets/Jirawat/portraits/{{TargetWithoutPath}}.png"
+			"Target": "Portraits/6480.Piyawat_default",
+			"FromFile": "assets/Piyawat/portraits/{{TargetWithoutPath}}.png"
 		},
 		{
-			"LogName": "Jirawat Sprites",
+			"LogName": "Piyawat Sprites",
 			"Action": "Load",
-			"Target": "Characters/6480.Jirawat_default",
-			"FromFile": "assets/Jirawat/sprites/{{TargetWithoutPath}}.png"
+			"Target": "Characters/6480.Piyawat_default",
+			"FromFile": "assets/Piyawat/sprites/{{TargetWithoutPath}}.png"
 		},
 		{
-			"LogName": "Clove Portraits",
+			"LogName": "David Portraits",
 			"Action": "Load",
-			"Target": "Portraits/6480.Clove_default",
-			"FromFile": "assets/Clove/portraits/{{TargetWithoutPath}}.png"
+			"Target": "Portraits/6480.David_default",
+			"FromFile": "assets/David/portraits/{{TargetWithoutPath}}.png"
 		},
 		{
-			"LogName": "CLove Sprites",
+			"LogName": "David Sprites",
 			"Action": "Load",
-			"Target": "Characters/6480.Clove_default",
-			"FromFile": "assets/Clove/sprites/{{TargetWithoutPath}}.png"
+			"Target": "Characters/6480.David_default",
+			"FromFile": "assets/David/sprites/{{TargetWithoutPath}}.png"
 		},
 		{
-			"LogName": "Pravuil Portraits",
+			"LogName": "Panuel Portraits",
 			"Action": "Load",
-			"Target": "Portraits/6480.Pravuil_default",
-			"FromFile": "assets/Pravuil/portraits/{{TargetWithoutPath}}.png"
+			"Target": "Portraits/6480.Panuel_default",
+			"FromFile": "assets/Panuel/portraits/{{TargetWithoutPath}}.png"
 		},
 		{
-			"LogName": "Pravuil Sprites",
+			"LogName": "Panuel Sprites",
 			"Action": "Load",
-			"Target": "Characters/6480.Pravuil_default",
-			"FromFile": "assets/Pravuil/sprites/{{TargetWithoutPath}}.png"
+			"Target": "Characters/6480.Panuel_default",
+			"FromFile": "assets/Panuel/sprites/{{TargetWithoutPath}}.png"
 		},
 		{
 			"LogName": "NPC Includes",
 			"Action": "Include",
-			"FromFile": "data/dispositions.json, data/dialogue_Jirawat.json, data/schedule_Jirawat.json, data/gifttastes.json"
+			"FromFile": "data/dispositions.json, data/dialogue_Piyawat.json, data/schedule_Piyawat.json, data/gifttastes.json"
 		},
 		{
 			"LogName": "NPC Includes Template",

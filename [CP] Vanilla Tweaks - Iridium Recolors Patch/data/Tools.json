@@ -1,0 +1,189 @@
+{
+    "Changes": 
+    [
+// SCYTHES
+        
+        {
+			"LogName": "Iridium Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 64, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "32", "Y": "128", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ScythesEnabled": "True",
+				"Scythes |contains= Iridium Scythe": true
+			}
+		},
+
+// HOES
+       
+        {
+			"LogName": "Iridium Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 96, "Y": 32, "Width": 96, "Height": 32 },
+			"ToArea": {"X": "112", "Y": "48", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"HoesEnabled": "True",
+				"Hoes |contains= Iridium Hoe": true
+			}
+		},
+
+// PICKAXES
+        
+        
+        {
+			"LogName": "Iridium Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 0, "Y": 64, "Width": 96, "Height": 32 },
+			"ToArea": {"X": "112", "Y": "112", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"PickaxesEnabled": "True",
+				"Pickaxes |contains= Iridium Pickaxe": true
+			}
+		},
+
+// AXES
+        
+        {
+			"LogName": "Iridium Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 0, "Y": 32, "Width": 96, "Height": 32 },
+			"ToArea": {"X": "112", "Y": "176", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"AxesEnabled": "True",
+				"Axes |contains= Iridium Axe": true
+			}
+		},
+
+// WATERING CANS
+        
+        {
+			"LogName": "Iridium Watering Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 96, "Y": 64, "Width": 80, "Height": 32 },
+			"ToArea": {"X": "112", "Y": "240", "Width": "80", "Height": "32"},
+			"When": 
+			{
+				"WateringCansEnabled": "True",
+				"WateringCans |contains= Iridium Watering Can": true
+			}
+		},
+
+// FISHING RODS
+        
+        {
+			"LogName": "Iridium Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "176", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Iridium Rod": true
+			}
+		},
+        {
+			"LogName": "Advanced Iridium Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "272", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Advanced Iridium Rod": true
+			}
+		},
+        
+
+// PANS
+        
+        {
+			"LogName": "Iridium Pan",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 208, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "320", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"PansEnabled": "True",
+				"Pans |contains= Iridium Pan": true
+			}
+		},
+
+// OTHER TOOLS
+       
+        {
+			"LogName": "Milk Pail",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "96", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Milk Pail": true
+			}
+		},
+        {
+			"LogName": "Shears Clippers",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "112", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Shears": true,
+				"ShearsStyle": "Clippers"
+			}
+		},
+		
+		{
+			"LogName": "Shears Scissors",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+			"FromArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "112", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Shears": true,
+				"ShearsStyle": "Scissors"
+			}
+		},
+        {
+			"LogName": "Return Scepter",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/OtherTools/ReturnScepter.png",
+			"FromArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": {"X": "32", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Return Scepter": true
+			}
+		}
+    ]
+}

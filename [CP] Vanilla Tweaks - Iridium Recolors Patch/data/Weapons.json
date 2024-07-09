@@ -1,0 +1,108 @@
+{
+    "Changes": 
+    [
+
+// CLUBS
+
+      
+        {
+			"LogName": "Galaxy Hammer",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsEnabled": "True",
+				"Clubs |contains= Galaxy Hammer": true
+			}
+		},
+        {
+			"LogName": "Infinity Gavel",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"ClubsEnabled": "True",
+				"Clubs |contains= Infinity Gavel": true
+			}
+		},
+
+// DAGGERS
+
+		
+		{
+			"LogName": "Galaxy Dagger",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"DaggersEnabled": "True",
+				"Daggers |contains= Galaxy Dagger": true
+			}
+		},
+		{
+			"LogName": "Infinity Dagger",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"DaggersEnabled": "True",
+				"Daggers |contains= Infinity Dagger": true
+			}
+		},
+		{
+			"LogName": "Iridium Needle",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 160, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"DaggersEnabled": "True",
+				"Daggers |contains= Iridium Needle": true
+			}
+		},
+
+// SWORDS
+
+		
+		{
+			"LogName": "Galaxy Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsEnabled": "True",
+				"Swords |contains= Galaxy Sword": true
+			}
+		},
+		{
+			"LogName": "Infinity Blade",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "assets/{{saturationweapons}}/{{color}}.png",
+			"FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SwordsEnabled": "True",
+				"Swords |contains= Infinity Blade": true
+			}
+		},
+    ]
+}
