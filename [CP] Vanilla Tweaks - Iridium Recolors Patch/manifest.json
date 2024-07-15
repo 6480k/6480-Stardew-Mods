@@ -18,7 +18,7 @@
 		},
 		{
 			"UniqueID": "Taiyo.VanillaTweaks.Warrior",
-			"IsRequired": true
+			"IsRequired": false
 		},
 		{
 			"UniqueID": "Taiyo.VanillaTweaks.Caves",
@@ -26,6 +26,10 @@
 		},
 		{
 			"UniqueID": "Taiyo.VanillaTweaks.UI",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Taiyo.VanillaTweaks.Farming",
 			"IsRequired": false
 		}
 	]

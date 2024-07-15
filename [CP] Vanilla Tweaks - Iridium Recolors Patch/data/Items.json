@@ -1,0 +1,63 @@
+{
+	"Changes": [
+		{
+			"LogName": "Iridium Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{saturationall}}/{{color}}.png",
+			"FromArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {
+				"X": "336",
+				"Y": "496",
+				"Width": "16",
+				"Height": "16"
+			},
+			"When": {
+				"Nodes |contains= Iridium": true
+			}
+		},
+		{
+			"LogName": "Iridium Crab",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/Iridium Crab",
+			"FromFile": "Assets/{{saturationall}}/{{color}}.png",
+			"FromArea": { "X": 0, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"MatchingRockCrabs": "True",
+				"Nodes |contains= Iridium": true
+			}
+		},
+		{
+			"LogName": "Iridium Ore",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{saturationall}}/{{color}}.png",
+			"FromArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {
+				"X": "32",
+				"Y": "256",
+				"Width": "16",
+				"Height": "16"
+			},
+			"When": {
+				"Ores |contains= Iridium Ore": true
+			}
+		},
+		{
+			"LogName": "Iridium Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{saturationall}}/{{color}}.png",
+			"FromArea": { "X": 128, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": {
+				"X": "16",
+				"Y": "224",
+				"Width": "16",
+				"Height": "16"
+			},
+			"When": {
+				"MetalBars |contains= Iridium Bar": true
+			}
+		}
+	]
+}
