@@ -1,10 +1,10 @@
 {
 	"Name": "[CP] Iridium Recolors",
 	"Author": "6480",
-	"Version": "2.0.0",
+	"Version": "2.1.0",
 	"Description": "Turns iridium objects and various other purple objects into different colors. Comes with a compatibility option for coordinated crafting bars!",
 	"UniqueID": "6480.iridiumrecolor",
-	"MinimumGameVersion": "1.5.0",
+	"MinimumGameVersion": "1.6.0",
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher"
 	},
@@ -14,6 +14,14 @@
 	"Dependencies": [
 		{
 			"UniqueID": "Gweniaczek.Medieval_Craftables",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "6480.iridiumpets",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
 			"IsRequired": false
 		}
 	]

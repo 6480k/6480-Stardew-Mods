@@ -5,7 +5,7 @@
 		"Action": "EditImage",
 		"When": {"Recolor Weapons": true},
 		"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tempered Galaxy Sword",
-		"FromFile": "assets/sve_{{saturationtools}}/{{color}}.png",
+		"FromFile": "assets/sve_{{saturationweapons}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }
 		},
@@ -14,7 +14,7 @@
 		"Action": "EditImage",
 		"When": {"Recolor Weapons": true},
 		"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tempered Galaxy Hammer",
-		"FromFile": "assets/sve_{{saturationtools}}/{{color}}.png",
+		"FromFile": "assets/sve_{{saturationweapons}}/{{color}}.png",
 		"FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }
 		},
@@ -23,17 +23,17 @@
 		"Action": "EditImage",
 		"When": {"Recolor Weapons": true},
 		"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tempered Galaxy Dagger",
-		"FromFile": "assets/sve_{{saturationtools}}/{{color}}.png",
+		"FromFile": "assets/sve_{{saturationweapons}}/{{color}}.png",
 		"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }
 		},
 		{
 		"LogName": "SVE Skull Lamppost",
 		"Action": "EditImage",
-		"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tempered Galaxy Dagger",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Iridium Skull Lamp-post",
 		"FromFile": "assets/sve_{{saturationall}}/{{color}}.png",
-		"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
-		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }
+		"FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }
 		},
 		{
 		"LogName": "SVE Meteor Fish",
@@ -50,6 +50,30 @@
 		"FromFile": "assets/sve_{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 20, "Y": 16, "Width": 24, "Height": 48 },
 		"ToArea": { "X": 48, "Y": 0, "Width": 24, "Height": 48 }
+		},
+		{
+		"LogName": "SVE Meteor 1",
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Meteorite L",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 128, "Y": 64, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }
+		},
+		{
+		"LogName": "SVE Meteor 2",
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Meteorite R",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 144, "Y": 64, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }
+		},
+		{
+		"LogName": "SVE Iridium node",
+		"Action": "EditImage",
+		"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Iridium Node",
+		"FromFile": "assets/{{saturationall}}/{{color}}.png",
+		"FromArea": { "X": 80, "Y": 32, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 }
 		},
 	]
 } 

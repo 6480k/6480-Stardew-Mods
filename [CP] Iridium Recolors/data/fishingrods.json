@@ -1,0 +1,319 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "classic light"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 159,
+					"G": 15,
+					"B": 255,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 159,
+					"G": 15,
+					"B": 255,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "classic dark"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 102,
+					"G": 0,
+					"B": 255,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 102,
+					"G": 0,
+					"B": 255,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "cotton candy"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 253,
+					"G": 71,
+					"B": 71,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 253,
+					"G": 71,
+					"B": 71,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "forest"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 170,
+					"G": 105,
+					"B": 60,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 170,
+					"G": 105,
+					"B": 60,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "ghost"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 203,
+					"G": 233,
+					"B": 231,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 203,
+					"G": 233,
+					"B": 231,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "ocean"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 0,
+					"G": 66,
+					"B": 151,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 0,
+					"G": 66,
+					"B": 151,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "oil"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 228,
+					"G": 203,
+					"B": 130,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 228,
+					"G": 203,
+					"B": 130,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "orange"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 243,
+					"G": 221,
+					"B": 146,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 243,
+					"G": 221,
+					"B": 146,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "pearl"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 230,
+					"G": 173,
+					"B": 155,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 230,
+					"G": 173,
+					"B": 155,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "rose"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 223,
+					"G": 55,
+					"B": 108,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 223,
+					"G": 55,
+					"B": 108,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "sky"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 103,
+					"G": 116,
+					"B": 168,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 103,
+					"G": 116,
+					"B": 168,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "strawberry"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 185,
+					"G": 23,
+					"B": 89,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 185,
+					"G": 23,
+					"B": 89,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "sweet pea"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 123,
+					"G": 96,
+					"B": 234,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 123,
+					"G": 96,
+					"B": 234,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "teal"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 23,
+					"G": 118,
+					"B": 144,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 23,
+					"G": 118,
+					"B": 144,
+					"A": 255
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/ColorfulFishingRods",
+			"When": {
+				"Color": "volcano"
+			},
+			"Entries": {
+				"(T)IridiumRod": {
+					"R": 156,
+					"G": 22,
+					"B": 60,
+					"A": 255
+				},
+				"(T)AdvancedIridiumRod": {
+					"R": 156,
+					"G": 22,
+					"B": 60,
+					"A": 255
+				}
+			}
+		}
+	]
+}

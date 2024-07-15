@@ -1,5 +1,5 @@
 {
-	"Format": "1.16",
+	"Format": "2.0",
 	"ConfigSchema": {
 		"Color": {
 			"AllowValues": "classic light, classic dark, cotton candy, forest, ghost, ocean, oil, orange, pearl, rose, sky, strawberry, sweet pea, teal, volcano, off",
@@ -238,6 +238,15 @@
 		"When": {
 			"Color |contains=off": false,
 			"HasMod|contains=FlashShifter.StardewValleyExpandedCP":true
+			}
+		},
+		{
+		"LogName": "Colorful fishing rods",
+		"Action": "Include",
+		"FromFile": "data/fishingrods.json",
+		"When": {
+			"Color |contains=off": false,
+			"HasMod|contains=atravita.ColorfulFishingRods":true
 			}
 		},
 	]

@@ -91,10 +91,6 @@
 			"UniqueID": "radm.milkdasheep",
 			"IsRequired": false
 		},
-		{
-			"UniqueID": "DaLion.Professions",
-			"IsRequired": false
-		},
 
 	]
 }

@@ -5,6 +5,16 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "When enabled, characters will dynamically change outfits based on season, weather, time of day, and random chance. Without this setting, characters will only have one standard, one beach, and one winter outfit, like vanilla NPCs."
+		},
+		"Vanilla NPC Schedule Changes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When enabled, some vanilla NPCs will occasionally go off their normal schedules to visit the restaurant."
+		},
+		"Meat Dishes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Turn this off to exclude a few dishes that explicitly mention meat (such as Sweet Pork and Sticky Rice)."
 		}
 	},
 	"Changes": [
