@@ -1,7 +1,5 @@
 {
-	"Changes": [	
-		
-	//Muffins
+	"Changes": [
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -12,6 +10,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_blueberry_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -26,14 +27,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -43,6 +44,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_rhubarb_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -57,14 +61,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -74,6 +78,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cherry_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -88,14 +95,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -105,6 +112,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_poppyseed_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -119,14 +129,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -136,6 +146,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_maple_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -150,14 +163,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -167,6 +180,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_walnut_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -181,14 +197,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -198,6 +214,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pistachio_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -212,14 +231,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -229,6 +248,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_coffee_cake_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -243,16 +265,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-
-    //Scones    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -262,6 +282,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -276,14 +299,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -293,6 +316,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_raspberry_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -307,14 +333,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -324,6 +350,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_brown_sugar_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -338,14 +367,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -355,6 +384,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_blackberry_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -369,14 +401,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -386,6 +418,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cranberry_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -400,14 +435,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -417,6 +452,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lavender_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -431,14 +469,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -448,6 +486,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_vanilla_scones"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -462,16 +503,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-
-    //Generic     
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -481,10 +520,13 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_flavor_muffins"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
-                "PreserveID":"DROP_IN",
+				"PreserveID": "DROP_IN",
 				"PriceModifierMode": "Stack",
 				"PriceModifiers": [
 					{
@@ -496,16 +538,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-
-    //Cake    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -515,6 +555,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_celebration_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -529,14 +572,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -546,6 +589,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_apple_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -560,14 +606,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -577,6 +623,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_citrus_thyme_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -591,14 +640,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -608,6 +657,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_raspberry_chamomile_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -622,14 +674,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -639,6 +691,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_peach_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -653,14 +708,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -670,6 +725,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_spiced_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -684,14 +742,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -701,6 +759,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_tropical_floral_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -715,14 +776,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -732,6 +793,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_almond_elderflower_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -746,14 +810,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -763,6 +827,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_victoria_sponge_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -777,14 +844,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -794,6 +861,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pink_velvet_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -808,14 +878,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -825,6 +895,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_summer_flower_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -839,14 +912,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -856,6 +929,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_mudslide_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -870,14 +946,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -887,6 +963,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pretty_pink_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -901,14 +980,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -918,10 +997,13 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_flavor_cake"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
-                "PreserveID":"DROP_IN",
+				"PreserveID": "DROP_IN",
 				"PriceModifierMode": "Stack",
 				"PriceModifiers": [
 					{
@@ -933,16 +1015,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-
-    //Cupcakes    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -952,6 +1032,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_strawberry_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -966,14 +1049,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -983,6 +1066,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_vanilla_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -997,14 +1083,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1014,6 +1100,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1028,14 +1117,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1045,6 +1134,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_neapolitan_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1059,14 +1151,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1076,6 +1168,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_matcha_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1090,14 +1185,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1107,6 +1202,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_mint_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1121,14 +1219,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1138,6 +1236,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_tropical_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1152,14 +1253,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1169,10 +1270,13 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_flavor_cupcakes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
-                "PreserveID":"DROP_IN",
+				"PreserveID": "DROP_IN",
 				"PriceModifierMode": "Stack",
 				"PriceModifiers": [
 					{
@@ -1184,16 +1288,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-
-    //Petit Fours    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1203,6 +1305,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_floral_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1217,14 +1322,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1234,6 +1339,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pineapple_cherry_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1248,14 +1356,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1265,6 +1373,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_rose_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1279,14 +1390,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1296,6 +1407,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_blueberry_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1310,14 +1424,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1327,6 +1441,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_carrot_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1341,14 +1458,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1358,6 +1475,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pink_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1372,14 +1492,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1389,6 +1509,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_strawberry_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1403,14 +1526,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1420,6 +1543,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_berry_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1434,14 +1560,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1451,6 +1577,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_citrus_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1465,14 +1594,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1482,6 +1611,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_red_velvet_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1496,14 +1628,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1513,6 +1645,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_apple_petit_fours"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1527,16 +1662,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-
-    //Pie    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1546,6 +1679,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_brown_sugar_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1560,14 +1696,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1577,6 +1713,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cherry_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1591,14 +1730,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1608,6 +1747,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_elderberry_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1622,14 +1764,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1639,6 +1781,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_apple_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1653,14 +1798,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1670,6 +1815,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_sweet_potato_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1684,14 +1832,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1701,6 +1849,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pumpkin_spice_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1715,14 +1866,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1732,6 +1883,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lemon_meringue_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1746,14 +1900,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1763,6 +1917,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_key_lime_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1777,14 +1934,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1794,6 +1951,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_coconut_cream_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1808,14 +1968,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1825,6 +1985,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_peach_pie"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1839,16 +2002,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-
-    //Tart    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1858,6 +2019,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_blueberry_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1872,14 +2036,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1889,6 +2053,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_hazelnut_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1903,14 +2070,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1920,6 +2087,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_orange_dandelion_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1934,14 +2104,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1951,6 +2121,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_raspberry_pistachio_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1965,14 +2138,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1982,6 +2155,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_starfruit_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -1996,14 +2172,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2013,6 +2189,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_mojito_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2027,14 +2206,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2044,6 +2223,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_mango_pineapple_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2058,14 +2240,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2075,10 +2257,13 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_flavor_tart"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
-                "PreserveID":"DROP_IN",
+				"PreserveID": "DROP_IN",
 				"PriceModifierMode": "Stack",
 				"PriceModifiers": [
 					{
@@ -2090,16 +2275,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 250
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 250
+					}
 				]
 			}
 		},
-
-    //Cookies    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2109,6 +2292,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_vanilla_heart_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2123,14 +2309,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2140,6 +2326,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cherry_thumbprint_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2154,14 +2343,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2171,6 +2360,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cheesecake_thumbprint_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2185,14 +2377,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2202,6 +2394,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_assorted_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2216,14 +2411,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2233,6 +2428,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_magic_thumbprint_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2247,14 +2445,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2264,6 +2462,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_thumbprint_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2278,14 +2479,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2295,6 +2496,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lemon_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2309,14 +2513,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2326,6 +2530,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_strawberry_heart_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2340,14 +2547,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2357,6 +2564,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_rose_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2371,14 +2581,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2388,6 +2598,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_honey_lavender_cookies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2402,16 +2615,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-
-    //Macarons    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2421,6 +2632,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_floral_macarons"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2435,14 +2649,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2452,6 +2666,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_berry_macarons"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2466,14 +2683,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2483,6 +2700,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cafe_macarons"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2497,14 +2717,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2514,6 +2734,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_citrus_macarons"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2528,14 +2751,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2545,6 +2768,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_macarons"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2559,16 +2785,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-
-    //Brownies    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2578,6 +2802,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_fudgy_brownies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2592,14 +2819,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2609,6 +2836,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_mint_brownies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2623,14 +2853,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2640,6 +2870,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_coconut_brownies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2654,14 +2887,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2671,6 +2904,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lemon_bars"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2685,14 +2921,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2702,6 +2938,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_red_velvet_brownies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2716,14 +2955,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2733,6 +2972,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_red_velvet_brownies"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2747,82 +2989,84 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-
-    //Generic
-        {
-            "Action": "EditData",
-            "Target": "Data/Machines",
-            "TargetField": [
-                "(BC)HXW.FreshlyBaked_Mixer",
-                "OutputRules",
-                "HXW.FreshlyBaked_fruit_cookies",
-                "OutputItem",
-                "HXW.FreshlyBaked_fruit_cookies"
-            ],
-            "Entries": {
-                "CopyQuality": true,
-                "CopyPrice": true,
-                "PreserveID":"Atelier.Cauldron_DROP_IN",
-                "PriceModifierMode": "Stack",
-                "PriceModifiers": [
-                    {
-                        "Modification": "Multiply",
-                        "Amount": 2.75
-                    },
-                    {
-                        "Id": "6480.qualitygoods",
-                        "Modification": "Multiply",
-                        "Amount": "{{Profit Scaling}}"
-                    },
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
-                ]
-            }
-        },  
-        {
-            "Action": "EditData",
-            "Target": "Data/Machines",
-            "TargetField": [
-                "(BC)HXW.FreshlyBaked_Mixer",
-                "OutputRules",
-                "HXW.FreshlyBaked_flower_cookies",
-                "OutputItem",
-                "HXW.FreshlyBaked_flower_cookies"
-            ],
-            "Entries": {
-                "CopyQuality": true,
-                "CopyPrice": true,
-                "PreserveID":"Atelier.Cauldron_DROP_IN",
-                "PriceModifierMode": "Stack",
-                "PriceModifiers": [
-                    {
-                        "Modification": "Multiply",
-                        "Amount": 2.75
-                    },
-                    {
-                        "Id": "6480.qualitygoods",
-                        "Modification": "Multiply",
-                        "Amount": "{{Profit Scaling}}"
-                    },
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
-                ]
-            }
-        },
-
-    //Bread    
-        {
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)HXW.FreshlyBaked_Mixer",
+				"OutputRules",
+				"HXW.FreshlyBaked_fruit_cookies",
+				"OutputItem",
+				"HXW.FreshlyBaked_fruit_cookies"
+			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
+			"Entries": {
+				"CopyQuality": true,
+				"CopyPrice": true,
+				"PreserveID": "Atelier.Cauldron_DROP_IN",
+				"PriceModifierMode": "Stack",
+				"PriceModifiers": [
+					{
+						"Modification": "Multiply",
+						"Amount": 2.75
+					},
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					},
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)HXW.FreshlyBaked_Mixer",
+				"OutputRules",
+				"HXW.FreshlyBaked_flower_cookies",
+				"OutputItem",
+				"HXW.FreshlyBaked_flower_cookies"
+			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
+			"Entries": {
+				"CopyQuality": true,
+				"CopyPrice": true,
+				"PreserveID": "Atelier.Cauldron_DROP_IN",
+				"PriceModifierMode": "Stack",
+				"PriceModifiers": [
+					{
+						"Modification": "Multiply",
+						"Amount": 2.75
+					},
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					},
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
+				]
+			}
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2832,6 +3076,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_bread_loaves"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2846,14 +3093,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2863,6 +3110,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_baguettes"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2877,14 +3127,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
-		},   
-        {
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2894,6 +3144,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pretzel"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2908,14 +3161,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
-		}, 
-        {
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2925,6 +3178,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pretzel_buns"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2939,14 +3195,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2956,6 +3212,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_rye_loaves"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -2970,14 +3229,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2987,6 +3246,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_sandwich_buns"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3001,14 +3263,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3018,6 +3280,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_poppyseed_bread"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3032,14 +3297,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3049,6 +3314,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_ciabatta"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3063,14 +3331,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3080,6 +3348,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_iced_buns"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3094,14 +3365,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3111,6 +3382,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_classic_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3125,14 +3399,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3142,6 +3416,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_country_bread"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3156,14 +3433,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3173,6 +3450,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_olive_loaves"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3187,14 +3467,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3204,6 +3484,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_croissants"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3218,14 +3501,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3235,6 +3518,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_sweet_buns"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3249,14 +3535,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3266,6 +3552,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_demi_baguette"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3280,14 +3569,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3297,6 +3586,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_brioche"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3311,14 +3603,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3328,6 +3620,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_sourdough"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3342,14 +3637,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3359,6 +3654,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_herb_focaccia"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3373,14 +3671,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3390,6 +3688,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_tomato_basil_focaccia"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3404,14 +3705,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3421,6 +3722,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pumpernickel_bread"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3435,14 +3739,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3452,6 +3756,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cinnamon_rolls"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3466,14 +3773,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3483,6 +3790,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cinnamon_rolls"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3497,14 +3807,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3514,6 +3824,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pain_au_chocolat"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3528,16 +3841,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-
-    //Doughnuts    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3547,6 +3858,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_strawberry_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3561,14 +3875,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3578,6 +3892,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_matcha_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3592,14 +3909,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3609,6 +3926,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cinnamon_spice_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3623,14 +3943,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3640,6 +3960,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lavender_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3654,14 +3977,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3671,6 +3994,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_apple_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3685,14 +4011,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3702,6 +4028,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lemon_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3716,14 +4045,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3733,6 +4062,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_chocolate_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3747,14 +4079,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3764,10 +4096,13 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_fruit_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
-                "PreserveID":"Atelier.Cauldron_DROP_IN",
+				"PreserveID": "Atelier.Cauldron_DROP_IN",
 				"PriceModifierMode": "Stack",
 				"PriceModifiers": [
 					{
@@ -3779,14 +4114,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3796,10 +4131,13 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_flower_doughnuts"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
-                "PreserveID":"Atelier.Cauldron_DROP_IN",
+				"PreserveID": "Atelier.Cauldron_DROP_IN",
 				"PriceModifierMode": "Stack",
 				"PriceModifiers": [
 					{
@@ -3811,16 +4149,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 150
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 150
+					}
 				]
 			}
 		},
-
-    //Eclairs    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3830,6 +4166,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_vanilla_eclairs"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3844,14 +4183,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3861,6 +4200,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_raspberry_eclairs"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3875,14 +4217,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3892,6 +4234,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_pistachio_eclairs"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3906,14 +4251,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3923,6 +4268,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_blueberry_eclairs"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3937,14 +4285,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3954,6 +4302,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_mocha_eclairs"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3968,14 +4319,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -3985,6 +4336,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_citrus_eclairs"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -3999,16 +4353,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 65
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 65
+					}
 				]
 			}
 		},
-
-    //Pudding    
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4018,6 +4370,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_gem_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4032,14 +4387,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4049,6 +4404,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_mystical_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4063,14 +4421,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4080,6 +4438,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_cherry_blossom_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4094,14 +4455,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4111,6 +4472,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_raspberry_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4125,14 +4489,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4142,6 +4506,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_tropical_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4156,14 +4523,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4173,6 +4540,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_vanilla_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4187,14 +4557,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4204,6 +4574,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lemon_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4218,14 +4591,14 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
-        {
+		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -4235,6 +4608,9 @@
 				"OutputItem",
 				"HXW.FreshlyBaked_lemon_pudding"
 			],
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Cooking": "False"
+			},
 			"Entries": {
 				"CopyQuality": true,
 				"CopyPrice": true,
@@ -4249,13 +4625,12 @@
 						"Modification": "Multiply",
 						"Amount": "{{Profit Scaling}}"
 					},
-                    {
-                        "Modification": "Add",
-                        "Amount": 200
-                    }
+					{
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
-		},
-
+		}
 	]
-}		
+}

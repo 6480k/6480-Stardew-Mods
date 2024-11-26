@@ -1,0 +1,14 @@
+﻿{
+	"Name": "[CP] Wedding Chuppah",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Changes the wedding arch to a chuppah.",
+	"UniqueID": "6480.chuppah",
+	"UpdateKeys": [
+		"Nexus:27081"
+	],
+	"MinimumApiVersion": "4.0.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

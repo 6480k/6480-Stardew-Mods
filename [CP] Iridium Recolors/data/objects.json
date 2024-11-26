@@ -741,7 +741,7 @@
 		{
 		"LogName": "Iridium Ore Bobber",
 		"Action": "EditImage",
-		"Target": "TileSheets/Objects_2",
+		"Target": "TileSheets/bobbers",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 0, "Y": 96, "Width": 16, "Height": 16 },
 		"ToArea": { "X": 48, "Y": 128, "Width": 16, "Height": 16 },
@@ -749,7 +749,7 @@
 		{
 		"LogName": "Iridium Ore Bobber Sunken",
 		"Action": "EditImage",
-		"Target": "TileSheets/Objects_2",
+		"Target": "TileSheets/bobbers",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 176, "Y": 96 , "Width": 16, "Height": 16 },
 		"ToArea": { "X": 48, "Y": 144, "Width": 16, "Height": 16 },
@@ -757,7 +757,7 @@
 		{
 		"LogName": "Stardrop Bobber",
 		"Action": "EditImage",
-		"Target": "TileSheets/Objects_2",
+		"Target": "TileSheets/bobbers",
 		"FromFile": "assets/{{saturationall}}/{{color}}.png",
 		"FromArea": { "X": 208, "Y": 128, "Width": 16, "Height": 32 },
 		"ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32 },

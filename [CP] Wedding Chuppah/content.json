@@ -1,0 +1,17 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Style": {
+            "AllowValues": "white, wooden",
+            "Default": "white"
+        },
+    },
+    "Changes": [
+               {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "chuppah_{{style}}.png",
+            "ToArea": {"X": 540, "Y": 1196, "Width": 98, "Height": 79},
+        }
+    ]
+}
