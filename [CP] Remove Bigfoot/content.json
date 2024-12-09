@@ -1,0 +1,72 @@
+{
+	"Format": "2.3.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"6480.bigfootbegone_removemailflag": {
+					"Id": "6480.bigfootbegone_removemailflag",
+					"Trigger": "DayStarted DayEnding",
+					"HostOnly": false,
+					"Action": null,
+					"Actions": [
+						"MarkActionApplied All 6480.bigfootbegone_resetaction false",
+						"MarkActionApplied All 6480.bigfootbegone_setmailflag false",
+						"RemoveMail All asdlkjfg1 all"
+					]
+				},
+				"6480.bigfootbegone_setmailflag": {
+					"Id": "6480.bigfootbegone_setmailflag",
+					"Trigger": "DayStarted",
+					"HostOnly": false,
+					"Action": "AddMail All asdlkjfg1 received",
+					"Actions": null
+				},
+				"6480.bigfootbegone_resetaction": {
+					"Id": "6480.bigfootbegone_resetaction",
+					"Trigger": "DayStarted DayEnding",
+					"HostOnly": false,
+					"Action": null,
+					"Actions": [
+						"MarkActionApplied All 6480.bigfootbegone_removemailflag false"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/asldkfjsquaskutanfsldk",
+			"FromFile": "blank.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 494,
+				"Y": 411,
+				"Width": 18,
+				"Height": 18
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "blank.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 494,
+				"Y": 411,
+				"Width": 18,
+				"Height": 18
+			}
+		}
+	]
+}
