@@ -13,6 +13,7 @@
 				"6480.trufflejuice_TruffleJuice": {
 					"Name": "6480.trufflejuice_TruffleJuice",
 					"Category": -26,
+					"Type": "Basic",
 					"DisplayName": "{{i18n:TruffleJuice_name}}",
 					"Description": "{{i18n:TruffleJuice_description}}",
 					"Texture": "6480.trufflejuice/objects",
