@@ -54,7 +54,8 @@
 					"Edibility": 100,
 					"ContextTags": [
 						"color_yellow",
-						"cheese_item"
+						"cheese_item",
+						"soft_cheese_item"
 					]
 				},
 				"6480.qualitygoods_LargeMayo": {
