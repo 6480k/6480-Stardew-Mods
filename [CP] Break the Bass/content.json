@@ -1,0 +1,16 @@
+{
+	"Format": "2.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "bass.png",
+			"ToArea": {
+				"X": 265,
+				"Y": 89,
+				"Width": 1,
+				"Height": 1
+			}
+		}
+	]
+}

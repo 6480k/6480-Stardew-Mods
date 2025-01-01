@@ -1,0 +1,15 @@
+{
+	"Name": "Break the Bass",
+	"Author": "6480",
+	"Version": "2.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "This mod unfixes the largemouth bass sprite. Why did you download this?",
+	"UniqueID": "6480.largemouthbass",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0"
+	},
+	"UpdateKeys": [
+		"Nexus: 19241"
+	]
+}
