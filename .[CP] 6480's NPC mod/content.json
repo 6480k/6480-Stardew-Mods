@@ -9,7 +9,7 @@
 		"Vanilla NPC Schedule Changes": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "When enabled, some vanilla NPCs will occasionally go off their normal schedules to visit the restaurant."
+			"Description": "When enabled, some vanilla NPCs will rarely go off their normal schedules to visit the restaurant."
 		},
 		"Meat Dishes": {
 			"AllowValues": "true, false",
@@ -25,55 +25,21 @@
 			"FromFile": "assets/blank.json"
 		},
 		{
-			"LogName": "Piyawat Portraits",
+			"LogName": "Portraits",
 			"Action": "Load",
-			"Target": "Portraits/6480.Piyawat_default",
-			"FromFile": "assets/Piyawat/portraits/{{TargetWithoutPath}}.png"
+			"Target": "Portraits/6480.Piyawat_default, Portraits/6480.David_default, Portraits/6480.Panuel_default",
+			"FromFile": "assets/portraits/{{TargetWithoutPath}}.png"
 		},
 		{
 			"LogName": "Piyawat Sprites",
 			"Action": "Load",
 			"Target": "Characters/6480.Piyawat_default",
-			"FromFile": "assets/Piyawat/sprites/{{TargetWithoutPath}}.png"
-		},
-		{
-			"LogName": "David Portraits",
-			"Action": "Load",
-			"Target": "Portraits/6480.David_default",
-			"FromFile": "assets/David/portraits/{{TargetWithoutPath}}.png"
-		},
-		{
-			"LogName": "David Sprites",
-			"Action": "Load",
-			"Target": "Characters/6480.David_default",
-			"FromFile": "assets/David/sprites/{{TargetWithoutPath}}.png"
-		},
-		{
-			"LogName": "Panuel Portraits",
-			"Action": "Load",
-			"Target": "Portraits/6480.Panuel_default",
-			"FromFile": "assets/Panuel/portraits/{{TargetWithoutPath}}.png"
-		},
-		{
-			"LogName": "Panuel Sprites",
-			"Action": "Load",
-			"Target": "Characters/6480.Panuel_default",
-			"FromFile": "assets/Panuel/sprites/{{TargetWithoutPath}}.png"
+			"FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
 		},
 		{
 			"LogName": "NPC Includes",
 			"Action": "Include",
-			"FromFile": "data/dispositions.json, data/dialogue_Piyawat.json, data/schedule_Piyawat.json, data/gifttastes.json"
-		},
-		{
-			"LogName": "NPC Includes Template",
-			"Action": "Include",
-			"FromFile": "Data/Appearances/AppearanceData_NPCNameHere.json, Data/Dialogue/NPCNameHere/Dialogue_NPCNameHere.json, Data/Dialogue/NPCNameHere/ConcessionTastes_NPCNameHere.json, Data/Dialogue/NPCNameHere/ConversationTopics_NPCNameHere.json, Data/Dialogue/NPCNameHere/ConversationTopics_Vanilla.json, Data/Dialogue/NPCNameHere/CustomFixed_NPCNameHere.json,Data/Dialogue/NPCNameHere/CustomGiftDialogue_NPCNameHere.json, Data/Dialogue/NPCNameHere/MarriageDialogue_NPCNameHere.json, Data/Festival Data/FestivalData_NPCNameHere.json, Data/Schedules/Schedule_NPCNameHere.json, Data/Strings/Strings_NPCNameHere.json, Data/Spouse Extras/SpouseExtras_NPCNameHere.json"
-		},
-		{
-			"LogName": "Data Includes",
-			"Action": "Include",
-			"FromFile": "Data/BlankLoads.json, Data/MapPatches.json, Data/TemporaryActors.json, Data/ScheduleAnimations.json, Data/NPCGiftTastes.json, Data/Music.json, Data/Festival Data/FestivalData_Dialogue.json, Data/Events/EventsData_Replace.json,"
+			"FromFile": "data/dispositions.json, data/gifttastes.json, data/dialogue_Piyawat.json, data/schedule_Piyawat.json"
 		}
 	]
 }

@@ -13,10 +13,6 @@
 	],
 	"Dependencies": [
 		{
-			"UniqueID": "LemurKat.EastScarpe.CP",
-			"IsRequired": true
-		},
-		{
 			"UniqueID": "spacechase0.SpaceCore",
 			"IsRequired": true
 		}

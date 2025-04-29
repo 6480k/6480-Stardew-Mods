@@ -5,7 +5,9 @@
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
 			"Entries": {
-				"6480.Piyawat": "{{i18n:Piyawat.Dialogue.GiftReaction_Love}}/394/{{i18n:Piyawat.Dialogue.GiftReaction_Like}}/608/{{i18n:Piyawat.Dialogue.GiftReaction_Dislike}}/-4/{{i18n:Piyawat.Dialogue.GiftReaction_Hate}}/96/{{i18n:Piyawat.Dialogue.GiftReaction_Neutral}}/-2/"
+				"6480.Piyawat": "{{i18n:Piyawat.Dialogue.GiftReaction_Love}}/394/{{i18n:Piyawat.Dialogue.GiftReaction_Like}}/608/{{i18n:Piyawat.Dialogue.GiftReaction_Dislike}}/-4/{{i18n:Piyawat.Dialogue.GiftReaction_Hate}}/96/{{i18n:Piyawat.Dialogue.GiftReaction_Neutral}}/-2/",
+				"6480.David": "{{i18n:David.Dialogue.GiftReaction_Love}}/394/{{i18n:David.Dialogue.GiftReaction_Like}}/608/{{i18n:David.Dialogue.GiftReaction_Dislike}}/-4/{{i18n:David.Dialogue.GiftReaction_Hate}}/96/{{i18n:David.Dialogue.GiftReaction_Neutral}}/-2/",
+				"6480.Panuel": "{{i18n:Panuel.Dialogue.GiftReaction_Love}}/394/{{i18n:Panuel.Dialogue.GiftReaction_Like}}/608/{{i18n:Panuel.Dialogue.GiftReaction_Dislike}}/-4/{{i18n:Panuel.Dialogue.GiftReaction_Hate}}/96/{{i18n:Panuel.Dialogue.GiftReaction_Neutral}}/-2/"
 			}
 		}
 	]

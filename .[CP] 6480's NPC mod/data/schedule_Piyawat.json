@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Schedules/6480.Piyawat",
 			"Entries": {
-				"spring": "610 BusStop 11 5 2/1200 BusStop 11 6 2/1800 BusStop 11 5 2",
+				"spring": "610 BusStop 20 12 2/1200 BusStop 30 12 2/1800 BusStop 20 12 2",
 			},
 		},
 	]

@@ -1,0 +1,14 @@
+{
+	"Name": "[CP] Honey Test",
+	"Author": "6480",
+	"Description": "testest",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "6480.honeytest",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [
+		"Nexus: ???"
+	]
+}

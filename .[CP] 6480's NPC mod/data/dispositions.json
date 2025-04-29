@@ -12,25 +12,24 @@
 					"Manner": "Polite",
 					"SocialAnxiety": "Outgoing",
 					"Optimism": "Positive",
-					"BirthSeason": "Winter",
+					"BirthSeason": "winter",
 					"BirthDay": 14,
 					"HomeRegion": "Town",
 					"IsDarkSkinned": true,
 					"FriendsAndFamily": {
-						"6480.Clove": "{{i18n:Clove_name}}",
-						"6480.Pravuil": "{{i18n:Pravuil_name}}"
+						"6480.David": "{{i18n:David_name}}",
+						"6480.Panuel": "{{i18n:Panuel_name}}"
 					},
 					"DumpsterDiveEmote": 8,
 					"WinterStarGifts": [
-						100
 					],
 					"Home": [
 						{
 							"ID": "Default",
 							"Location": "BusStop",
 							"Tile": {
-								"X": 10,
-								"Y": 10
+								"X": 20,
+								"Y": 12
 							},
 							"Direction": "Down"
 						}
@@ -55,22 +54,21 @@
 						}
 					]
 				},
-				"6480.Clove": {
-					"DisplayName": "{{i18n:Clove_name}}",
+				"6480.David": {
+					"DisplayName": "{{i18n:David_name}}",
 					"Gender": "Male",
 					"Age": "Adult",
 					"Manner": "Polite",
 					"SocialAnxiety": "Shy",
 					"Optimism": "Neutral",
-					"BirthSeason": "Winter",
-					"BirthDay": 14,
+					"BirthSeason": "fall",
+					"BirthDay": 17,
 					"HomeRegion": "Town",
 					"FriendsAndFamily": {
 						"6480.Piyawat": "{{i18n:Piyawat_nickname}}",
-						"6480.Pravuil": "{{i18n:Pravuil_name}}"
+						"6480.Panuel": "{{i18n:Panuel_name}}"
 					},
 					"WinterStarGifts": [
-						100
 					],
 					"Home": [
 						{
@@ -83,7 +81,7 @@
 							"Direction": "Down"
 						}
 					],
-					"TextureName": "6480.Clove_default",
+					"TextureName": "6480.David_default",
 					"Appearance": [
 						{
 							"ID": "Winter default",
@@ -91,35 +89,34 @@
 							"Season": "Winter",
 							"Precedence": -100,
 							"Weight": 4,
-							"Portrait": "Portraits/6480.Clove_winterdefault",
-							"Sprite": "Portraits/6480.Clove_winterdefault"
+							"Portrait": "Portraits/6480.David_winterdefault",
+							"Sprite": "Portraits/6480.David_winterdefault"
 						},
 						{
 							"ID": "Resort",
 							"IsIslandAttire": true,
-							"Portrait": "Portraits/6480.Clove_beach",
-							"Sprite": "Characters/6480.Clove_beach",
+							"Portrait": "Portraits/6480.David_beach",
+							"Sprite": "Characters/6480.David_beach",
 							"Precedence": -100
 						}
 					]
 				},
-				"6480.Pravuil": {
-					"DisplayName": "{{i18n:Pravuil_name}}",
+				"6480.Panuel": {
+					"DisplayName": "{{i18n:Panuel_name}}",
 					"Gender": "Undefined",
 					"Age": "Teen",
 					"Manner": "Rude",
 					"SocialAnxiety": "Outgoing",
 					"Optimism": "Negative",
-					"BirthSeason": "Winter",
-					"BirthDay": 14,
+					"BirthSeason": "winter",
+					"BirthDay": 25,
 					"HomeRegion": "Town",
 					"IsDarkSkinned": true,
 					"FriendsAndFamily": {
-						"6480.Clove": "{{i18n:Clove_name}}",
+						"6480.David": "{{i18n:David_name}}",
 						"6480.Piyawat": "{{i18n:Piyawat_nickname}}"
 					},
 					"WinterStarGifts": [
-						100
 					],
 					"Home": [
 						{
@@ -132,7 +129,7 @@
 							"Direction": "Down"
 						}
 					],
-					"TextureName": "6480.Pravuil_default",
+					"TextureName": "6480.Panuel_default",
 					"Appearance": [
 						{
 							"ID": "Winter default",
@@ -140,14 +137,14 @@
 							"Season": "Winter",
 							"Precedence": -100,
 							"Weight": 4,
-							"Portrait": "Portraits/6480.Pravuil_winterdefault",
-							"Sprite": "Portraits/6480.Pravuil_winterdefault"
+							"Portrait": "Portraits/6480.Panuel_winterdefault",
+							"Sprite": "Portraits/6480.Panuel_winterdefault"
 						},
 						{
 							"ID": "Resort",
 							"IsIslandAttire": true,
-							"Portrait": "Portraits/6480.Pravuil_beach",
-							"Sprite": "Characters/6480.Pravuil_beach",
+							"Portrait": "Portraits/6480.Panuel_beach",
+							"Sprite": "Characters/6480.Panuel_beach",
 							"Precedence": -100
 						}
 					]

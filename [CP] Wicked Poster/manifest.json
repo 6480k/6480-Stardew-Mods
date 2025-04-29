@@ -1,0 +1,15 @@
+{
+	"Name": "Wicked Poster",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "Adds a furniture item for a poster from Wicked the musical.",
+	"UniqueID": "6480.wickedposter",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0"
+	},
+	"UpdateKeys": [
+		"Nexus: 30879"
+	]
+}

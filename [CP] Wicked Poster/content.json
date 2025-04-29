@@ -1,0 +1,33 @@
+{
+	"Format": "2.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.wickedposter/poster",
+			"FromFile": "poster.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"6480.wickedposter_poster": "6480.wickedposter_poster/painting/1 2/1 2/1/400/-1/{{i18n:WickedPoster}}/0/6480.wickedposter\\poster/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_SpiritsEve_Pierre",
+				"Items"
+			],
+			"Entries": {
+				"(F)6480.wickedposter_poster": {
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Id": "(F)6480.wickedposter_poster",
+					"ItemId": "(F)6480.wickedposter_poster"
+				}
+			}
+		}
+	]
+}

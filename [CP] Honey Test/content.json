@@ -1,0 +1,48 @@
+{
+	"Format": "2.4.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default"
+			],
+			"Entries": {
+				"UseFirstValidOutput": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem"
+			],
+			"Entries": {
+				"6480.honeytest_FairyDusterHoney": {
+					"Id": "6480.honeytest_FairyDusterHoney",
+					"ItemId": "Cornucopia_RoyalJelly"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"Default"
+			],
+			"Entries": {
+				"PerItemCondition": "!ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_fairyduster"
+			}
+		},
+		
+	]
+}

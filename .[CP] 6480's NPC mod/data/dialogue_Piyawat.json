@@ -5,6 +5,14 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/6480.Piyawat",
 			"Entries": {
+				"Introduction": "You're new in town? Make sure to check out the Heron's Flame, east of the library.#$b#I will even save you a plate of the daily special. It's on the house!$1#$b#Oh. You can call me Piya. Everyone does.$0",
+				"AcceptBirthdayGift_Positive": "Oh wow, thank you! How did you know what to get me?$1",
+				"AcceptBirthdayGift_Negative": "Is this a Ferngill tradition I don't understand...? I'll just...leave it over here.$2",
+				"AcceptGift_(O)StardropTea": "Incredible! It smells like the strongest curry... Thank you!$1",
+				"winter_14": "It's my birthday today. I didn't celebrate when I was little, but David always finds something for us to do.",
+				"Resort_Entering": "I can't wait to kick back and take a load off!$1",
+				"Resort_Shore": "This place is just like the beaches back home.",
+				"Resort": "It's always great to get some sunshine! The air here is so humid, it's great for my skin.#$b#Did you say someone else lives here?$3",
 				"Mon": "{{i18n:Piyawat.Dialogue_Mon}}",
 				"Tue": "{{i18n:Piyawat.Dialogue_Tue}}",
 				"Wed": "{{i18n:Piyawat.Dialogue_Wed}}",
@@ -12,9 +20,7 @@
 				"Fri": "{{i18n:Piyawat.Dialogue_Fri}}",
 				"Sat": "{{i18n:Piyawat.Dialogue_Sat}}",
 				"Sun": "{{i18n:Piyawat.Dialogue_Sun}}",
-				"winter_14": "{{i18n:Piyawat.Dialogue_winter_14}}",
 				"6480.PiyawatRestaurant": "{{i18n:Piyawat.Dialogue_restaurant{{Random: 1,2,3}}}}",
-				"Introduction": "{{i18n:Core.REPLACE.Introduction}}",
 				"joja_Begin": "{{i18n:Core.REPLACE.JojaBegin}}",
 				"cc_Begin": "{{i18n:Core.REPLACE.CCBegin}}",
 				"cc_Bus": "{{i18n:Core.REPLACE.CCBus}}",
@@ -59,14 +65,6 @@
 				"GreenRain": "{{i18n:Core.REPLACE.GreenRain}}",
 				"GreenRainFinished": "{{i18n:Core.REPLACE.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Core.REPLACE.GreenRain2}}"
-			}
-		},
-		{
-			"LogName": "Piyawat Dialogue",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/6480.Piyawat",
-			"Entries": {
-				"Schedule1": "{{i18n: Piyawat.Dialogue.Schedule_Schedule1}}"
 			}
 		}
 	]
