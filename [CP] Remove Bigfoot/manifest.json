@@ -2,7 +2,7 @@
 	"Name": "[CP] Remove Bigfoot",
 	"Author": "6480",
 	"Description": "Removes the bigfoot or sasquatch easter egg from 1.6.9+.",
-	"Version": "1.0.0",
+	"Version": "1.1",
 	"MinimumApiVersion": "4.0.0",
 	"UniqueID": "6480.bigfootbegone",
 	"ContentPackFor": {

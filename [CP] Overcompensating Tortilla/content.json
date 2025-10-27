@@ -1,0 +1,31 @@
+{
+	"Format": "2.1.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.tortilla_tortilla",
+			"FromFile": "tortilla.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"229": {
+					"Texture": "6480.tortilla_tortilla",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "{{Platonymous.ScaleUp/Assets}}",
+			"Entries": {
+				"6480.tortilla_tortilla": {
+					"Asset": "6480.tortilla_tortilla",
+					"Scale": 1,
+						"PaddingWidth": 192,
+						"PaddingHeight": 312
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,111 @@
+{
+	"Format": "2.1.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.bigtortilla_tortillainquestion",
+			"FromFile": "tortilla.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "6480.bigtortilla_tortillacentered",
+			"FromFile": "tortillacenteredlol.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "6480.bigtortilla_tortillaoffcenter",
+			"FromFile": "tortillaoffcenter.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"229": {
+					"Edibility": "-300",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"229": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"6480.bigtortilla_look": {
+					"Id": "6480.bigtortilla_look",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input 229",
+					"Actions": [
+						"MEEP_CloseupInteraction_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image": "6480.bigtortilla_tortillainquestion",
+						"MEEP_CloseupInteraction_Text": "It's slightly off-center.",
+						"MEEP_CloseupInteraction_Sound": "fishSlap",
+						//"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"HasMod|contains=Oclarina.RecenteredTortillas": true
+			},
+			"Entries": {
+				"6480.bigtortilla_look": {
+					"Id": "6480.bigtortilla_look",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input 229",
+					"Actions": [
+						"MEEP_CloseupInteraction_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image": "6480.bigtortilla_tortillacentered",
+						"MEEP_CloseupInteraction_Text": "It's perfectly centered.",
+						"MEEP_CloseupInteraction_Sound": "fishSlap",
+						//"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"HasMod|contains=6480.tortilla": true
+			},
+			"Entries": {
+				"6480.bigtortilla_look": {
+					"Id": "6480.bigtortilla_look",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input 229",
+					"Actions": [
+						"MEEP_CloseupInteraction_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image": "6480.bigtortilla_tortillaoffcenter",
+						"MEEP_CloseupInteraction_Text": "It's remarkably off-center.",
+						"MEEP_CloseupInteraction_Sound": "fishSlap",
+						//"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				}
+			}
+		}
+	]
+}

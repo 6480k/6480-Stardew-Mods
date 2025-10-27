@@ -1,0 +1,15 @@
+{
+	"Name": "Authentic Maple Syrup",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "Retextures Maple Syrup.",
+	"UniqueID": "6480.maplesyrup",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0"
+	},
+	"UpdateKeys": [
+		"Nexus: 36982"
+	]
+}

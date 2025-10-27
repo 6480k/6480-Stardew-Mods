@@ -1,0 +1,24 @@
+{
+	"Name": "Flexible Cooking",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Opens up vanilla cooking recipes to be able to use a variety of ingredients.",
+	"UniqueID": "6480.flexiblecooking",
+	"MinimumGameVersion": "1.6.0",
+	"UpdateKeys": [
+		"Nexus: 38862"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": false
+		},
+	],
+}

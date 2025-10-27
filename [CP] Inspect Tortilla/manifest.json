@@ -1,0 +1,23 @@
+{
+	"Name": "Inspect Tortilla",
+	"Author": "6480",
+	"Version": "1.1.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "It's round.",
+	"UniqueID": "6480.bigtortilla",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+			"IsRequired": true
+		},
+	],
+    "DH.MEEP": "2.0.0",
+    "DH.MEEP.CloseupInteractions": "",
+	"UpdateKeys": [
+		"Nexus: 37274"
+	]
+}

@@ -1,0 +1,1247 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"16",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_jade"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"20",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"88",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_brown": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"107",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"128",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"129",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"130",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"131",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"132",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"136",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"137",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"139",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"141",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"142",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"143",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_gray": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"144",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"145",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_orange": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"146",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"147",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_light_cyan"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"149",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_orange": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"150",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"152",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_dark_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"158",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"161",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_cyan"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"162",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_dark_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"164",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"165",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"192",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"194",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_yellow"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"195",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_gold"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"197",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_gold"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"198",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_dark_yellow"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"199",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"202",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_dark_yellow"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"207",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_sea_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"211",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_copper"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"216",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_copper"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"229",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"250",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_sea_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"257",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"258",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_poppyseed"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"264",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"272",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_purple": "color_poppyseed"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"274",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_dark_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"278",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"280",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"282",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_dark_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"284",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_purple": "color_dark_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"296",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_salmon"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"309",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_copper"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"310",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_copper"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"393",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"398",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_purple": "color_iridium"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"399",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"400",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"402",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_purple": "color_dark_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"406",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_purple": "color_dark_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"408",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_copper": "color_copper"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"410",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_blue": "color_dark_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"414",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_cyan"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"416",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_light_cyan"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"417",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_dark_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"426",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"433",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"442",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_gold"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"444",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_lime"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"446",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"540",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_dark_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"546",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_gray": "color_aqua"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"552",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_sea_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"555",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_pink": "color_pale_violet_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"560",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_lime"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"563",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_dark_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"575",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_black": "color_poppyseed"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"578",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_pink": "color_dark_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"609",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"611",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_blue": "color_dark_purple"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"613",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_gold"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"614",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"648",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"649",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_brown"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"637",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_pink": "color_dark_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"698",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_cyan": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"699",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"700",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"701",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_gray": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"702",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_gray": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"704",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_orange": "color_gold"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"705",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"706",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"707",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"708",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_gray": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"715",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"716",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_dark_gray": "color_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"717",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_red": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"724",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"732",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"796",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"798",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_dark_blue"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"807",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_white": "color_yellow_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"815",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_jade"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"267",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"91",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_yellow": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"830",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_pale_violet_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"836",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_white"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"837",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_orange": "color_sand"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"838",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_cyan": "color_light_cyan"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"848",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_orange": "color_dark_pink"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"852",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_orange": "color_iridium"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"921",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_poppyseed": "color_poppyseed"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"928",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_gold": "color_gold"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Broccoli",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_green": "color_dark_green"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Goby",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_brown": "color_iron"
+			}
+		}
+	]
+}

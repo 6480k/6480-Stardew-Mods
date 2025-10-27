@@ -1,0 +1,20 @@
+{
+	"Name": "Overcompensating Tortilla",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "No really, why did you download this.",
+	"UniqueID": "6480.tortilla",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0.0"
+	},
+  "Dependencies": [
+    {
+      "UniqueID": "Platonymous.ScaleUp"
+    }
+  ],
+	"UpdateKeys": [
+		"Nexus: 37260"
+	]
+}

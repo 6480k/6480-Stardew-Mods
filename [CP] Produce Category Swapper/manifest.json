@@ -1,0 +1,14 @@
+{
+	"Name": "Produce Category Swapper",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Edit categories of vanilla fruits and veggies to your liking.",
+	"UniqueID": "6480.objectcategories",
+	"MinimumGameVersion": "1.6.0",
+	"UpdateKeys": [
+		"Nexus: 38755"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

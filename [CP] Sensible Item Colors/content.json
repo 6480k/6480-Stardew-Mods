@@ -1,0 +1,9 @@
+{
+	"Format": "2.8.0",
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/contexttags.json",
+		},
+	]
+}

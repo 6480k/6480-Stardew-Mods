@@ -1,0 +1,14 @@
+{
+	"Name": "Sensible Item Colors",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Tweaks some vanilla item color data to make more sense.",
+	"UniqueID": "6480.itemcolors",
+	"MinimumGameVersion": "1.6.0",
+	"UpdateKeys": [
+		"Nexus: 38080"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

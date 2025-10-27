@@ -1,0 +1,14 @@
+{
+	"Name": "Template for adding context tags",
+	"Author": "6480",//put your name here
+	"Version": "1.0.0",
+	"Description": "This is a template to show you how to add context tags to items",
+	"UniqueID": "6480.contexttagtemplate",//replace with your name and name of your mod
+	"MinimumGameVersion": "1.6.0",
+	"UpdateKeys": [
+		"Nexus: ???"//fill in mod id in url when making a new nexusmods page
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

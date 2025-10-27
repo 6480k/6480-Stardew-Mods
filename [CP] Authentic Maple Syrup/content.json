@@ -1,0 +1,16 @@
+{
+	"Format": "2.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "maplesyrup.png",
+			"ToArea": {
+				"X": 64,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+			}
+		}
+	]
+}

@@ -1,0 +1,279 @@
+{
+	"Format": "2.8.0",
+	"ConfigSchema": {
+		"Hot Pepper": {
+			"AllowValues": "fruit, vegetable",
+			"Default": "fruit"
+		},
+		"Leek": {
+			"AllowValues": "forage, vegetable",
+			"Default": "forage"
+		},
+		"Snow Yam": {
+			"AllowValues": "forage, vegetable",
+			"Default": "forage"
+		},
+		"Winter Root": {
+			"AllowValues": "forage, vegetable",
+			"Default": "forage"
+		},
+		"Cave Carrot": {
+			"AllowValues": "forage, vegetable",
+			"Default": "forage"
+		},
+		"Cactus Fruit": {
+			"AllowValues": "fruit, vegetable",
+			"Default": "fruit"
+		},
+		"Rhubarb": {
+			"AllowValues": "fruit, vegetable",
+			"Default": "fruit"
+		},
+		"Coconut": {
+			"AllowValues": "fruit, forage",
+			"Default": "fruit"
+		},
+		"Truffle": {
+			"AllowValues": "no category, forage",
+			"Default": "no category"
+		},
+		"Eggplant": {
+			"AllowValues": "vegetable, fruit",
+			"Default": "vegetable"
+		},
+		"Pumpkin": {
+			"AllowValues": "vegetable, fruit",
+			"Default": "vegetable"
+		},
+		"Summer Squash": {
+			"AllowValues": "vegetable, fruit",
+			"Default": "vegetable"
+		},
+		"Tomato": {
+			"AllowValues": "vegetable, fruit",
+			"Default": "vegetable"
+		},
+		"Holly": {
+			"AllowValues": "forage, fruit",
+			"Default": "forage"
+		},
+		"Sweet Gem Berry": {
+			"AllowValues": "no category, fruit",
+			"Default": "no category"
+		},
+		"Daffodil": {
+			"AllowValues": "forage, flower",
+			"Default": "forage"
+		},
+		"Dandelion": {
+			"AllowValues": "forage, flower",
+			"Default": "forage"
+		},
+	},
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Hot Pepper": "vegetable"
+			},
+			"Fields": {
+				"260": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Leek": "vegetable"
+			},
+			"Fields": {
+				"20": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Snow Yam": "vegetable"
+			},
+			"Fields": {
+				"416": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Winter Root": "vegetable"
+			},
+			"Fields": {
+				"412": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Cave Carrot": "vegetable"
+			},
+			"Fields": {
+				"78": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Cactus Fruit": "vegetable"
+			},
+			"Fields": {
+				"90": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Rhubarb": "vegetable"
+			},
+			"Fields": {
+				"252": {
+					"Category": -75
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Coconut": "forage"
+			},
+			"Fields": {
+				"88": {
+					"Category": -81
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Truffle": "forage"
+			},
+			"Fields": {
+				"430": {
+					"Category": -81
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Eggplant": "fruit"
+			},
+			"Fields": {
+				"272": {
+					"Category": -79
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Pumpkin": "fruit"
+			},
+			"Fields": {
+				"276": {
+					"Category": -79
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Summer Squash": "fruit"
+			},
+			"Fields": {
+				"SummerSquash": {
+					"Category": -79
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Tomato": "fruit"
+			},
+			"Fields": {
+				"256": {
+					"Category": -79
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Holly": "fruit"
+			},
+			"Fields": {
+				"283": {
+					"Category": -79
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Sweet Gem Berry": "fruit"
+			},
+			"Fields": {
+				"417": {
+					"Category": -79
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Daffodil": "flower"
+			},
+			"Fields": {
+				"18": {
+					"Category": -80
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Dandelion": "flower"
+			},
+			"Fields": {
+				"22": {
+					"Category": -80
+				}
+			}
+		}
+	]
+}
