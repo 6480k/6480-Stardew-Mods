@@ -3,7 +3,7 @@
 	"ConfigSchema": {
 		"Ingredient Indicator": {
 			"AllowValues": "A, B, C, D",
-			"Default": "D",
+			"Default": "B",
 			"Description": "Label flexible ingredients in the cooking menu with this option. All ingredients in vanilla recipes will be labeled! Outside of this option, broader ingredient categories will follow vanilla convention, such as Cheese (Any) and Cooking Oil (Any)."
 		},
 		"Extra Changes": {

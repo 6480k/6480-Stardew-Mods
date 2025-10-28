@@ -1,7 +1,7 @@
 {
 	"Name": "Flexible Cooking",
 	"Author": "6480",
-	"Version": "1.0.0",
+	"Version": "1.0.1",
 	"Description": "Opens up vanilla cooking recipes to be able to use a variety of ingredients.",
 	"UniqueID": "6480.flexiblecooking",
 	"MinimumGameVersion": "1.6.0",
