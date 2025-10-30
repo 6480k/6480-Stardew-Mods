@@ -439,12 +439,22 @@
 		"When": {"Stardrop Shape": "classic", "Change Stardrop Color": true}
 		},
 		{
-		"LogName": "Iridium Trashcan Large",
+		"LogName": "Iridium Trashcan Large Base",
 		"Action": "EditImage",
 		"Target": "LooseSprites/Cursors",
 		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
-		"FromArea": { "X": 96, "Y": 176, "Width": 18, "Height": 37 },
-		"ToArea": { "X": 636, "Y": 102, "Width": 18, "Height": 37 }
+		"FromArea": { "X": 96, "Y": 176, "Width": 16, "Height": 26 },
+		"ToArea": { "X": 636, "Y": 102, "Width": 16, "Height": 26 },
+		"When": {"Recolor Tools": true}
+		},
+		{
+		"LogName": "Iridium Trashcan Large Lid",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{saturationtools}}/{{color}}.png",
+		"FromArea": { "X": 96, "Y": 203, "Width": 18, "Height": 10 },
+		"ToArea": { "X": 636, "Y": 129, "Width": 18, "Height": 10 },
+		"When": {"Recolor Tools": true}
 		},
 		{
 		"LogName": "Rare Item Purple",

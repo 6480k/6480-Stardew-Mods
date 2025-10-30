@@ -129,6 +129,17 @@
 				"ContextTags"
 			],
 			"Entries": {
+				"color_salmon": "color_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"140",
+				"ContextTags"
+			],
+			"Entries": {
 				"color_yellow": "color_white"
 			}
 		},
