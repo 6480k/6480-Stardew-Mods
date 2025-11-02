@@ -56,7 +56,7 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "category_fish, !crab_pot_item",
+							"Value": "category_fish, !fish_crab_pot",
 							"Amount": 1,
 							"ContextTagsRequireAll": true,
 							"OverrideText": "{{i18n:Ingredient_FishNonCrabPot}}",
@@ -102,7 +102,7 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "category_fish, !crab_pot_item",
+							"Value": "category_fish, !fish_crab_pot",
 							"Amount": 1,
 							"ContextTagsRequireAll": true,
 							"OverrideText": "{{i18n:Ingredient_FishNonCrabPot}}",

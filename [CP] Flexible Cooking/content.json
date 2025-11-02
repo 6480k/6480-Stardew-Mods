@@ -46,10 +46,97 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "data/flexiblerecipes_loc.json",
+			"When": {
+				"HasMod|contains=blueberry.LoveOfCooking": true,
+                "blueberry.LoveOfCooking/AddCookingSkillAndRecipes": true
+			}
+		},
+		{
+			"Action": "Include",
 			"When": {
 				"Extra Changes": true
 			},
 			"FromFile": "data/extrachanges.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_wag.json",
+			"When": {
+				"HasMod|contains=Wildflour.AtelierGoods": true,
+				"HasMod|contains=Atelier.Cauldron": true,
+				"Atelier.Cauldron/ConfigValue:FloristOnly": false,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_vmv.json",
+			"When": {
+				"HasMod|contains=Lumisteria.MtVapius": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_sve.json",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_sbv.json",
+			"When": {
+				"HasMod|contains=skellady.SBVCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_rata.json",
+			"When": {
+				"HasMod|contains=Wildflour.SASS": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_rsv.json",
+			"When": {
+				"HasMod|contains=Rafseazz.RSVCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_es.json",
+			"When": {
+				"HasMod|contains=LemurKat.EastScarpe.CP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_mnf.json",
+			"When": {
+				"HasMod|contains=MoreFish": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_bonster.json",
+			"When": {
+				"HasMod|contains=BFV.CombinedCrops": true,
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=blueberry.LoveOfCooking.CP": true,
+			},
+			"TargetField": [
+				"blueberry.LoveOfCooking_chocolate",
+				"ContextTags"
+			],
+			"Entries": {
+				"chocolate_item": "chocolate_item"
+			}
 		},
 	]
 }

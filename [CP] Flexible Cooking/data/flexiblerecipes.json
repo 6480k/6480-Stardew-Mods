@@ -510,7 +510,7 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "vinegar_item",
+							"Value": "vinegar_item, balsamic_vinegar_item",
 							"Amount": 1,
 							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
 							"OverrideTexturePath": "Maps/springobjects",
@@ -1752,7 +1752,7 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "vinegar_item",
+							"Value": "vinegar_item, balsamic_vinegar_item",
 							"Amount": 1,
 							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
 							"OverrideTexturePath": "Maps/springobjects",
@@ -2118,7 +2118,7 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "vinegar_item",
+							"Value": "vinegar_item, balsamic_vinegar_item",
 							"Amount": 1,
 							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
 							"OverrideTexturePath": "Maps/springobjects",
@@ -2349,7 +2349,7 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "vinegar_item",
+							"Value": "vinegar_item, balsamic_vinegar_item",
 							"Amount": 1,
 							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
 							"OverrideTexturePath": "Maps/springobjects",
