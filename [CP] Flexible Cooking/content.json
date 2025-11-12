@@ -2,7 +2,7 @@
 	"Format": "2.8.0",
 	"ConfigSchema": {
 		"Ingredient Indicator": {
-			"AllowValues": "A, B, C, D",
+			"AllowValues": "A, B, C, D, E",
 			"Default": "B",
 			"Description": "Label flexible ingredients in the cooking menu with this option. All ingredients in vanilla recipes will be labeled! Outside of this option, broader ingredient categories will follow vanilla convention, such as Cheese (Any) and Cooking Oil (Any)."
 		},
@@ -19,7 +19,7 @@
 		},
 		{
 			"Name": "indicator",
-			"Value": "asterisk",
+			"Value": "star",
 			"When": {
 				"Ingredient Indicator": "B"
 				}
@@ -38,8 +38,27 @@
 				"Ingredient Indicator": "D"
 				}
 		},
+		{
+			"Name": "indicator",
+			"Value": "asterisk",
+			"When": {
+				"Ingredient Indicator": "E"
+				}
+		},
 	],
 	"Changes": [
+		{
+            "Action": "Load",
+            "Target": "6480.flexiblecooking/i18n",
+            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
+        },
+		{
+            "Action": "EditData",
+            "Target": "6480.flexiblecooking/i18n",
+            "Entries": {
+				"Indicator": "{{i18n:{{indicator}}}}"
+			}
+        },
 		{
 			"Action": "Include",
 			"FromFile": "data/contexttags.json, data/flexiblerecipes.json",

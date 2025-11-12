@@ -231,5 +231,71 @@
 				"crab_item": "crab_item",
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Bearberrys",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Joja_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
 	]
 }

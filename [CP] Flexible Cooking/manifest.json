@@ -1,7 +1,7 @@
 {
 	"Name": "Flexible Cooking",
 	"Author": "6480",
-	"Version": "1.1.0",
+	"Version": "1.1.1",
 	"Description": "Opens up vanilla cooking recipes to be able to use a variety of ingredients.",
 	"UniqueID": "6480.flexiblecooking",
 	"MinimumGameVersion": "1.6.0",
@@ -54,6 +54,10 @@
 		},
 		{
 			"UniqueID": "BFV.CombinedCrops",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "MoreFish",
 			"IsRequired": false
 		}
 	],

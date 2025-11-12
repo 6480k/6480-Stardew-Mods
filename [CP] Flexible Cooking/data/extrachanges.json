@@ -13,7 +13,7 @@
 							"Type": "ContextTag",
 							"Value": "leafy_green_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_LeafyGreenAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 160,
@@ -26,7 +26,7 @@
 							"Type": "ContextTag",
 							"Value": "dandelion_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Dandelion_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Dandelion_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 352,
@@ -39,7 +39,7 @@
 							"Type": "ContextTag",
 							"Value": "vinegar_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Vinegar_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 176,
@@ -59,7 +59,7 @@
 							"Value": "category_fish, !fish_crab_pot",
 							"Amount": 1,
 							"ContextTagsRequireAll": true,
-							"OverrideText": "{{i18n:Ingredient_FishNonCrabPot}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishNonCrabPot]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -72,7 +72,7 @@
 							"Type": "ContextTag",
 							"Value": "seaweed_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Seaweed_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Seaweed_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -85,7 +85,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -105,7 +105,7 @@
 							"Value": "category_fish, !fish_crab_pot",
 							"Amount": 1,
 							"ContextTagsRequireAll": true,
-							"OverrideText": "{{i18n:Ingredient_FishNonCrabPot}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishNonCrabPot]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -124,7 +124,7 @@
 							"Type": "ContextTag",
 							"Value": "root_vegetable_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_RootVegetableAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_RootVegetableAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -137,7 +137,7 @@
 							"Type": "ContextTag",
 							"Value": "edible_mushroom",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_EdibleMushroomAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -150,7 +150,7 @@
 							"Type": "ContextTag",
 							"Value": "leafy_green_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_LeafyGreenAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 160,
@@ -163,7 +163,7 @@
 							"Type": "ContextTag",
 							"Value": "cooking_oil_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_OilAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 112,

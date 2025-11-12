@@ -56,7 +56,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"parsnip_item": "parsnip_item"
+				"parsnip_item": "parsnip_item",
+				"root_vegetable_item": "root_vegetable_item"
 			}
 		},
 		{
@@ -813,7 +814,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"blueberry_item": "blueberry_item"
+				"blueberry_item": "blueberry_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -978,7 +980,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"cranberry_item": "cranberry_item"
+				"cranberry_item": "cranberry_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -1012,7 +1015,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"salmonberry_item": "salmonberry_item"
+				"salmonberry_item": "salmonberry_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -1152,7 +1156,8 @@
 			],
 			"Entries": {
 				"spice_berry_item": "spice_berry_item",
-				"spice_item": "spice_item"
+				"spice_item": "spice_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -1174,7 +1179,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"grape_item": "grape_item"
+				"grape_item": "grape_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -1199,7 +1205,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"strawberry_item": "strawberry_item"
+				"strawberry_item": "strawberry_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -1257,7 +1264,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"blackberry_item": "blackberry_item"
+				"blackberry_item": "blackberry_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{
@@ -1304,7 +1312,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"sweet_gem_berry_item": "sweet_gem_berry_item"
+				"sweet_gem_berry_item": "sweet_gem_berry_item",
+				"berry_item": "berry_item"
 			}
 		},
 		{

@@ -12,7 +12,7 @@
 							"Type": "ContextTag",
 							"Value": "wheat_flour_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 96,
@@ -25,7 +25,7 @@
 							"Type": "ContextTag",
 							"Value": "category_milk",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_MilkAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -38,7 +38,7 @@
 							"Type": "ContextTag",
 							"Value": "category_fish",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_FishAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -57,7 +57,7 @@
 							"Type": "ContextTag",
 							"Value": "wheat_flour_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 96,
@@ -70,7 +70,7 @@
 							"Type": "ContextTag",
 							"Value": "sugar_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_SugarAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 80,
@@ -83,7 +83,7 @@
 							"Type": "ContextTag",
 							"Value": "apple_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Apple_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Apple_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 208,
@@ -102,7 +102,7 @@
 							"Type": "ContextTag",
 							"Value": "spring_onion_item, green_onion_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:SpringOnion_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:SpringOnion_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -115,7 +115,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -134,7 +134,7 @@
 							"Type": "ContextTag",
 							"Value": "potato_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Potato_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Potato_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -147,7 +147,7 @@
 							"Type": "ContextTag",
 							"Value": "cheese_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_CheeseAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -171,7 +171,7 @@
 							"Type": "ContextTag",
 							"Value": "coffee_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Coffee_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Coffee_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 176,
@@ -190,7 +190,7 @@
 							"Type": "ContextTag",
 							"Value": "bread_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Bread_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -203,7 +203,7 @@
 							"Type": "ContextTag",
 							"Value": "beet_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Beet_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Beet_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -216,7 +216,7 @@
 							"Type": "ContextTag",
 							"Value": "red_cabbage_item, cabbage_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:RedCabbage_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:RedCabbage_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 32,
@@ -235,7 +235,7 @@
 							"Type": "ContextTag",
 							"Value": "tortilla_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tortilla_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tortilla_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 208,
@@ -248,7 +248,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -261,7 +261,7 @@
 							"Type": "ContextTag",
 							"Value": "chili_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_ChiliAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -280,7 +280,7 @@
 							"Type": "ContextTag",
 							"Value": "carrot_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Carrot_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Carrot_Name]]]",
 							"OverrideTexturePath": "Tilesheets/Objects_2",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -293,7 +293,7 @@
 							"Type": "ContextTag",
 							"Value": "wheat_flour_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 96,
@@ -306,7 +306,7 @@
 							"Type": "ContextTag",
 							"Value": "category_egg",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_EggAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -325,7 +325,7 @@
 							"Type": "ContextTag",
 							"Value": "cherry_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cherry_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Cherry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 224,
@@ -338,7 +338,7 @@
 							"Type": "ContextTag",
 							"Value": "wheat_flour_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 96,
@@ -351,7 +351,7 @@
 							"Type": "ContextTag",
 							"Value": "sugar_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_SugarAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 80,
@@ -370,7 +370,7 @@
 							"Type": "ContextTag",
 							"Value": "chocolate_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Mods\\blueberry.LoveOfCooking.Assets\\Strings:item.chocolate.name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Mods\\blueberry.LoveOfCooking.Assets\\Strings:item.chocolate.name]]]",
 							"OverrideTexturePath": "Mods\\blueberry.LoveOfCooking.Assets//ObjectSprites",
 							"OverrideTextureRect": {
 								"X": 48,
@@ -383,7 +383,7 @@
 							"Type": "ContextTag",
 							"Value": "hazelnut_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Hazelnut_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Hazelnut_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -402,7 +402,7 @@
 							"Type": "ContextTag",
 							"Value": "coconut_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Coconut_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Coconut_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -415,7 +415,7 @@
 							"Type": "ContextTag",
 							"Value": "category_milk",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_MilkAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -434,7 +434,7 @@
 							"Type": "ContextTag",
 							"Value": "crayfish_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Crayfish_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Crayfish_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -447,7 +447,7 @@
 							"Type": "ContextTag",
 							"Value": "artichoke_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Artichoke_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Artichoke_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 160,
@@ -466,7 +466,7 @@
 							"Type": "ContextTag",
 							"Value": "wheat_flour_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 96,
@@ -479,7 +479,7 @@
 							"Type": "ContextTag",
 							"Value": "orange_item, citrus_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Orange_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Orange_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 176,
@@ -493,7 +493,7 @@
 							"Value": "syrup_item, !id_o_725, !id_o_726",
 							"ContextTagsRequireAll": true,
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:MapleSyrup_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:MapleSyrup_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 64,
@@ -512,7 +512,7 @@
 							"Type": "ContextTag",
 							"Value": "cactus_item, cactus_fruit_item",
 							"Amount": 3,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:CactusFruit_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:CactusFruit_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 288,
@@ -525,7 +525,7 @@
 							"Type": "ContextTag",
 							"Value": "chili_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_ChiliAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -538,7 +538,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -557,7 +557,7 @@
 							"Type": "ContextTag",
 							"Value": "bread_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Bread_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -575,7 +575,7 @@
 							"Type": "ContextTag",
 							"Value": "spring_onion_item, green_onion_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:SpringOnion_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:SpringOnion_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -594,7 +594,7 @@
 							"Type": "ContextTag",
 							"Value": "wine_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Wine_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Wine_Name]]]",
 							"OverrideTexturePath": "Tilesheets/Objects_2",
 							"OverrideTextureRect": {
 								"X": 48,
@@ -607,7 +607,7 @@
 							"Type": "ContextTag",
 							"Value": "cherry_item, stone_fruit_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cherry_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Cherry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 224,
@@ -620,7 +620,7 @@
 							"Type": "ContextTag",
 							"Value": "strawberry_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Strawberry_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Strawberry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -639,7 +639,7 @@
 							"Type": "ContextTag",
 							"Value": "category_milk",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_MilkAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -652,7 +652,7 @@
 							"Type": "ContextTag",
 							"Value": "chocolate_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Mods\\blueberry.LoveOfCooking.Assets\\Strings:item.chocolate.name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Mods\\blueberry.LoveOfCooking.Assets\\Strings:item.chocolate.name]]]",
 							"OverrideTexturePath": "Mods\\blueberry.LoveOfCooking.Assets//ObjectSprites",
 							"OverrideTextureRect": {
 								"X": 48,
@@ -671,7 +671,7 @@
 							"Type": "ContextTag",
 							"Value": "potato_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Potato_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Potato_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -684,7 +684,7 @@
 							"Type": "ContextTag",
 							"Value": "garlic_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Garlic_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Garlic_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -697,7 +697,7 @@
 							"Type": "ContextTag",
 							"Value": "horseradish_item, wasabi_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WildHorseradish_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WildHorseradish_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -716,7 +716,7 @@
 							"Type": "ContextTag",
 							"Value": "tortilla_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tortilla_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tortilla_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 208,
@@ -729,7 +729,7 @@
 							"Type": "ContextTag",
 							"Value": "tomato_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tomato_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -742,7 +742,7 @@
 							"Type": "ContextTag",
 							"Value": "red_cabbage_item, cabbage_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:RedCabbage_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:RedCabbage_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 32,
@@ -761,7 +761,7 @@
 							"Type": "ContextTag",
 							"Value": "soft_cheese_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:GoatCheese_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:GoatCheese_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 288,
@@ -774,7 +774,7 @@
 							"Type": "ContextTag",
 							"Value": "fern_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:FiddleheadFern_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:FiddleheadFern_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 304,
@@ -787,7 +787,7 @@
 							"Type": "ContextTag",
 							"Value": "garlic_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Garlic_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Garlic_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -806,7 +806,7 @@
 							"Type": "ContextTag",
 							"Value": "leek_item",
 							"Amount": 3,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Leek_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Leek_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -819,7 +819,7 @@
 							"Type": "ContextTag",
 							"Value": "tomato_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tomato_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -838,7 +838,7 @@
 							"Type": "ContextTag",
 							"Value": "lobster_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Lobster_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Lobster_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 304,
@@ -851,7 +851,7 @@
 							"Type": "ContextTag",
 							"Value": "garlic_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Garlic_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Garlic_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -870,7 +870,7 @@
 							"Type": "ContextTag",
 							"Value": "roe_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Roe_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Roe_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 320,
@@ -883,7 +883,7 @@
 							"Type": "ContextTag",
 							"Value": "seaweed_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Seaweed_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Seaweed_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -896,7 +896,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -925,7 +925,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -938,7 +938,7 @@
 							"Type": "ContextTag",
 							"Value": "oyster_item",
 							"Amount": 2,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Oyster_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Oyster_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 48,
@@ -957,7 +957,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -970,7 +970,7 @@
 							"Type": "ContextTag",
 							"Value": "squid_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Squid_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Squid_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 112,
@@ -983,7 +983,7 @@
 							"Type": "ContextTag",
 							"Value": "shrimp_item, prawn_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Shrimp_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Shrimp_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -996,7 +996,7 @@
 							"Type": "ContextTag",
 							"Value": "tomato_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tomato_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1009,7 +1009,7 @@
 							"Type": "ContextTag",
 							"Value": "mussel_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Mussel_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Mussel_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 368,
@@ -1028,7 +1028,7 @@
 							"Type": "ContextTag",
 							"Value": "category_milk",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_MilkAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1041,7 +1041,7 @@
 							"Type": "ContextTag",
 							"Value": "plum_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WildPlum_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WildPlum_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 352,
@@ -1054,7 +1054,7 @@
 							"Type": "ContextTag",
 							"Value": "blackberry_item, berry_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Blackberry_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Blackberry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 32,
@@ -1073,7 +1073,7 @@
 							"Type": "ContextTag",
 							"Value": "chanterelle_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Chanterelle_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Chanterelle_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 272,
@@ -1086,7 +1086,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -1099,7 +1099,7 @@
 							"Type": "ContextTag",
 							"Value": "poppy_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Poppy_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Poppy_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1118,7 +1118,7 @@
 							"Type": "ContextTag",
 							"Value": "chocolate_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Mods\\blueberry.LoveOfCooking.Assets\\Strings:item.chocolate.name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Mods\\blueberry.LoveOfCooking.Assets\\Strings:item.chocolate.name]]]",
 							"OverrideTexturePath": "Mods\\blueberry.LoveOfCooking.Assets//ObjectSprites",
 							"OverrideTextureRect": {
 								"X": 48,
@@ -1131,7 +1131,7 @@
 							"Type": "ContextTag",
 							"Value": "category_milk",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_MilkAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1144,7 +1144,7 @@
 							"Type": "ContextTag",
 							"Value": "sugar_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_SugarAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 80,
@@ -1163,7 +1163,7 @@
 							"Type": "ContextTag",
 							"Value": "category_egg",
 							"Amount": 2,
-							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_EggAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -1176,7 +1176,7 @@
 							"Type": "ContextTag",
 							"Value": "cheese_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_CheeseAny]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1189,7 +1189,7 @@
 							"Type": "ContextTag",
 							"Value": "eggplant_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Eggplant_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Eggplant_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -1223,7 +1223,7 @@
 							"Type": "ContextTag",
 							"Value": "broccoli_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Broccoli_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Broccoli_Name]]]",
 							"OverrideTexturePath": "Tilesheets/Objects_2",
 							"OverrideTextureRect": {
 								"X": 32,
@@ -1242,7 +1242,7 @@
 							"Type": "ContextTag",
 							"Value": "bread_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Bread_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -1260,7 +1260,7 @@
 							"Type": "ContextTag",
 							"Value": "tomato_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tomato_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1279,7 +1279,7 @@
 							"Type": "ContextTag",
 							"Value": "bread_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Bread_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -1292,7 +1292,7 @@
 							"Type": "ContextTag",
 							"Value": "crab_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Crab_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Crab_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 336,
@@ -1305,7 +1305,7 @@
 							"Type": "ContextTag",
 							"Value": "amaranth_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Amaranth_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Amaranth_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 192,
@@ -1324,7 +1324,7 @@
 							"Type": "ContextTag",
 							"Value": "pomegranate_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Pomegranate_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Pomegranate_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 208,
@@ -1337,7 +1337,7 @@
 							"Type": "ContextTag",
 							"Value": "radish_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Radish_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Radish_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 0,
@@ -1350,11 +1350,11 @@
 							"Type": "ContextTag",
 							"Value": "melon_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Cornucopia.MoreCrops/i18n:Watermelon_name]}}",
-							"OverrideTexturePath": "Cornucopia.MoreCrops/Objects",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Melon_Name]]]",
+							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
-								"X": 160,
-								"Y": 0,
+								"X": 224,
+								"Y": 160,
 								"Width": 16,
 								"Height": 16
 							}
@@ -1363,7 +1363,7 @@
 							"Type": "ContextTag",
 							"Value": "vinegar_item, balsamic_vinegar_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Vinegar_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 176,
@@ -1382,7 +1382,7 @@
 							"Type": "ContextTag",
 							"Value": "eel_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Eel_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Eel_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 64,
@@ -1395,7 +1395,7 @@
 							"Type": "ContextTag",
 							"Value": "rice_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Rice_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -1408,7 +1408,7 @@
 							"Type": "ContextTag",
 							"Value": "seaweed_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Seaweed_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Seaweed_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 128,
@@ -1427,7 +1427,7 @@
 							"Type": "ContextTag",
 							"Value": "wheat_flour_item",
 							"Amount": 3,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 96,
@@ -1440,7 +1440,7 @@
 							"Type": "ContextTag",
 							"Value": "strawberry_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Strawberry_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Strawberry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 256,
@@ -1453,7 +1453,7 @@
 							"Type": "ContextTag",
 							"Value": "blueberry_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Blueberry_Name]}}",
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Blueberry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 288,
