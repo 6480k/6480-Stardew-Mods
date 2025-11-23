@@ -61,7 +61,7 @@
         },
 		{
 			"Action": "Include",
-			"FromFile": "data/contexttags.json, data/flexiblerecipes.json",
+			"FromFile": "data/flexiblerecipes.json",
 		},
 		{
 			"Action": "Include",
@@ -77,6 +77,10 @@
 				"Extra Changes": true
 			},
 			"FromFile": "data/extrachanges.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_vanilla.json",
 		},
 		{
 			"Action": "Include",
@@ -126,7 +130,7 @@
 			"Action": "Include",
 			"FromFile": "contexttags_compat/contexttags_es.json",
 			"When": {
-				"HasMod|contains=LemurKat.EastScarpe.CP": true,
+				"HasMod|contains=LemurKat.EastScarp": true,
 			}
 		},
 		{

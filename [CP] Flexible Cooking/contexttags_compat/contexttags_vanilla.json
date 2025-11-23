@@ -9,7 +9,8 @@
 			],
 			"Entries": {
 				"wild_horseradish_item": "wild_horseradish_item",
-				"horseradish_item": "horseradish_item"
+				"horseradish_item": "horseradish_item",
+				"spice_item": "spice_item"
 			}
 		},
 		{
@@ -508,28 +509,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"194",
-				"ContextTags"
-			],
-			"Entries": {
-				"fried_egg_item": "fried_egg_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"195",
-				"ContextTags"
-			],
-			"Entries": {
-				"omelet_item": "omelet_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
 				"198",
 				"ContextTags"
 			],
@@ -585,56 +564,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"210",
-				"ContextTags"
-			],
-			"Entries": {
-				"hashbrown_item": "hashbrown_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"211",
-				"ContextTags"
-			],
-			"Entries": {
-				"pancake_item": "pancake_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
 				"216",
 				"ContextTags"
 			],
 			"Entries": {
 				"bread_item": "bread_item",
 				"baguette_item": "baguette_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"220",
-				"ContextTags"
-			],
-			"Entries": {
-				"chocolate_cake_item": "chocolate_cake_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"221",
-				"ContextTags"
-			],
-			"Entries": {
-				"pink_cake_item": "pink_cake_item"
 			}
 		},
 		{
@@ -1403,7 +1338,8 @@
 			],
 			"Entries": {
 				"cheese_item": "cheese_item",
-				"soft_cheese_item": "soft_cheese_item"
+				"soft_cheese_item": "soft_cheese_item",
+				"goat_cheese_item": "goat_cheese_item"
 			}
 		},
 		{
@@ -1693,7 +1629,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"bug_meat_item": "bug_meat_item"
+				"bug_meat_item": "bug_meat_item",
+				"meat_item": "meat_item"
 			}
 		},
 		{
@@ -2234,7 +2171,8 @@
 				"ContextTags"
 			],
 			"Entries": {
-				"carrot_item": "carrot_item"
+				"carrot_item": "carrot_item",
+				"root_vegetable_item": "root_vegetable_item"
 			}
 		},
 		{
