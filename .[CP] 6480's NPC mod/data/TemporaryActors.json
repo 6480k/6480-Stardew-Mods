@@ -1,0 +1,10 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/ExampleTemp, Portraits/ExampleTemp",
+            "FromFile": "assets/TemporaryActors/{{TargetPathOnly}}/ExampleTemp.png"
+        },
+
+    ]
+}

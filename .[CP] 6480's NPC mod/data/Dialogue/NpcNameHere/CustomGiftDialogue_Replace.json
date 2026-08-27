@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/REPLACE",
+      "Entries": { // CUSTOM GIFT DIALOGUE
+
+        // STARDROP TEA 
+        "AcceptGift_(O)StardropTea": "{{i18n:Gifts.REPLACE.GiftReaction.StardropTea}}",
+
+        // ITEM REJECTIONS 
+        
+        "RejectItem_(O)458": "{{i18n:REPLACE.GiftReject.Bouquet}}",
+      }
+    },
+  ]
+}

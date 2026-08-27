@@ -1,0 +1,11 @@
+{
+	"Name": "Kale Mod",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "gay ass mod",
+	"UniqueID": "6480.kyle",
+	"MinimumGameVersion": "1.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

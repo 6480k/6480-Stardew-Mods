@@ -1,0 +1,24 @@
+{
+	"Name": "[CP] 6480's NPC mod",
+	"Author": "6480",
+	"Version": "0.1.0",
+	"Description": "Random description",
+	"UniqueID": "6480.heronsflame",
+	"MinimumApiVersion": "4.0.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [
+		"Nexus:???"
+	],
+	"Dependencies": [
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		}
+	]
+}

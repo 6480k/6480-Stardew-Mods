@@ -1,0 +1,61 @@
+{
+	"Format": "2.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.kyle/objects",
+			"FromFile": "{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"6480.kyle_PotatoTikkaMasala": {
+					"Name": "6480.kyle_PotatoTikkaMasala",
+					"Category": -7,
+					"Type": "Cooking",
+					"DisplayName": "Potato Tikka Masala",
+					"Description": "A simple curry made with spiced potatoes.",
+					"Texture": "6480.kyle/objects",
+					"Price": 500,
+					"Edibility": 80,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 1000,
+							"CustomAttributes": {
+								"Attack": 2.0,
+							}
+						}
+					],
+					"ContextTags": [
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries": {
+				"6480.kyle_PotatoTikkaMasala": "192 1 396 1 256 1 260 1/25 5/6480.kyle_PotatoTikkaMasala/none/",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Shane",
+						1
+					],
+					"Value": "6480.kyle_PotatoTikkaMasala",
+					"Delimiter": " "
+				},
+			]
+		}
+	]
+}
