@@ -231,5 +231,222 @@
 				]
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_SesameOil",
+				"OutputItem",
+				"(O)Cornucopia_SesameOil"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_PalmOil",
+				"OutputItem",
+				"(O)Cornucopia_PalmOil"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Cornucopia_DriedFruitFix",
+				"OutputItem",
+				"FLAVORED_ITEM DriedFruit DROP_IN_ID"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_SugarCaneSugar",
+				"ProducedItems",
+				"(O)245"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_SugarCaneSugar",
+				"ProducedItems",
+				"(O)Cornucopia_Molasses"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_BuckwheatFlour",
+				"ProducedItems",
+				"(O)Cornucopia_BuckwheatFlour"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_SemolinaFlour",
+				"ProducedItems",
+				"(O)Cornucopia_SemolinaFlour"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_WholeGrainFlour",
+				"ProducedItems",
+				"(O)Cornucopia_WholeGrainFlour"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_SugarBeetSugar",
+				"ProducedItems",
+				"(O)245"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions",
+				"Cornucopia_SugarBeetSugar",
+				"ProducedItems",
+				"(O)Cornucopia_Molasses"
+			],
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "6480.qualitygoods_DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.5\" \"ITEM_QUALITY Input 4 4, RANDOM 1\"",
+						"Modification": "Multiply",
+						"Amount": 2.0,
+						"RandomAmount": null
+					}
+				]
+			}
+		},
 	]
 }

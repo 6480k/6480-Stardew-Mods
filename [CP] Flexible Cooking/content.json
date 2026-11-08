@@ -9,7 +9,12 @@
 		"Extra Changes": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "For a few recipes, replaces some ingredients with different categories for variety. For example, instead of using a Leek to make Salad, you can use Any Leafy Green (any leafy vegetable). Or use Any Root Vegetable instead of a Cave Carrot to make Stir Fry. Also makes it so Sashimi and Maki Roll can only be made with real fish and not stuff like Snail, Clam, etc from crab pots."
+			"Description": "For a few recipes, replaces some ingredients with different categories for variety. For example, instead of using a Leek to make Salad, you can use Any Leafy Green (any leafy vegetable). Or use Any Root Vegetable instead of a Cave Carrot to make Stir Fry."
+		},
+		"Restrict Fish Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Makes it so Sashimi and Maki Roll can only be made with real fish and not items like Snail, Clam, etc from crab pots."
 		},
 	},
 	"DynamicTokens": [
@@ -43,6 +48,34 @@
 			"Value": "asterisk",
 			"When": {
 				"Ingredient Indicator": "E"
+				}
+		},
+		{
+			"Name": "anyfish",
+			"Value": "category_fish, !fish_crab_pot",
+			"When": {
+				"Restrict Fish Recipes": true
+				}
+		},
+		{
+			"Name": "anyfish",
+			"Value": "category_fish",
+			"When": {
+				"Restrict Fish Recipes": false
+				}
+		},
+		{
+			"Name": "anyfishtext",
+			"Value": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishNonCrabPot]",
+			"When": {
+				"Restrict Fish Recipes": true
+				}
+		},
+		{
+			"Name": "anyfishtext",
+			"Value": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishAny]",
+			"When": {
+				"Restrict Fish Recipes": false
 				}
 		},
 	],

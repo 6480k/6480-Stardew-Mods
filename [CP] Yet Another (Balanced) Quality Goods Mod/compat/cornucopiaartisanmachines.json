@@ -363,6 +363,27 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_EgglessEgg",
+				"OutputItem",
+				"Default"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
 				"(BC)Cornucopia_CompactMill",
 				"OutputRules",
 				"Cornucopia_Applesauce",
@@ -684,31 +705,6 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)Cornucopia_DeluxeSmoker",
-				"OutputRules",
-				"Cornucopia_SmokedEgg",
-				"OutputItem",
-				"(O)Cornucopia_SmokedEgg"
-			],
-			"Entries": {
-				"CopyQuality": true,
-				"PriceModifiers": [
-					{
-						"Modification": "Multiply",
-						"Amount": 2
-					},
-					{
-						"Id": "6480.qualitygoods",
-						"Modification": "Multiply",
-						"Amount": "{{Profit Scaling}}"
-					}
-				]
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
 				"(BC)Cornucopia_Extruder",
 				"OutputRules",
 				"Cornucopia_Beeswax",
@@ -906,6 +902,30 @@
 				"(BC)15",
 				"OutputRules",
 				"Cornucopia_CenturyEgg",
+				"OutputItem",
+				"(O)Cornucopia_CenturyEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"HasMod|contains=Strobe.largevoidegg": true
+			},
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_CenturyEgg_Strobe.largevoidegg",
 				"OutputItem",
 				"(O)Cornucopia_CenturyEgg"
 			],
@@ -1741,6 +1761,27 @@
 			"TargetField": [
 				"(BC)24",
 				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseEgglessEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
 				"Cornucopia_SpicyMayonnaise",
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseLargeEgg"
@@ -1766,6 +1807,27 @@
 				"Cornucopia_SpicyMayonnaise",
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseSmallEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseEgglessEgg"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -1827,6 +1889,27 @@
 			"TargetField": [
 				"(BC)24",
 				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseEgglessEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
 				"Cornucopia_AvocadoMayonnaise",
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseLargeEgg"
@@ -1852,6 +1935,27 @@
 				"Cornucopia_AvocadoMayonnaise",
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseSmallEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseEgglessEgg"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -1913,6 +2017,27 @@
 			"TargetField": [
 				"(BC)24",
 				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseEgglessEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
 				"Cornucopia_OliveOilMayonnaise",
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseLargeEgg"
@@ -1938,6 +2063,27 @@
 				"Cornucopia_OliveOilMayonnaise",
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseSmallEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseEgglessEgg"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -2003,6 +2149,30 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+			},
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseEgglessEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"TargetField": [
@@ -2036,6 +2206,30 @@
 				"Cornucopia_DillMayonnaise",
 				"OutputItem",
 				"Cornucopia_DillMayonnaiseSmallEgg"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseEgglessEgg"
 			],
 			"Entries": {
 				"CopyQuality": true,
@@ -2353,6 +2547,24 @@
 				"Cornucopia_AloeGel",
 				"OutputItem",
 				"(O)Cornucopia_AloeGel"
+			],
+			"Entries": {
+				"CopyQuality": true,
+				"PriceModifiers": [
+					{
+						"Id": "6480.qualitygoods",
+						"Modification": "Multiply",
+						"Amount": "{{Profit Scaling}}"
+					}
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"selph.ExtraMachineConfig/ExtraOutputs",
+				"Cornucopia_Starmite"
 			],
 			"Entries": {
 				"CopyQuality": true,

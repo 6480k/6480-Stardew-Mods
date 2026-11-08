@@ -56,10 +56,10 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "category_fish, !fish_crab_pot",
+							"Value": "{{anyfish}}",
 							"Amount": 1,
 							"ContextTagsRequireAll": true,
-							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishNonCrabPot]",
+							"OverrideText": "{{anyfishtext}}",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -102,10 +102,10 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "category_fish, !fish_crab_pot",
+							"Value": "{{anyfish}}",
 							"Amount": 1,
 							"ContextTagsRequireAll": true,
-							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Ingredient_FishNonCrabPot]",
+							"OverrideText": "{{anyfishtext}}",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
 								"X": 16,
@@ -113,7 +113,7 @@
 								"Width": 16,
 								"Height": 16
 							}
-						}
+						},
 					]
 				},
 				"Stir Fry": {
