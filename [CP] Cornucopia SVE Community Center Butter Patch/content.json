@@ -1,0 +1,57 @@
+{
+	"Format": "2.9",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/bundles",
+			"Priority": "Late",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, SVE Compat Patch": true,
+				"Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SVECommunityBundles": true
+			},
+			"TextOperations": [
+				{
+					"Operation": "ReplaceDelimited",
+					"Target": [
+						"Entries",
+						"Pantry/5"
+					],
+					"Search": "FlashShifter.StardewValleyExpandedCP_Butter",
+					"Value": "Cornucopia_Butter",
+					"Delimiter": " "
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/bundles",
+			"Priority": "Late",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, SVE Compat Patch": true,
+				"Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, HardSVECommunityBundles": true
+			},
+			"TextOperations": [
+				{
+					"Operation": "ReplaceDelimited",
+					"Target": [
+						"Entries",
+						"Pantry/5"
+					],
+					"Search": "FlashShifter.StardewValleyExpandedCP_Butter",
+					"Value": "Cornucopia_Butter",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "ReplaceDelimited",
+					"Target": [
+						"Entries",
+						"Pantry/4"
+					],
+					"Search": "FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+					"Value": "Cornucopia_ButterChurn",
+					"Delimiter": " "
+				}
+			]
+		}
+	]
+}

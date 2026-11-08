@@ -1,0 +1,29 @@
+{
+	"Name": "Cornucopia SVE Community Center Butter Patch",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"Description": "Replaces SVE butter with Cornucopia butter in the custom SVE community center bundles.",
+	"UniqueID": "6480.cornucopiasvebutterpatch",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.9.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "Spiderbuttons.CMCT",
+			"IsRequired": true,
+		},
+		],
+	"UpdateKeys": [
+		"Nexus: 54974"
+	]
+}

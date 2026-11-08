@@ -1,0 +1,42 @@
+{
+  "blank": "{0}",
+  "star": "{0} =",
+  "any": "{0} на выбор",
+  "vanilla": "{0} (люб.)",
+  "asterisk": "{0} *",
+
+  "config.Ingredient Indicator.name": "Метки ингредиентов",
+  "config.Ingredient Indicator.description": "Выберите, как подписывать в меню готовки ингредиенты, которые можно заменять. Настройка действует на все рецепты основной игры. У общих групп продуктов подписи останутся прежними: например, «Сыр (любой)» и «Растительное масло (любое)».",
+  "config.Ingredient Indicator.values.A": "Ингредиент",
+  "config.Ingredient Indicator.values.B": "Ингредиент =",
+  "config.Ingredient Indicator.values.C": "Ингредиент на выбор",
+  "config.Ingredient Indicator.values.D": "Ингредиент (люб.)",
+  "config.Ingredient Indicator.values.E": "Ингредиент *",
+
+  "config.Extra Changes.name": "Дополнительные изменения",
+  "config.Extra Changes.description": "Меняет состав некоторых рецептов. В салат вместо лука-порея можно положить любые листовые овощи, а в стир-фрай вместо пещерной морковки — любой корнеплод. А вот для сашими и роллов маки понадобится именно рыба: улитки, ракушки и прочий улов из крабовых ловушек больше не подойдут.",
+
+  "Ingredient_EggAny": "Яйцо (любое)",
+  "Ingredient_MilkAny": "Молоко (любое)",
+  "Ingredient_CheeseAny": "Сыр (любой)",
+  "Ingredient_ChiliAny": "Острый перец (любой)",
+  "Ingredient_FlourAny": "Мука (любая)",
+  "Ingredient_FishAny": "Рыба (любая)",
+  "Ingredient_FishNonCrabPot": "Рыба (не из крабовой ловушки)",
+  "Ingredient_EdibleMushroomAny": "Съедобный гриб (любой)",
+  "Ingredient_LeafyGreenAny": "Листовые овощи (любые)",
+  "Ingredient_RootVegetableAny": "Корнеплод (любой)",
+  "Ingredient_MayonnaiseAny": "Майонез (любой)",
+  "Ingredient_OilAny": "Растительное масло (любое)",
+  "Ingredient_SugarAny": "Сахар (любой)",
+
+  "Ingredient_SoftCheeseAny": "Мягкий сыр (любой)",
+  "Ingredient_ButterAny": "Сливочное масло (любое)",
+  "Ingredient_VegetableAny": "Овощ (любой)",
+  "Ingredient_FruitAny": "Фрукт (любой)",
+  "Ingredient_EdibleFlowerAny": "Съедобный цветок (любой)",
+  "Ingredient_YogurtAny": "Йогурт (любой)",
+  "Ingredient_GrainAny": "Зерно (любое)",
+  "Ingredient_BeanAny": "Бобы (любые)",
+  "Ingredient_HerbAny": "Специи (любые)"
+}
