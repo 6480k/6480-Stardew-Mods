@@ -362,6 +362,9 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+			},
 			"TargetField": [
 				"(BC)16",
 				"OutputRules",
@@ -2561,9 +2564,8 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/Machines",
+			"Target": "selph.ExtraMachineConfig/ExtraOutputs",
 			"TargetField": [
-				"selph.ExtraMachineConfig/ExtraOutputs",
 				"Cornucopia_Starmite"
 			],
 			"Entries": {
