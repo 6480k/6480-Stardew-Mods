@@ -14,7 +14,10 @@
 	"config.Ingredient Indicator.values.E": "Item *",
 	
 	"config.Extra Changes.name": "Zusätzliche Änderungen",
-    "config.Extra Changes.description": "Ersetze bei einigen Rezepten bestimmte Zutaten durch andere Kategorien, um für Abwechslung zu sorgen. Anstelle von Lauch für die Zubereitung von Salat kannst du beispielsweise jedes Blattgemüse verwenden. Oder verwende anstelle von Höhlenkarotten jedes beliebige Wurzelgemüse für die Zubereitung von Gemüsepfanne. Außerdem können Sashimi und Maki-Rollen nur mit echtem Fisch zubereitet werden und nicht mit Zutaten wie Schnecken, Muscheln usw. aus Krabbenreusen",
+    "config.Extra Changes.description": "Ersetze bei einigen Rezepten bestimmte Zutaten durch andere Kategorien, um für Abwechslung zu sorgen. Anstelle von Lauch für die Zubereitung von Salat kannst du beispielsweise jedes Blattgemüse verwenden. Oder verwende anstelle von Höhlenkarotten jedes beliebige Wurzelgemüse für die Zubereitung von Gemüsepfanne.",
+	
+	"config.Restrict Fish Recipes": "Fischrezepte einschränken",
+	"config.Restrict Fish Recipes": "Sashimi und Maki-Rollen nur mit echtem Fisch zubereitet werden und nicht mit Zutaten wie Schnecken, Muscheln usw. aus Krabbenreusen",
 	
 	//follow vanilla format such as for Egg (Any) and Milk (Any)
 	"Ingredient_EggAny": "Ei (beliebig)",
