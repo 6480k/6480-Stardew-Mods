@@ -1,0 +1,197 @@
+{
+	"Format": "2.8.0",
+	"ConfigSchema": {
+		"Item Icon": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Adds an extra mini icon in the top left of artisan goods sprites showing the ingredient that was used to make that artisan good."
+		}
+	},
+	"DynamicTokens": [
+		{
+			"Name": "IconScale",
+			"Value": 0.5
+		},
+		{
+			"Name": "IconScale",
+			"Value": 0,
+			"When": {
+				"Item Icon": false
+			}
+		}
+	],
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "6480.artisangoodscolorsvanilla/wine",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "mushymato.DISCO/Data/6480.artisangoodscolorsvanilla",
+			"Entries": {
+				"348": {
+					"TypeIdentifier": "(O)",
+					"LocalItemId": "348",
+					"SourceTextures": "6480.artisangoodscolorsvanilla/wine",
+					"SourceSpritePerIndex": 2,
+					"ConfigIconSpriteIndex": 140,
+					"PreserveIconScale": "{{IconScale}}",
+					"Rules": [
+						{
+							"RequiredColor": "color_black",
+							"SpriteIndexList": 0
+						},
+						{
+							"RequiredColor": "color_dark_gray",
+							"SpriteIndexList": 2
+						},
+						{
+							"RequiredColor": "color_gray",
+							"SpriteIndexList": 4
+						},
+						{
+							"RequiredColor": "color_white",
+							"SpriteIndexList": 6
+						},
+						{
+							"RequiredColor": "color_iron",
+							"SpriteIndexList": 8
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "color_prismatic",
+							},
+							"SpriteIndexList": 10,
+							"Precedence": -400,
+						},
+						{
+							"RequiredColor": "color_red",
+							"SpriteIndexList": 20
+						},
+						{
+							"RequiredColor": "color_dark_red",
+							"SpriteIndexList": 22
+						},
+						{
+							"RequiredColor": "color_pink",
+							"SpriteIndexList": 24
+						},
+						{
+							"RequiredColor": "color_salmon",
+							"SpriteIndexList": 26
+						},
+						{
+							"RequiredColor": "color_orange",
+							"SpriteIndexList": 40
+						},
+						{
+							"RequiredColor": "color_dark_orange",
+							"SpriteIndexList": 42
+						},
+						{
+							"RequiredColor": "color_brown",
+							"SpriteIndexList": 44
+						},
+						{
+							"RequiredColor": "color_dark_brown",
+							"SpriteIndexList": 46
+						},
+						{
+							"RequiredColor": "color_copper",
+							"SpriteIndexList": 48
+						},
+						{
+							"RequiredColor": "color_yellow",
+							"SpriteIndexList": 60
+						},
+						{
+							"RequiredColor": "color_dark_yellow",
+							"SpriteIndexList": 62
+						},
+						{
+							"RequiredColor": "color_gold",
+							"SpriteIndexList": 64
+						},
+						{
+							"RequiredColor": "color_sand",
+							"SpriteIndexList": 66
+						},
+						{
+							"RequiredColor": "color_green",
+							"SpriteIndexList": 80
+						},
+						{
+							"RequiredColor": "color_dark_green",
+							"SpriteIndexList": 82
+						},
+						{
+							"RequiredColor": "color_lime",
+							"SpriteIndexList": 84
+						},
+						{
+							"RequiredColor": "color_yellow_green",
+							"SpriteIndexList": 86
+						},
+						{
+							"RequiredColor": "color_jade",
+							"SpriteIndexList": 88
+						},
+						{
+							"RequiredColor": "color_sea_green",
+							"SpriteIndexList": 90
+						},
+						{
+							"RequiredColor": "color_blue",
+							"SpriteIndexList": 100
+						},
+						{
+							"RequiredColor": "color_dark_blue",
+							"SpriteIndexList": 102
+						},
+						{
+							"RequiredColor": "color_light_cyan",
+							"SpriteIndexList": 104
+						},
+						{
+							"RequiredColor": "color_dark_cyan",
+							"SpriteIndexList": 106
+						},
+						{
+							"RequiredColor": "color_cyan",
+							"SpriteIndexList": 108
+						},
+						{
+							"RequiredColor": "color_aquamarine",
+							"SpriteIndexList": 110
+						},
+						{
+							"RequiredColor": "color_purple",
+							"SpriteIndexList": 120
+						},
+						{
+							"RequiredColor": "color_dark_purple",
+							"SpriteIndexList": 122
+						},
+						{
+							"RequiredColor": "color_dark_pink",
+							"SpriteIndexList": 124
+						},
+						{
+							"RequiredColor": "color_pale_violet_red",
+							"SpriteIndexList": 126
+						},
+						{
+							"RequiredColor": "color_poppyseed",
+							"SpriteIndexList": 128
+						},
+						{
+							"RequiredColor": "color_iridium",
+							"SpriteIndexList": 130
+						},
+					]
+				}
+			}
+		}
+	]
+}
