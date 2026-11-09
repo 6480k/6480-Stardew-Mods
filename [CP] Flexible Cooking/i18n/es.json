@@ -15,7 +15,10 @@
   "config.Ingredient Indicator.values.E": "Objeto *",
   
   "config.Extra Changes.name": "Cambios extra",
-  "config.Extra Changes.description": "Para algunas recetas, reemplaza ciertos ingredientes con diferentes categorías para dar variedad. Por ejemplo, en lugar de usar un Puerro para hacer Ensalada, puedes usar Cualquier vegetal de hoja o usar Cualquier vegetal de raíz en lugar de una Zanahoria cavernaria para hacer Salteado. También hace que el Sashimi y el Maki Roll solo puedan hacerse con peces reales y no con cosas como Caracoles, Almejas, etc. de las trampas para cangrejos.",
+  "config.Extra Changes.description": "Para algunas recetas, reemplaza ciertos ingredientes con diferentes categorías para dar variedad. Por ejemplo, en lugar de usar un Puerro para hacer Ensalada, puedes usar Cualquier vegetal de hoja o usar Cualquier vegetal de raíz en lugar de una Zanahoria cavernaria para hacer Salteado.",
+	
+	"config.Restrict Fish Recipes": "Limitar las recetas a base de pescado",
+	"config.Restrict Fish Recipes": "Sashimi y Maki Roll solo puedan hacerse con peces reales y no con cosas como Caracoles, Almejas, etc. de las trampas para cangrejos.",
   
   //follow vanilla format such as for Egg (Any) and Milk (Any)
   "Ingredient_EggAny": "Huevo (Cualquiera)",

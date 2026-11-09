@@ -15,7 +15,7 @@
     "config.Ingredient Indicator.values.E": "Item *",
 	
 	"config.Extra Changes.name": "Extra Changes",
-    "config.Extra Changes.description": "For a few recipes, replaces some ingredients with different categories for variety. For example, instead of using a Leek to make Salad, you can use Any Leafy Green (any leafy vegetable). Or use Any Root Vegetable instead of a Cave Carrot to make Stir Fry. Also makes it so Sashimi and Maki Roll can only be made with real fish and not stuff like Snail, Clam, etc from crab pots.",
+    "config.Extra Changes.description": "For a few recipes, replaces some ingredients with different categories for variety. For example, instead of using a Leek to make Salad, you can use Any Leafy Green (any leafy vegetable). Or use Any Root Vegetable instead of a Cave Carrot to make Stir Fry.",
 	
 	"config.Restrict Fish Recipes": "Restrict Fish Recipes",
 	"config.Restrict Fish Recipes": "Makes it so Sashimi and Maki Roll can only be made with real fish and not items like Snail, Clam, etc from crab pots.",
